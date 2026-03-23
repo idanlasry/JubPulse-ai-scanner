@@ -19,7 +19,7 @@ from engine.notify import send_alert, send_summary
 load_dotenv()
 
 RAW_DUMP = Path(__file__).parent / "data" / "raw_dump.json"
-SCORED_DUMP = (
+SCORED_DUMP_FILE = (
     Path(__file__).parent / "data" / "scored_dump.json"
 )  # written after every brain run
 
@@ -58,7 +58,7 @@ async def main() -> None:
 
     # write scored_dump.json after every run — keeps it in sync whether run via main or brain directly
     try:
-        SCORED_DUMP.write_text(
+        SCORED_DUMP_FILE.write_text(
             json.dumps(
                 [json.loads(job.model_dump_json()) for job in scored_jobs],
                 indent=2,
@@ -66,7 +66,7 @@ async def main() -> None:
             ),
             encoding="utf-8",
         )
-        print(f"[main] Saved {jobs_found} scored jobs → {SCORED_DUMP}")
+        print(f"[main] Saved {jobs_found} scored jobs → {SCORED_DUMP_FILE}")
     except Exception as e:
         print(f"[main] Could not write scored_dump.json: {e}")
     # --- Stage 3: Deduplicate, persist, collect alerts ---
