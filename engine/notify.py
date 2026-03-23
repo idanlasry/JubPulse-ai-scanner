@@ -7,6 +7,7 @@ from pathlib import Path
 
 import httpx
 from dotenv import load_dotenv
+from datetime import datetime, timezone, timedelta
 
 # Add project root to Python's module search path so engine.models can be imported
 sys.path.insert(0, str(Path(__file__).parent.parent))
@@ -82,7 +83,7 @@ async def send_summary(
     fitting_jobs: list[ScoredJob],
 ) -> None:
     fitting_count = len(fitting_jobs)
-    run_time = datetime.now().strftime("%Y-%m-%d %H:%M")
+    run_time = datetime.now(timezone(timedelta(hours=3))).strftime("%Y-%m-%d %H:%M")
 
     lines = [
         "*JobPulse Run Summary*",
