@@ -166,7 +166,7 @@ class ScoredJob(JobOpportunity):
 
 ### Stage 3 — Brain, Persistence & Alerts ⏳ PENDING
 - [x] Write engine/brain.py 13/15 jobs found 
-- [ ] Write engine/database.py
+- [x] Write engine/database.py
 - [ ] Write engine/notify.py
 - [ ] Test scoring + alerts end-to-end
 
@@ -260,6 +260,8 @@ Write a GitHub Actions workflow file at .github/workflows/run_scanner.yml that:
 ---
 
 ## 🚨 Open Tasks — Fix Before Deploying
+
+> **Note:** The `last_seen` table and optimised listening feature (Section 1 below) are planned for post-deployment, to be implemented on a separate branch after the MVP is live and tested end-to-end.
 
 ### 1. Optimised Listening — Skip Already-Scanned Messages
 
