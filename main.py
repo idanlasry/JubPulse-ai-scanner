@@ -3,6 +3,7 @@ import asyncio
 import hashlib
 import json
 import sys
+from datetime import datetime
 from pathlib import Path
 
 from dotenv import load_dotenv
@@ -11,7 +12,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 
 from engine.brain import run_brain
 from engine.database import init_db, is_duplicate, save_job, save_to_csv
-from engine.listener import load_groups
+from engine.listener import load_groups, save_last_seen
 from engine.listener import main as listener_main
 from engine.models import ScoredJob
 from engine.notify import send_alert, send_summary
@@ -122,6 +123,21 @@ async def main() -> None:
             alerts_sent += 1
         except Exception as e:
             print(f"[main] Alert failed for '{job.title}': {e}")
+
+    # --- Update last_seen checkpoint (only reached on clean run) ---
+    try:
+        raw_messages = json.loads(RAW_DUMP.read_text(encoding="utf-8"))
+        new_last_seen: dict[str, datetime] = {}
+        for msg in raw_messages:
+            group_id = msg["group"]
+            ts = datetime.fromisoformat(msg["timestamp"])
+            if group_id not in new_last_seen or ts > new_last_seen[group_id]:
+                new_last_seen[group_id] = ts
+        if new_last_seen:
+            save_last_seen(new_last_seen)
+            print(f"[main] Updated last_seen for {len(new_last_seen)} groups")
+    except Exception as e:
+        print(f"[main] Could not update last_seen: {e}")
 
     # --- Final log ---
     print(

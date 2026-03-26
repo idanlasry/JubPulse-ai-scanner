@@ -5,6 +5,8 @@ import os
 import sys
 from pathlib import Path
 
+sys.stdout.reconfigure(encoding="utf-8")
+
 from dotenv import load_dotenv
 from openai import OpenAI
 from pydantic import ValidationError
@@ -27,6 +29,7 @@ OPENAI_API_KEY = os.getenv(
 # .parent = engine/, .parent.parent = project root
 PORTFOLIO_FILE = Path(__file__).parent.parent / "config" / "portfolio.txt"
 RAW_DUMP_FILE = Path(__file__).parent.parent / "data" / "raw_dump.json"
+SCORED_DUMP_FILE = Path(__file__).parent.parent / "data" / "scored_dump.json"
 
 client = OpenAI(
     api_key=OPENAI_API_KEY
