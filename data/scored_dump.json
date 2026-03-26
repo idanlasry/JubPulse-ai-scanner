@@ -1,38 +1,86 @@
 [
   {
-    "title": "Senior data engineer",
-    "company": "Moveo Source",
-    "location": "Rishon Lezion",
-    "is_junior": false,
-    "tech_stack": [
-      "Snowflake",
-      "DBT",
-      "Python",
-      "Kafka",
-      "Spark"
-    ],
+    "title": "Various Positions",
+    "company": "Intuit",
+    "location": "Israel",
+    "is_junior": true,
+    "tech_stack": [],
     "contact_info": null,
-    "job_link": "https://secrethunter.io/jobz/319f82bccb?utm_source=telegram",
-    "raw_text": "**Senior data engineer**\nMoveo Source\nRishon Lezion\n26/3/26\nㅤ\n__Snowflake, DBT, Python, Kafka, Spark, Agile, Leadership__\nㅤ\nSenior\nㅤ\nhttps://secrethunter.io/jobz/319f82bccb?utm_source=telegram",
-    "confidence_score": 2,
-    "fit_reasoning": "The role is for a Senior Data Engineer, which is not aligned with the candidate's target of Junior to Mid-level roles. Additionally, the required tech stack includes tools that are not part of the candidate's primary skills."
+    "job_link": "https://www.intuit.com/careers/locations/israel/?cid=psoc__li__clicks__Is__Yaniv__aw__Hebrew__alltechaudience__post__1X1__intuit-talent",
+    "raw_text": "‏באופן מוזר דווקא עכשיו זה הזמן הכי טוב לבחון איזה חברה באמת טובה לעובדים. במדינה שבה כל שנה יש כמה חודשים במצב חירום, חשוב מעסיק שיודע להתאים את עצמו לסיטואציה. עצוב, אבל זה משהו שכבר חייבים להכניס למשוואה.\n\nאז בהזדמנות הזו אני רוצה לספר לכם מה Intuit עושה בתקופה הזאת, ועוזרת לעובדים שלה בסיטואציה הקשה הזאת:\n\nקודם כל, מעודדים את כולם לעבוד מהבית, כל אחד לפי יכולתו, בגמישות.\n\nדבר שני, תומכים איפה שאפשר כדי שגם יהיה נעים לעבוד. למשל, וזה אולי ישמע כמו פינוק, אבל זה בדיוק מה שעושה את היום, הכפלת התקציב החודשי להזמנת אוכל.\n\nבנוסף, כולם מקבלים 10 ימי התאוששות על חשבון החברה, כדי שירגישו הכי בנוח להוריד את הרגל מהגז ולדאוג לעצמם וליקרים להם.\n\nכל זה מצטרף לתקציב wellbeing נדיב ביותר, שנועד לעזור בכל סוג עזרה שעולה על הדעת וכיסוי למגוון מפגשים פסיכולוגיים, פיזיים ואון ליין.\n\nהלוואי שלא נדע יותר מצבי חירום וכל ההטבות האלה לא יהיו נחוצות יותר. בינתיים, מוזמנים להכיר את Intuit מקרוב: \nhttps://www.intuit.com/careers/locations/israel/?cid=psoc__li__clicks__Is__Yaniv__aw__Hebrew__alltechaudience__post__1X1__intuit-talent",
+    "confidence_score": 5,
+    "fit_reasoning": "The job posting is from Intuit, which is a reputable company offering remote work and various employee benefits. However, the specific roles are not mentioned, and the tech stack is not defined, leading to a moderate confidence score."
   },
   {
-    "title": "Junior finops analyst",
-    "company": "abra rnd",
-    "location": "Center",
-    "is_junior": true,
-    "tech_stack": [
-      "Cloud",
-      "AWS",
-      "Azure",
-      "Cost management",
-      "Data analysis"
-    ],
+    "title": "Technical Support LAB assistant",
+    "company": "Cellebrite",
+    "location": "Petach Tikva",
+    "is_junior": false,
+    "tech_stack": [],
     "contact_info": null,
-    "job_link": "https://secrethunter.io/jobz/24e3a0cfb2?utm_source=telegram",
-    "raw_text": "**Junior finops analyst**\nabra rnd\nCenter\n26/3/26\nㅤ\n__Cloud, AWS, Azure, Cost management, Data analysis, Analytical thinking, Team player__\nㅤ\nJunior, Entry\nㅤ\nhttps://secrethunter.io/jobz/24e3a0cfb2?utm_source=telegram",
+    "job_link": "https://cellebrite.com/en/about/careers/positions/?comeet_cat=israel-petah-tikva&comeet_pos=09.569&comeet_all=all",
+    "raw_text": "🆕 **Technical Support LAB assistant (Part-time)**\n\n💼 **Company:** Cellebrite\n🔍 **Location:** Petach Tikva\n🧑‍💻️ **Experience required:** 2 yrs\n📁 **Position:** Part Time\n\n---------------\n\n📄 **Description:** Description Company Overview: Cellebrite’s (Nasdaq: CLBT) mission is to enable its customers to protect and save lives, accelerate justice, and preserve privacy in communities around the world........\n\n---------------\n\n📊 **Requirements:** Description\nCompany Overview:\nCellebrite’s (Nasdaq: CLBT) mission is to enable its customers to protect and save lives, accelerate justice, and preserve privacy in communities around the world. Cellebrite is a global leader in Digital Intelligence so....\n\n[**View full position listing and submit CV**](https://cellebrite.com/en/about/careers/positions/?comeet_cat=israel-petah-tikva&comeet_pos=09.569&comeet_all=all)",
     "confidence_score": 3,
-    "fit_reasoning": "The role is for a Junior position, which aligns with the candidate's target level. However, the focus on Cloud, AWS, and Azure does not match the candidate's primary skills in Python and SQL, and the role is more focused on financial operations rather than data analytics, which is the candidate's primary interest."
+    "fit_reasoning": "The role is not aligned with the candidate's target position as a Data Analyst and requires 2 years of experience, which exceeds the candidate's junior level preference."
+  },
+  {
+    "title": "נציג אונבורדינג- פתיחת חשבונות מסחר",
+    "company": "Colmex",
+    "location": "Tel Aviv",
+    "is_junior": true,
+    "tech_stack": [],
+    "contact_info": null,
+    "job_link": "https://www.comeet.com/jobs/cglms/69.003/-----/6C.167",
+    "raw_text": "🆕 **נציג אונבורדינג- פתיחת חשבונות מסחר**\n\n💼 **Company:** Colmex\n🔍 **Location:** Tel Aviv\n🧑‍💻️ **Experience required:** 0 yrs\n📁 **Position:** Full Time\n\n---------------\n\n📄 **Description:** Description Colmex Pro Ltd היא חברת פיננסים מפוקחת וצומחת המתמחה במניות ארה\"ב ובתעשיית הפורקס. החברה ממוקמת בלימסול, קפריסין, ונוסדה בשנת 2010. היא מספקת שירותי ברוקראז' למסחר במניות, CFDs, FX.......\n\n---------------\n\n📊 **Requirements:** Description\nColmex Pro Ltd היא חברת פיננסים מפוקחת וצומחת המתמחה במניות ארה\"ב ובתעשיית הפורקס. החברה ממוקמת בלימסול, קפריסין, ונוסדה בשנת 2010. היא מספקת שירותי ברוקראז' למסחר במניות, CFDs, FX וקריפטו. .\nאנחנו מחפשים איש/אשת שירות עם גישה חיובית, ראש....\n\n[**View full position listing and submit CV**](https://www.comeet.com/jobs/cglms/69.003/-----/6C.167)",
+    "confidence_score": 3,
+    "fit_reasoning": "The position is entry-level, but it is in the finance sector, which is a lower priority for the candidate. There is no mention of relevant technical skills like Python or SQL, and the role does not align with the candidate's target roles in data analytics."
+  },
+  {
+    "title": "FIT AI Analyst",
+    "company": "Alice",
+    "location": "Ramat Gan",
+    "is_junior": true,
+    "tech_stack": [],
+    "contact_info": null,
+    "job_link": "https://alice.io/positions/position-7E_66D#apply-form?t=1773006738799&t=1774335264717",
+    "raw_text": "🆕 **FIT AI Analyst**\n\n💼 **Company:** Alice\n🔍 **Location:** Ramat Gan\n🧑‍💻️ **Experience required:** 2 yrs\n📁 **Position:** Full Time\n\n---------------\n\n📄 **Description:** Description ActiveFence is seeking a driven, detail-focused professional to become a vital part of our team as a Generative AI Analyst. In this role, you'll dive into the cutting-edge of technology,.......\n\n---------------\n\n📊 **Requirements:** Must have:\nBackground in AI Safety and/or Responsible AI and/or AI Ethics\nFamiliarity with recent Generative AI models and agents is essential, though direct technical experience is not a prerequisite.\nCommand of English at a near-native level.\nAtten....\n\n[**View full position listing and submit CV**](https://alice.io/positions/position-7E_66D#apply-form?t=1773006738799&t=1774335264717)",
+    "confidence_score": 4,
+    "fit_reasoning": "The role is for a Generative AI Analyst, which is not a direct match for the candidate's target role as a Data Analyst. The requirement for 2 years of experience is slightly above the candidate's preferred level, but the company is located in Ramat Gan, which is within the candidate's preferred location. The job does not mention Python or SQL, which are key skills for the candidate, and the focus on AI Safety and Ethics is outside the candidate's primary expertise."
+  },
+  {
+    "title": "Intelligence Infrastructure Expert (Maternity leave replacement)",
+    "company": "Alice",
+    "location": "Ramat Gan",
+    "is_junior": true,
+    "tech_stack": [],
+    "contact_info": null,
+    "job_link": "https://alice.io/positions/position-87_76F",
+    "raw_text": "🆕 **Intelligence Infrastructure Expert (Maternity leave replacement)**\n\n💼 **Company:** Alice\n🔍 **Location:** Ramat Gan\n🧑‍💻️ **Experience required:** 1 yrs\n📁 **Position:** Full Time\n\n---------------\n\n📄 **Description:** Description Alice is seeking to hire an Intelligence Infrastructure Expert for a full time position. The role includes creation, management, and integration of the company’s unique infrastructure and.......\n\n---------------\n\n📊 **Requirements:** Description\nAlice is seeking to hire an Intelligence Infrastructure Expert for a full time position. The role includes creation, management, and integration of the company’s unique infrastructure and tools across the different Web environments. \nThe ....\n\n[**View full position listing and submit CV**](https://alice.io/positions/position-87_76F)",
+    "confidence_score": 3,
+    "fit_reasoning": "The role is for an Intelligence Infrastructure Expert, which does not align with the candidate's target role of Data Analyst. Although it is a junior position, the focus on infrastructure rather than data analysis or business intelligence is a significant mismatch."
+  },
+  {
+    "title": "Senior Violent Extremism Researcher",
+    "company": "Alice",
+    "location": "Ramat Gan",
+    "is_junior": false,
+    "tech_stack": [],
+    "contact_info": null,
+    "job_link": "https://alice.io/positions/position-15_16E",
+    "raw_text": "🆕 **Senior Violent Extremism Researcher**\n\n💼 **Company:** Alice\n🔍 **Location:** Ramat Gan\n🧑‍💻️ **Experience required:** 5 yrs\n📁 **Position:** Full Time\n\n---------------\n\n📄 **Description:** Description Alice is seeking a highly motivated and detail-oriented individual to join our team as a Senior Violent Extremism Researcher. Here, you will play a crucial role in conducting in-depth.......\n\n---------------\n\n📊 **Requirements:** Requirements:\nResearch experience of 5+ years in the academia, journalism, government or private sector in the field of violent extremism - MUST\nA proven experience in intelligence, online investigations, or related fields - MUST\nProven experience in....\n\n[**View full position listing and submit CV**](https://alice.io/positions/position-15_16E)",
+    "confidence_score": 2,
+    "fit_reasoning": "The position requires 5+ years of experience, which exceeds the candidate's target level of junior to mid. Additionally, the role does not align with the candidate's desired focus on data analysis or related fields."
+  },
+  {
+    "title": "Webint Analyst",
+    "company": "Alice",
+    "location": "Ramat Gan",
+    "is_junior": false,
+    "tech_stack": [],
+    "contact_info": null,
+    "job_link": "https://alice.io/positions/position-12_66E?t=1772103455331",
+    "raw_text": "🆕 **Webint Analyst**\n\n💼 **Company:** Alice\n🔍 **Location:** Ramat Gan\n🧑‍💻️ **Experience required:** 2 yrs\n📁 **Position:** Full Time\n\n---------------\n\n📄 **Description:** Description Alice is seeking a highly skilled and motivated Web Intelligence Analyst to join our dynamic team. In this role, you will be responsible for collecting intelligence data, conducting.......\n\n---------------\n\n📊 **Requirements:** Requirements: \n2+ years of experience in WEBINT, OSINT, or related intelligence/research fields.\nProven experience conducting structured investigations and producing professional intelligence reports.\nStrong analytical and problem-solving skills with....\n\n[**View full position listing and submit CV**](https://alice.io/positions/position-12_66E?t=1772103455331)",
+    "confidence_score": 3,
+    "fit_reasoning": "The role requires 2+ years of experience, which exceeds the candidate's target level of junior to mid. The position does not mention relevant tools like Python or SQL, and the focus on Web Intelligence does not align with the candidate's preferred roles in data analytics."
   }
 ]
