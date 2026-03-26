@@ -73,7 +73,7 @@ async def main() -> None:
     init_db()
 
     alerts_sent = 0
-    db_new = 0   # jobs new to SQLite (local persistence)
+    db_new = 0  # jobs new to SQLite (local persistence)
     csv_new = 0  # jobs new to CSV (cross-run persistence on GitHub Actions)
     fitting_jobs: list[ScoredJob] = []
 
@@ -101,14 +101,16 @@ async def main() -> None:
         except Exception as e:
             print(f"[main] CSV error for '{job.title}': {e}")
 
-    print(f"[main] DB new: {db_new} | CSV new: {csv_new} | Appended {csv_new} rows → data/jobs.csv")
+    print(
+        f"[main] DB new: {db_new} | CSV new: {csv_new} | Appended {csv_new} rows → data/jobs.csv"
+    )
 
     # --- Stage 4: Summary first, then per-job alerts ---
     try:
         await send_summary(
             groups_scanned=groups_scanned,
             jobs_found=messages_fetched,  # total messages scanned
-            new_jobs=csv_new,             # fresh jobs this run (CSV is cross-run truth)
+            new_jobs=csv_new,  # fresh jobs this run (CSV is cross-run truth)
             fitting_jobs=fitting_jobs,
         )
     except Exception as e:
