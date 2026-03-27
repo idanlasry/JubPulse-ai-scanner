@@ -158,6 +158,8 @@ TELEGRAM MESSAGE (from group: {message.get("group", "unknown")}):
             contact_info=data.get("contact_info"),
             job_link=data["job_link"],
             raw_text=message["text"],
+            message_date=message.get("timestamp"),
+            source_group=message.get("group", "unknown"),
             confidence_score=data["confidence_score"],
             fit_reasoning=data["fit_reasoning"],
         )

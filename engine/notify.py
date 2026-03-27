@@ -76,6 +76,22 @@ async def send_alert(job: ScoredJob) -> None:
 
 
 # %%
+async def send_error_alert(text: str) -> None:
+    """Send a plain-text error notification to the user's Telegram chat."""
+    try:
+        async with httpx.AsyncClient() as client:
+            response = await client.post(
+                TELEGRAM_API_URL,
+                json={"chat_id": TELEGRAM_CHAT_ID, "text": text, "parse_mode": "HTML"},
+                timeout=10,
+            )
+            response.raise_for_status()
+            print("[notify] Error alert sent")
+    except Exception as e:
+        print(f"[notify] Could not send error alert: {e}")
+
+
+# %%
 async def send_summary(
     groups_scanned: int,
     jobs_found: int,

@@ -19,7 +19,8 @@ class JobOpportunity(BaseModel):
     job_link: str  # required — no default, no None
     # no link = not a real job post = skip
     raw_text: str  # Required — original Telegram message, never modified
-    # critical: this is what gets SHA-256 hashed in database.py
+    message_date: str | None = None  # ISO 8601 UTC — when the Telegram message was posted
+    source_group: str | None = None  # Telegram group this job was fetched from
 
 
 # %%

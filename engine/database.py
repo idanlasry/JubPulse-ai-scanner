@@ -2,7 +2,8 @@
 import csv
 import hashlib
 import json
-import sqlite3
+import logging
+import os
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -12,41 +13,20 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from dotenv import load_dotenv
 from engine.models import ScoredJob
+from supabase import create_client
 
 load_dotenv()
 
-# Absolute path to jobs.db — works from any working directory
-DB_PATH = Path(__file__).parent.parent / "data" / "jobs.db"
+# --- Supabase client (module-level) ---
+_SUPABASE_URL = os.getenv("SUPABASE_URL", "")
+_SUPABASE_KEY = os.getenv("SUPABASE_KEY", "")
+_supabase = create_client(_SUPABASE_URL, _SUPABASE_KEY) if _SUPABASE_URL and _SUPABASE_KEY else None
+
 CSV_PATH = Path(__file__).parent.parent / "data" / "jobs.csv"
 CSV_HEADERS = [
     "job_hash", "timestamp", "title", "company", "location", "is_junior",
     "tech_stack", "contact_info", "job_link", "raw_text", "confidence_score", "fit_reasoning",
 ]
-
-
-# %%
-def init_db() -> None:
-    # Create data/ folder if it doesn't exist
-    DB_PATH.parent.mkdir(exist_ok=True)
-    with sqlite3.connect(DB_PATH) as conn:
-        # Safe to call every run — does nothing if table already exists
-        conn.execute("""
-            CREATE TABLE IF NOT EXISTS jobs (
-                job_hash         TEXT PRIMARY KEY,  -- SHA-256 of job_link, enforces uniqueness
-                timestamp        TEXT,              -- UTC ISO format
-                title            TEXT,
-                company          TEXT,
-                location         TEXT,
-                is_junior        INTEGER,
-                tech_stack       TEXT,              -- JSON-encoded list
-                contact_info     TEXT,
-                job_link         TEXT,
-                raw_text         TEXT,
-                confidence_score INTEGER,
-                fit_reasoning    TEXT
-            )
-        """)
-        conn.commit()
 
 
 # %%
@@ -56,57 +36,13 @@ def _hash(job_link: str) -> str:
     return hashlib.sha256(job_link.encode()).hexdigest()
 
 
-# %%
-def is_duplicate(job_hash: str) -> bool:
-    with sqlite3.connect(DB_PATH) as conn:
-        # SELECT 1 = just check existence, don't fetch real data — faster
-        # ? placeholder = safe against SQL injection
-        # job_hash is PRIMARY KEY = indexed lookup, not a full table scan
-        row = conn.execute(
-            "SELECT 1 FROM jobs WHERE job_hash = ?", (job_hash,)
-        ).fetchone()
-    return row is not None  # True = duplicate, False = new job
-
-
-# %%
-def save_job(job: ScoredJob) -> None:
-    job_hash = _hash(job.job_link)
-    timestamp = datetime.now(timezone.utc).isoformat()  # UTC timestamp
-    with sqlite3.connect(DB_PATH) as conn:
-        # INSERT OR IGNORE = silent no-op if job_hash already exists
-        conn.execute(
-            """
-            INSERT OR IGNORE INTO jobs
-                (job_hash, timestamp, title, company, location, is_junior, tech_stack,
-                 contact_info, job_link, raw_text, confidence_score, fit_reasoning)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-            """,
-            # Each ? maps positionally to one value in this tuple
-            (
-                job_hash,
-                timestamp,
-                job.title,
-                job.company,
-                job.location,
-                int(job.is_junior),
-                json.dumps(job.tech_stack),
-                job.contact_info,
-                job.job_link,
-                job.raw_text,
-                job.confidence_score,
-                job.fit_reasoning,
-            ),
-        )
-        conn.commit()  # Writes the transaction to disk permanently
-
-
 # --- CSV Layer ---
 
 # %%
 def save_to_csv(job: ScoredJob) -> bool:
     """Append job to CSV if job_link is not already present. Returns True if new, False if duplicate.
 
-    This is the cross-run dedup layer for GitHub Actions where jobs.db is ephemeral.
+    This is the cross-run dedup layer for GitHub Actions where Supabase may be unavailable.
     jobs.csv is committed to the repo after every run, so it persists across runs.
     """
     CSV_PATH.parent.mkdir(exist_ok=True)
@@ -152,29 +88,52 @@ def save_to_csv(job: ScoredJob) -> bool:
     return True  # New job saved
 
 
+# --- Supabase Layer ---
+
 # %%
-if __name__ == "__main__":
-    # Only runs when executed directly — not when imported by main.py
-    import json
+def save_to_supabase(job: ScoredJob, source_group: str) -> bool:
+    """Insert job into Supabase jobs table. Returns True if inserted, False if duplicate or error.
 
-    init_db()
+    Never raises — all exceptions are caught and logged so this layer cannot block the pipeline.
+    Saves the same 12 core fields as CSV, plus: source, source_group, repo, alerted.
+    """
+    try:
+        if _supabase is None:
+            logging.warning("save_to_supabase: client not initialised (missing SUPABASE_URL or SUPABASE_KEY)")
+            return False
 
-    raw = Path(__file__).parent.parent / "data" / "scored_dump.json"
-    data = json.loads(raw.read_text(encoding="utf-8"))
-
-    processed = saved = skipped = 0
-    for item in data:
-        try:
-            job = ScoredJob(**item)  # Skip malformed entries gracefully
-        except Exception:
-            continue
-
-        processed += 1
         job_hash = _hash(job.job_link)
-        if is_duplicate(job_hash):
-            skipped += 1
-        else:
-            save_job(job)
-            saved += 1
+        # Use message_date (when Telegram message was posted) as timestamp.
+        # Fall back to now() only when message_date is unavailable (e.g. CSV backfill).
+        timestamp = job.message_date or datetime.now(timezone.utc).isoformat()
+        tech_stack = job.tech_stack if isinstance(job.tech_stack, list) else json.loads(job.tech_stack)
 
-    print(f"Processed: {processed} | Saved: {saved} | Skipped (duplicate): {skipped}")
+        row = {
+            "job_hash": job_hash,
+            "timestamp": timestamp,
+            "title": job.title,
+            "company": job.company,
+            "location": job.location,
+            "is_junior": job.is_junior,
+            "tech_stack": tech_stack,
+            "contact_info": job.contact_info,
+            "job_link": job.job_link,
+            "raw_text": job.raw_text,
+            "confidence_score": job.confidence_score,
+            "fit_reasoning": job.fit_reasoning,
+            "source": "telegram",
+            "source_group": source_group,
+            "repo": "jobpulse",
+            "alerted": False,
+        }
+
+        _supabase.table("jobs").insert(row).execute()
+        return True
+
+    except Exception as exc:
+        msg = str(exc)
+        # UNIQUE violation: Postgres code 23505, wrapped by PostgREST
+        if "23505" in msg or "duplicate" in msg.lower() or "unique" in msg.lower():
+            return False  # Known duplicate — no log noise
+        logging.error("save_to_supabase error: %s", exc)
+        return False

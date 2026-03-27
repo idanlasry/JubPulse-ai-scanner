@@ -1,6 +1,5 @@
 # %%
 import asyncio
-import hashlib
 import json
 import sys
 from datetime import datetime
@@ -11,11 +10,11 @@ from dotenv import load_dotenv
 sys.path.insert(0, str(Path(__file__).parent))
 
 from engine.brain import run_brain
-from engine.database import init_db, is_duplicate, save_job, save_to_csv
+from engine.database import save_to_csv, save_to_supabase
 from engine.listener import load_groups, load_last_seen, save_last_seen
 from engine.listener import main as listener_main
 from engine.models import ScoredJob
-from engine.notify import send_alert, send_summary
+from engine.notify import send_alert, send_error_alert, send_summary
 
 load_dotenv()
 
@@ -70,27 +69,16 @@ async def main() -> None:
         print(f"[main] Saved {jobs_found} scored jobs → {SCORED_DUMP_FILE}")
     except Exception as e:
         print(f"[main] Could not write scored_dump.json: {e}")
-    # --- Stage 3: Deduplicate, persist, collect alerts ---
-    init_db()
 
+    # --- Stage 3: Deduplicate, persist, collect alerts ---
     alerts_sent = 0
-    db_new = 0  # jobs new to SQLite (local persistence)
-    csv_new = 0  # jobs new to CSV (cross-run persistence on GitHub Actions)
+    supabase_new = 0   # jobs inserted into Supabase (primary DB)
+    supabase_errors = 0
+    csv_new = 0        # jobs new to CSV (cross-run backup, committed to repo)
     fitting_jobs: list[ScoredJob] = []
 
     for job in scored_jobs:
-        # SQLite layer — local persistence, ephemeral on GitHub Actions
-        try:
-            job_hash = hashlib.sha256(job.job_link.encode()).hexdigest()
-            if is_duplicate(job_hash):
-                print(f"[main] DB duplicate — skipping SQLite: {job.title}")
-            else:
-                save_job(job)
-                db_new += 1
-        except Exception as e:
-            print(f"[main] DB error for '{job.title}': {e}")
-
-        # CSV layer — cross-run dedup on GitHub Actions (committed to repo)
+        # CSV layer — cross-run dedup (committed to repo, survives GitHub Actions)
         try:
             is_new_csv = save_to_csv(job)
             if is_new_csv:
@@ -102,9 +90,31 @@ async def main() -> None:
         except Exception as e:
             print(f"[main] CSV error for '{job.title}': {e}")
 
+        # Supabase layer — primary DB
+        try:
+            ok = save_to_supabase(job, source_group=job.source_group or "unknown")
+            if ok:
+                supabase_new += 1
+                print(f"[main] Supabase: saved — {job.title}")
+            else:
+                print(f"[main] Supabase: duplicate/error — {job.title}")
+        except Exception as e:
+            supabase_errors += 1
+            print(f"[main] Supabase error for '{job.title}': {e}")
+
     print(
-        f"[main] DB new: {db_new} | CSV new: {csv_new} | Appended {csv_new} rows → data/jobs.csv"
+        f"[main] Supabase new: {supabase_new} | CSV new: {csv_new} | Appended {csv_new} rows → data/jobs.csv"
     )
+
+    # Alert user if any Supabase writes failed
+    if supabase_errors > 0:
+        try:
+            await send_error_alert(
+                f"⚠️ <b>JobPulse — Supabase error</b>\n"
+                f"{supabase_errors} job(s) failed to save to Supabase this run."
+            )
+        except Exception as e:
+            print(f"[main] Could not send Supabase error alert: {e}")
 
     # --- Stage 4: Summary first, then per-job alerts ---
     try:
@@ -146,7 +156,7 @@ async def main() -> None:
         f"[main] {groups_scanned} groups scanned | "
         f"{messages_fetched} messages fetched | "
         f"{jobs_found} jobs found | "
-        f"db_new={db_new} csv_new={csv_new} | "
+        f"supabase_new={supabase_new} csv_new={csv_new} | "
         f"{alerts_sent} alerts sent"
     )
 

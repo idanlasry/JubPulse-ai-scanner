@@ -9,5 +9,6 @@ dependencies = [
     "openai",
     "pydantic",
     "python-dotenv",
-    "ipykernel"
+    "ipykernel",
+    "supabase>=2.28.3",
 ]
