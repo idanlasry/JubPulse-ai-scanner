@@ -12,7 +12,7 @@
 1. Monitors Telegram job groups using Telethon (MTProto API)
 2. Scores job offers against a Data Analyst portfolio using GPT-4o mini
 3. Sends high-scoring alerts via Telegram Bot to a personal chat
-4. Stores all jobs in two independent layers: CSV (cross-run, committed to repo) + SQLite (local analytics)
+4. Stores all jobs in two independent layers: CSV (cross-run backup, committed to repo) + Supabase (primary DB, cloud-hosted)
 
 **Goal:** Fully automated, running on GitHub Actions 3× daily on weekdays — no local machine needed.
 
@@ -25,8 +25,8 @@
 | Ingestion | Python + Telethon | Read Telegram groups as a user (MTProto) |
 | Data Modeling | Pydantic v2 | Validate and structure LLM outputs |
 | Scoring | OpenAI GPT-4o mini | Score jobs against portfolio.txt |
-| Storage (cross-run) | CSV (`data/jobs.csv`) | Committed to repo — survives GitHub Actions ephemeral runners |
-| Storage (local) | SQLite (`data/jobs.db`) | Gitignored — local only, reserved for future analytics features |
+| Storage (primary) | Supabase (PostgreSQL) | Cloud DB — persists across all runs, queryable |
+| Storage (backup) | CSV (`data/jobs.csv`) | Committed to repo — fallback if Supabase is unavailable |
 | Alerts | Telegram Bot API | Send scored job alerts to personal chat |
 | Scheduling | GitHub Actions | Run pipeline 3× daily on weekdays (Mon–Fri), free tier |
 | Package Manager | uv | Python 3.13, pyproject.toml |
@@ -37,26 +37,34 @@
 
 JobPulse uses two independent storage layers. Neither depends on the other — a failure in one must never block the other.
 
-**Unified schema — both layers store the same 12 columns:**
+**Core schema — both layers store the same 12 columns:**
 
 | Column | Type | Notes |
 |---|---|---|
-| `job_hash` | TEXT | SHA-256 of `job_link` — PRIMARY KEY in SQLite |
-| `timestamp` | TEXT | ISO 8601 UTC, auto-added at save time |
+| `job_hash` | TEXT | SHA-256 of `job_link` — PRIMARY KEY in Supabase |
+| `timestamp` | TEXT/timestamptz | Supabase: Telegram message post time (`message_date`), falls back to processing time. CSV: processing time (UTC ISO) |
 | `title` | TEXT | |
 | `company` | TEXT | nullable |
 | `location` | TEXT | nullable |
-| `is_junior` | INTEGER/bool | SQLite stores as 0/1; CSV stores as True/False |
-| `tech_stack` | TEXT | JSON-encoded list in both layers |
+| `is_junior` | bool | Supabase: boolean; CSV: True/False string |
+| `tech_stack` | TEXT/text[] | Supabase: native array; CSV: JSON-encoded list |
 | `contact_info` | TEXT | nullable |
 | `job_link` | TEXT | dedup key |
 | `raw_text` | TEXT | |
 | `confidence_score` | INTEGER | 1–10 |
 | `fit_reasoning` | TEXT | |
 
-**CSV layer (`data/jobs.csv`) — cross-run deduplication**
+**Supabase-only columns (pipeline metadata, not in CSV):**
+
+| Column | Type | Notes |
+|---|---|---|
+| `source` | TEXT | Always `"telegram"` |
+| `source_group` | TEXT | Telegram group the job was fetched from |
+| `repo` | TEXT | Always `"jobpulse"` |
+| `alerted` | boolean | `false` on insert — reserved for future alert-tracking logic |
+
+**CSV layer (`data/jobs.csv`) — cross-run backup**
 - Committed to the repo after every GitHub Actions run
-- This is the source of truth for deduplication on GitHub Actions, where `jobs.db` is wiped after each run
 - Dedup key: `job_link` (exact string match, checked before every append)
 - Append-only — new rows are added; existing rows are never rewritten
 - Header is written only when the file is new or empty
@@ -64,14 +72,18 @@ JobPulse uses two independent storage layers. Neither depends on the other — a
   - Returns `True` if the job was new and appended, `False` if it was a duplicate and skipped
 - Alert eligibility is determined by the CSV layer: only CSV-new jobs with `confidence_score > 7` trigger a Telegram alert
 
-**SQLite layer (`data/jobs.db`) — local persistence**
-- Gitignored — ephemeral on GitHub Actions, persistent on local machine
+**Supabase layer — primary DB**
+- Cloud PostgreSQL, persists across all runs including GitHub Actions
 - Dedup key: SHA-256 hash of `job_link` (stored as `job_hash` PRIMARY KEY)
-- Reserved for future analytics: keyword trends, fit score tuning, CV recommendations
-- Implemented in `engine/database.py` → `save_job(job: ScoredJob)`, `is_duplicate(job_hash: str) -> bool`
+- Implemented in `engine/database.py` → `save_to_supabase(job: ScoredJob, source_group: str) -> bool`
+  - Returns `True` if inserted, `False` if duplicate or error — never raises
+  - UNIQUE violation (Postgres code 23505) → silent `False`
+  - Any other error → logs via `logging.error`, returns `False`
+- Credentials: `SUPABASE_URL` + `SUPABASE_KEY` in `.env` and GitHub Secrets
+- Client initialised at module level: `_supabase = create_client(...)` — `None` if env vars missing
 
 **How they interact in `main.py`:**
-Each scored job is written to both layers independently, each wrapped in its own `try/except`. A DB write failure does not affect the CSV write, and vice versa.
+Each scored job is written to both layers independently, each wrapped in its own `try/except`. A Supabase write failure does not affect the CSV write, and vice versa. If any Supabase errors occur during a run, a Telegram error alert is sent via `send_error_alert()`.
 
 ---
 
@@ -83,25 +95,24 @@ Each scored job is written to both layers independently, each wrapped in its own
 │   ├── listener.py     # Telethon client — fetches messages from Telegram groups; load_last_seen() / save_last_seen() for timestamp checkpoints
 │   ├── models.py       # Pydantic schemas: JobOpportunity, ScoredJob
 │   ├── brain.py        # GPT-4o mini scoring logic
-│   ├── database.py     # Dual storage: SQLite (local) + CSV (cross-run). Dedup key: job_link
-│   └── notify.py       # Telegram Bot alert sender — send_summary (stats) + send_alert (per job), score > 7 only
-│                       # Note: both send_alert and send_summary use parse_mode: "HTML" — Markdown breaks on URLs with underscores (e.g. utm_source=telegram)
+│   ├── database.py     # Dual storage: Supabase (primary) + CSV (backup). Dedup key: job_link. No SQLite.
+│   └── notify.py       # Telegram Bot alert sender — send_summary (stats) + send_alert (per job) + send_error_alert (pipeline errors)
+│                       # Note: all functions use parse_mode: "HTML" — Markdown breaks on URLs with underscores (e.g. utm_source=telegram)
 │                       # Note: send_summary signature: send_summary(groups_scanned, jobs_found, new_jobs, fitting_jobs)
 ├── config/
 │   ├── portfolio.txt   # Candidate profile — used as LLM scoring context
-│   └── groups.txt      # Telegram group usernames/IDs to monitor
+│   └── groups.txt      # Telegram group usernames/IDs to monitor (5 groups, all numeric IDs)
 ├── data/
 │   ├── raw_dump.json   # Intermediary: listener → brain (overwritten each run)
 │   ├── scored_dump.json # Intermediary: brain → notify / database (overwritten each run)
-│   ├── jobs.csv        # Cross-run job store — committed to repo, survives GitHub Actions runners
-│   ├── last_seen.csv   # Checkpoint file — group_id → last_seen_ts (ISO 8601 UTC), committed to repo
-│   └── jobs.db         # Local job store — gitignored, ephemeral on GitHub Actions
+│   ├── jobs.csv        # Cross-run job backup — committed to repo, survives GitHub Actions runners
+│   └── last_seen.csv   # Checkpoint file — group_id → last_seen_ts (ISO 8601 UTC), committed to repo
 ├── main.py             # Orchestrator — runs full pipeline
-├── notify_all.py       # Standalone script: loads all jobs from DB, sends full-DB summary + individual alerts for all high-fit jobs (score > 7)
-├── DB_search.py        # Dev utility: prints all high-fit jobs (score > 7) from jobs.db to terminal
+├── notify_all.py       # Standalone script: sends full summary + individual alerts for all high-fit jobs
+├── DB_search.py        # Dev utility: query tool (references old SQLite — may need update)
 ├── connection_test.py  # Dev utility: sends a test message via Telegram Bot API to verify credentials
 ├── CLAUDE.md           # This file
-├── pyproject.toml      # uv dependencies
+├── pyproject.toml      # uv dependencies (includes supabase>=2.28.3)
 └── .github/
     └── workflows/
         └── run_scanner.yml  # GitHub Actions — scheduled automation
@@ -122,6 +133,10 @@ TELEGRAM_CHAT_ID=
 
 # OpenAI — used by brain.py to score job offers
 OPENAI_API_KEY=
+
+# Supabase — used by database.py to write to primary DB
+SUPABASE_URL=
+SUPABASE_KEY=
 ```
 
 Load with: `from dotenv import load_dotenv`
@@ -131,14 +146,14 @@ Load with: `from dotenv import load_dotenv`
 ## 📋 Telegram Groups (config/groups.txt)
 
 ```
-hitechjobsjunior
-hitechjobsdata
 -1002423121294
 -1002875221568
+-1002375956832
+-1002543690045
+-1002684951413
 ```
 
-Note: numeric IDs are private groups. Both formats work with Telethon.
-Note: -1002423121294 currently throws PeerChannel error — fix by opening the group in the Telegram app and scrolling once before next run.
+Note: all groups are private (numeric IDs). Both username and numeric ID formats work with Telethon.
 
 ---
 
@@ -154,6 +169,8 @@ class JobOpportunity(BaseModel):
     contact_info: str | None = None
     job_link: str                   # REQUIRED — no default, not optional
     raw_text: str
+    message_date: str | None = None  # ISO 8601 UTC — Telegram message post time, set by brain.py
+    source_group: str | None = None  # Telegram group the job was fetched from, set by brain.py
 
 class ScoredJob(JobOpportunity):
     confidence_score: int           # 1-10, enforced by field_validator
@@ -195,6 +212,7 @@ class ScoredJob(JobOpportunity):
 - Secrets stored in: Settings → Secrets and variables → Actions
 - Workflow file: `.github/workflows/run_scanner.yml`
 - Schedule: Mon–Fri at 08:00, 14:00, 18:00 Israel time (UTC+3) — `cron: '0 5 * * 1-5'`, `'0 11 * * 1-5'`, `'0 15 * * 1-5'`
+- `SUPABASE_URL` and `SUPABASE_KEY` must be added to GitHub Secrets for the pipeline to write to Supabase on Actions
 
 ---
 
@@ -202,48 +220,53 @@ class ScoredJob(JobOpportunity):
 
 ### Stage 1 — Repo & Environment ✅ COMPLETE
 - Repo initialized and pushed to GitHub
-- All Telegram credentials in `.env`
-- All packages installed via uv (telethon, openai, pydantic, python-dotenv, ipykernel)
+- All credentials in `.env`
+- All packages installed via uv
 - portfolio.txt written and structured
-- groups.txt populated with 4 groups
+- groups.txt populated with 5 groups
 
 ### Stage 2 — Ingestion & Data Modeling ✅ COMPLETE
 - [x] engine/listener.py written and tested
 - [x] First-time phone verification completed — jobpulse_session.session created
-- [x] 15 messages fetched from 3/4 groups, saved to raw_dump.json
 - [x] engine/models.py written and tested
 - [x] field_validator on confidence_score verified
 - [x] job_link added as required field
 
 ### Stage 3 — Brain, Persistence & Alerts ✅ COMPLETE
-- [x] Write engine/brain.py 13/15 jobs found
-- [x] Write engine/database.py
-- [x] Write engine/notify.py
-- [x] Test scoring + alerts end-to-end
+- [x] engine/brain.py — GPT-4o mini scoring
+- [x] engine/database.py — dual storage
+- [x] engine/notify.py — Telegram alerts
+- [x] End-to-end scoring + alerts tested
 
 ### Stage 4 — Orchestration & Deployment ✅ COMPLETE
-- [x] Write main.py
-- [x] Write .github/workflows/run_scanner.yml
-- [x] Add GitHub Secrets
-- [x] Confirm automated run on GitHub Actions
+- [x] main.py written and tested
+- [x] .github/workflows/run_scanner.yml written
+- [x] GitHub Secrets added
+- [x] Automated run confirmed on GitHub Actions
 
 ### Stage 5 — Storage & Deduplication ✅ COMPLETE
 - [x] Dual storage architecture implemented — CSV + SQLite independent layers
-- [x] CSV layer: cross-run deduplication on GitHub Actions via committed data/jobs.csv
-- [x] SQLite layer: local persistence and future scaling infrastructure
-- [x] Pipeline deployed and verified end-to-end on GitHub Actions
+- [x] CSV layer: cross-run deduplication via committed data/jobs.csv
+- [x] Pipeline deployed and verified end-to-end
 
 ### Stage 6 — Schema Consolidation ✅ COMPLETE
-- [x] Unified both CSV and SQLite to the same 12-column schema (was mismatched: CSV had 10 cols, SQLite had 8 cols, each missing different fields)
-- [x] SQLite now stores all ScoredJob fields: added `location`, `is_junior`, `tech_stack` (JSON), `raw_text`, `timestamp`
-- [x] CSV now includes `job_hash` and `timestamp`; column order matches SQLite
-- [x] Stale `data/jobs.csv` and `data/jobs.db` deleted — will be recreated fresh on next run
+- [x] Unified schema across all storage layers — 12 core columns
+- [x] CSV includes job_hash and timestamp
 
 ### Stage 7 — Optimised Listening (Checkpoint-Based Skip) ✅ COMPLETE
-- [x] `data/last_seen.csv` tracks `last_seen_ts` (ISO 8601 UTC) per group — committed to repo, survives GitHub Actions runners
-- [x] `listener.py` loads checkpoint on startup (`load_last_seen()`), filters fetched messages by timestamp to skip already-processed ones
-- [x] `main.py` calls `save_last_seen()` after a clean pipeline run to advance the checkpoint
-- **Implementation note:** Uses timestamp-based filtering (not `min_id`) — each group's checkpoint is the datetime of the most recent message from the previous run. Messages with `date <= last_seen_ts` are skipped.
+- [x] `data/last_seen.csv` tracks `last_seen_ts` per group — committed to repo
+- [x] `listener.py` loads checkpoint on startup, skips already-processed messages
+- [x] `main.py` calls `save_last_seen()` after a clean run
+- **Implementation note:** Timestamp-based filtering (not `min_id`) — messages with `date <= last_seen_ts` are skipped
+
+### Stage 8 — Supabase Integration & SQLite Removal ✅ COMPLETE
+- [x] Supabase added as primary DB (`engine/database.py` → `save_to_supabase()`)
+- [x] SQLite fully removed from pipeline and `database.py` — `init_db`, `save_job`, `is_duplicate` deleted
+- [x] `message_date` field added to model — stores Telegram message post time, used as `timestamp` in Supabase
+- [x] `source_group` field added to model — threaded from `listener.py` → `brain.py` → `save_to_supabase()`
+- [x] `send_error_alert()` added to `notify.py` — fires Telegram alert if Supabase writes fail during a run
+- [x] 158-row CSV backfill uploaded to Supabase; all score > 7 rows marked `alerted = true`
+- [x] Full pipeline test run passed: Supabase and CSV both updated correctly
 
 ---
 
@@ -251,9 +274,10 @@ class ScoredJob(JobOpportunity):
 
 | Feature | Description |
 |---|---|
-| Keyword Trends | Analyze jobs.db for most in-demand skills |
+| Keyword Trends | Query Supabase for most in-demand skills over time |
 | CV Recommendations | LLM compares job patterns against portfolio.txt |
-| Fit Score Tuning | Review scoring history, refine prompts |
+| Fit Score Tuning | Review scoring history in Supabase, refine prompts |
+| alerted flag wiring | After send_alert() succeeds, UPDATE jobs SET alerted=true WHERE job_hash=... in Supabase |
 | Multi-source Ingestion | Add LinkedIn RSS or other sources to listener.py |
 
 ---
@@ -264,5 +288,6 @@ class ScoredJob(JobOpportunity):
 
 ### Future Improvements (non-blocking)
 
-- **Raise fetch limit** — `listener.py` currently uses `limit=5` per group. Now that checkpoint-based skipping is in place, this can be safely raised (e.g. `limit=50`) to catch more jobs per run without re-processing old messages.
-- **PeerChannel error on `-1002423121294`** — fix by opening the group in the Telegram app and scrolling once, then re-running.
+- **Wire `alerted` flag** — after `send_alert()` succeeds in `main.py`, call `_supabase.table("jobs").update({"alerted": True}).eq("job_hash", job_hash).execute()` to mark the row
+- **Raise fetch limit** — `listener.py` currently uses `limit=3` per group. Can be raised to `limit=50` safely — checkpoint-based skipping prevents re-processing old messages
+- **Add SUPABASE_URL / SUPABASE_KEY to GitHub Secrets** — required for Supabase writes to work on Actions
