@@ -11,4 +11,5 @@ dependencies = [
     "python-dotenv",
     "ipykernel",
     "supabase>=2.28.3",
+    "fastmcp>=3.1.1",
 ]
