@@ -14,3 +14,4 @@ wheels/
 *.session
 data/jobs.db
 data/raw_dump.json
+JobPulse.code-workspace
