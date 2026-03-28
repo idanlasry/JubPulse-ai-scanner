@@ -327,12 +327,3 @@ Claude Code connects to Supabase directly via a FastMCP server registered in `.m
 | Multi-source Ingestion | Add LinkedIn RSS or other sources to listener.py |
 
 ---
-
-## 🚨 Open Tasks
-
-> No blocking tasks. The pipeline is fully deployed and running on GitHub Actions.
-
-### Future Improvements (non-blocking)
-
-- **Raise fetch limit** — `listener.py` has a hardcoded ceiling `LIMIT = 50`. `main.py` currently calls `listener_main(limit=3)` — raise the `limit=3` argument in `main.py` to increase messages fetched per run. Checkpoint-based skipping prevents re-processing old messages.
-
