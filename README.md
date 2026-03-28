@@ -12,7 +12,7 @@ JobPulse solves this: an autonomous pipeline that monitors job groups 24/7, scor
 - Extracts job data using Telethon (MTProto API)
 - Scores each job against your portfolio (1–10 confidence scale)
 - Sends Telegram alerts **only for matches scoring > 7** (reduces noise)
-- Stores all jobs in dual-layer storage (CSV for cross-run dedup, SQLite for analytics)
+- Stores all jobs in dual-layer storage (Supabase as primary DB, CSV as cross-run backup)
 - **Runs 3× daily on weekdays — fully autonomous, zero babysitting**
 
 ## The Pipeline
@@ -25,7 +25,7 @@ GPT-4o mini scoring (brain.py)
     ↓
 Scored jobs (scored_dump.json)
     ↓
-Dual storage (CSV + SQLite)
+Dual storage (Supabase + CSV backup)
     ↓
 Telegram Bot alerts (notify.py) → only if score > 7
 ```
@@ -37,8 +37,8 @@ Telegram Bot alerts (notify.py) → only if score > 7
 | Ingestion | Python + Telethon (MTProto) |
 | Scoring | OpenAI GPT-4o mini |
 | Data Modeling | Pydantic v2 (structured outputs) |
-| Cross-run Storage | CSV (`data/jobs.csv`) — committed to repo |
-| Local Storage | SQLite (`data/jobs.db`) — gitignored |
+| Primary Storage | Supabase (PostgreSQL) — cloud DB, persists across all runs |
+| Backup Storage | CSV (`data/jobs.csv`) — committed to repo, cross-run dedup |
 | Alerts | Telegram Bot API |
 | Scheduling | GitHub Actions (Mon–Fri, 3× daily) |
 | Package Manager | uv (Python 3.13) |
@@ -46,8 +46,8 @@ Telegram Bot alerts (notify.py) → only if score > 7
 ## Key Design Decisions
 
 **Why dual storage?**
-- **CSV (cross-run):** GitHub Actions runners are ephemeral. Committing to repo ensures dedup survives between runs.
-- **SQLite (local):** Reserved for future analytics: keyword trends, fit score tuning, CV recommendations.
+- **Supabase (primary):** Cloud PostgreSQL — persists across all runs, queryable for analytics and trends.
+- **CSV (backup):** GitHub Actions runners are ephemeral. Committing to repo ensures dedup survives between runs even if Supabase is unavailable.
 
 **Why dedup by `job_link`?**
 - Same job posted across multiple groups = one alert (reduces noise, focuses attention)
@@ -81,15 +81,15 @@ Telegram Bot alerts (notify.py) → only if score > 7
 ├── engine/
 │   ├── listener.py      # Fetch messages from Telegram groups via Telethon
 │   ├── brain.py         # Score jobs with GPT-4o mini
-│   ├── database.py      # Dual storage: CSV + SQLite, dedup by job_link
+│   ├── database.py      # Dual storage: Supabase (primary) + CSV (backup), dedup by job_link
 │   ├── notify.py        # Send alerts via Telegram Bot
 │   └── models.py        # Pydantic schemas: JobOpportunity, ScoredJob
 ├── config/
 │   ├── portfolio.txt    # Your profile — LLM scoring context
 │   └── groups.txt       # Telegram groups to monitor
 ├── data/
-│   ├── jobs.csv         # Cross-run job store (committed)
-│   └── jobs.db          # Local job store (gitignored)
+│   ├── jobs.csv         # Cross-run job backup (committed)
+│   └── last_seen.csv    # Checkpoint file — group_id → last_seen_ts (committed)
 ├── main.py              # Pipeline orchestrator
 ├── notify_all.py        # One-shot: send alerts for all high-fit jobs in DB
 ├── DB_search.py         # Dev utility: print high-fit jobs to terminal
@@ -116,11 +116,14 @@ TELEGRAM_API_HASH=
 TELEGRAM_BOT_TOKEN=
 TELEGRAM_CHAT_ID=
 OPENAI_API_KEY=
+SUPABASE_URL=
+SUPABASE_KEY=
 ```
 
 - `TELEGRAM_API_ID/HASH`: [my.telegram.org](https://my.telegram.org)
 - `TELEGRAM_BOT_TOKEN`: [@BotFather](https://t.me/botfather)
 - `OPENAI_API_KEY`: [OpenAI Console](https://platform.openai.com)
+- `SUPABASE_URL/KEY`: [Supabase Dashboard](https://supabase.com)
 
 ### 3. Configure
 
@@ -153,6 +156,8 @@ The pipeline runs automatically **Mon–Fri at 08:00, 14:00, 18:00 Israel time.*
 | `TELEGRAM_CHAT_ID` | Your personal chat ID |
 | `OPENAI_API_KEY` | OpenAI API key |
 | `TELEGRAM_SESSION_B64` | Base64-encoded `jobpulse_session.session` |
+| `SUPABASE_URL` | From Supabase project settings |
+| `SUPABASE_KEY` | From Supabase project settings (anon key) |
 
 To encode your session:
 ```bash
@@ -163,16 +168,15 @@ After each run, `data/jobs.csv` auto-commits to the repo for cross-run deduplica
 
 ## Future Roadmap
 
-- ⏳ Optimized listening with `min_id` (skip already-scanned messages, reduce API calls, optimise post fetching)
-- ⏳ Migrate storage to Supabase (enable analytics, multi-device sync, DB storage)
-- ⏳ Analyze job trends: in-demand skills, salary ranges, hiring patterns
-- ⏳ Multi-source ingestion: LinkedIn RSS,watsapp groups, other job boards
+- ⏳ Analyze job trends: in-demand skills, salary ranges, hiring patterns (query Supabase)
+- ⏳ Wire `alerted` flag — mark rows in Supabase after a successful alert is sent
+- ⏳ Multi-source ingestion: LinkedIn RSS, WhatsApp groups, other job boards
 
 ## Current Status
 
-✅ **Live and running** — deployed to GitHub Actions, 3× daily on weekdays  
-✅ All 5 stages complete (ingestion → scoring → storage → alerts → automation)  
-⏳ Post-deploy scaling: optimized listening, Supabase migration
+✅ **Live and running** — deployed to GitHub Actions, 3× daily on weekdays
+✅ All stages complete: ingestion → scoring → dual storage (Supabase + CSV) → alerts → automation
+✅ Checkpoint-based listening — skips already-processed messages per group
 ```
 
 ---

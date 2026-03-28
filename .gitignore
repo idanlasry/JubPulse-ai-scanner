@@ -15,3 +15,5 @@ wheels/
 data/jobs.db
 data/raw_dump.json
 JobPulse.code-workspace
+.claude
+.mcp.json
