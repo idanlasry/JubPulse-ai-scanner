@@ -1,5 +1,4 @@
 # JobPulse — AI-Powered Job Scanner
-testint changes
 **Stop scrolling. Start getting alerts.**
 
 Job hunting is noise. Thousands of posts across Telegram groups. 95% irrelevant posts. Manual filtering = hours per week wasted.
