@@ -142,6 +142,7 @@ async def main() -> None:
             fitting_jobs=fitting_jobs,
             supabase_new=supabase_new,
             supabase_errors=supabase_errors,
+            checker_skipped=skipped_count,
         )
     except Exception as e:
         print(f"[main] Summary failed: {e}")

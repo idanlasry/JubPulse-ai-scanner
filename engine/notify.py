@@ -99,9 +99,11 @@ async def send_summary(
     fitting_jobs: list[ScoredJob],
     supabase_new: int = 0,    # jobs inserted into Supabase this run
     supabase_errors: int = 0, # Supabase write failures this run
+    checker_skipped: int = 0, # messages dropped by pre-LLM dedup gate
 ) -> None:
     fitting_count = len(fitting_jobs)
     run_time = datetime.now(timezone(timedelta(hours=3))).strftime("%Y-%m-%d %H:%M")
+    passed_to_brain = jobs_found - checker_skipped
 
     if supabase_errors == 0:
         db_status = f"✅ Supabase synced: {supabase_new} new"
@@ -112,7 +114,7 @@ async def send_summary(
         "<b>JobPulse Run Summary</b>",
         f"Date: {run_time}",
         f"Groups scanned: {groups_scanned}",
-        f"Messages scanned: {jobs_found}",
+        f"Messages fetched: {jobs_found} → {checker_skipped} skipped by checker → {passed_to_brain} scored",
         f"New jobs (not seen before): {new_jobs}",
         f"High-fit alerts sent (score &gt; 7): {fitting_count}",
         db_status,
