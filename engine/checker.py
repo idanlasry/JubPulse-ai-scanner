@@ -26,40 +26,54 @@ def _hash(url: str) -> str:
     return hashlib.sha256(url.encode()).hexdigest()
 
 
-def _load_known_hashes() -> set[str]:
-    """Fetch all job_hash values from Supabase jobs table.
+def _normalize(url: str) -> str:
+    # Strip trailing slash and lowercase for consistent comparison.
+    # Applied to both stored job_links and extracted URLs so minor formatting
+    # differences (trailing slash, case) don't cause missed duplicates.
+    return url.rstrip("/").lower()
 
-    Returns an empty set if Supabase is unavailable — causing all messages to
-    pass through to the LLM rather than risking false duplicate skips.
+
+def _load_known_data() -> tuple[set[str], set[str]]:
+    """Fetch all job_hash and job_link values from Supabase jobs table.
+
+    Returns (known_hashes, known_links) — both empty sets if Supabase is unavailable,
+    causing all messages to pass through rather than risking false duplicate skips.
+
+    Two sets are returned to handle URL mismatch between urlextract and GPT:
+    - known_hashes: SHA256 of stored job_link — fast O(1) lookup for exact matches
+    - known_links: normalized stored job_links — fallback for cases where urlextract
+      extracts a slightly different URL string than GPT used (e.g. stripped query params)
     """
     if _supabase is None:
         logging.warning("[checker] Supabase client not initialised — skipping dedup gate")
-        return set()
+        return set(), set()
     try:
         # Supabase REST pagination: max 1000 rows per request
-        # Fetch in pages until we have all hashes
-        known: set[str] = set()
+        known_hashes: set[str] = set()
+        known_links: set[str] = set()
         page = 0
         page_size = 1000
         while True:
             response = (
                 _supabase.table("jobs")
-                .select("job_hash")
+                .select("job_hash,job_link")
                 .range(page * page_size, (page + 1) * page_size - 1)
                 .execute()
             )
             rows = response.data or []
             for row in rows:
                 if row.get("job_hash"):
-                    known.add(row["job_hash"])
+                    known_hashes.add(row["job_hash"])
+                if row.get("job_link"):
+                    known_links.add(_normalize(row["job_link"]))
             if len(rows) < page_size:
                 break  # last page
             page += 1
-        print(f"[checker] Loaded {len(known)} known hashes from Supabase")
-        return known
+        print(f"[checker] Loaded {len(known_hashes)} known hashes from Supabase")
+        return known_hashes, known_links
     except Exception as e:
-        logging.error("[checker] Failed to load hashes from Supabase: %s", e)
-        return set()  # fail open — let everything through to the LLM
+        logging.error("[checker] Failed to load data from Supabase: %s", e)
+        return set(), set()  # fail open — let everything through to the LLM
 
 
 # %%
@@ -75,9 +89,9 @@ def filter_new_messages(messages: list[dict]) -> tuple[list[dict], int]:
         fresh_messages — messages that passed the gate (no URL matched a known hash)
         skipped_count  — number of messages dropped as duplicates
     """
-    known_hashes = _load_known_hashes()
+    known_hashes, known_links = _load_known_data()
 
-    if not known_hashes:
+    if not known_hashes and not known_links:
         # Supabase unavailable or empty DB (first run) — pass everything through
         return messages, 0
 
@@ -89,11 +103,14 @@ def filter_new_messages(messages: list[dict]) -> tuple[list[dict], int]:
         http_urls = [u for u in _extractor.gen_urls(raw_text) if u.startswith("http")]
 
         if not http_urls:
-            # No extractable link — pass through to the LLM (brain handles non-job messages)
-            fresh.append(msg)
+            # No extractable link — brain requires job_link, so this message is useless
+            skipped += 1
             continue
 
-        is_duplicate = any(_hash(u) in known_hashes for u in http_urls)
+        is_duplicate = any(
+            _hash(u) in known_hashes or _normalize(u) in known_links
+            for u in http_urls
+        )
 
         if is_duplicate:
             skipped += 1
