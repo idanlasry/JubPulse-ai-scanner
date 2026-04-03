@@ -52,10 +52,12 @@ async def main() -> None:
     # --- Stage 1.5: Pre-LLM deduplication gate ---
     all_raw_messages = raw_messages  # preserve full list for last_seen checkpoint
     checker_available = False
+    no_link_skipped = 0
+    duplicate_skipped = 0
     try:
-        raw_messages, skipped_count, checker_available = filter_new_messages(raw_messages)
+        raw_messages, no_link_skipped, duplicate_skipped, checker_available = filter_new_messages(raw_messages)
         gate_status = "active" if checker_available else "offline (Supabase unavailable)"
-        print(f"[checker] {skipped_count} duplicates skipped | {len(raw_messages)} messages passed to brain | gate: {gate_status}")
+        print(f"[checker] {no_link_skipped} no-link | {duplicate_skipped} duplicates | {len(raw_messages)} passed to brain | gate: {gate_status}")
         # Overwrite raw_dump.json with only the fresh messages so brain.py reads the filtered set
         RAW_DUMP.write_text(
             json.dumps(raw_messages, ensure_ascii=False, indent=2),
@@ -63,7 +65,6 @@ async def main() -> None:
         )
     except Exception as e:
         print(f"[main] Checker failed — passing all messages to brain: {e}")
-        skipped_count = 0
 
     # --- Stage 2: Score with brain ---
     try:
@@ -128,13 +129,15 @@ async def main() -> None:
         f"[main] Supabase new: {supabase_new} | CSV new: {csv_new} | Appended {csv_new} rows → data/jobs.csv"
     )
 
-    # Alert user if any Supabase writes failed
-    if supabase_errors > 0:
+    # Alert user if Supabase was unreachable (read) or had write failures
+    if not checker_available or supabase_errors > 0:
+        lines = ["⚠️ <b>JobPulse — Supabase issue</b>"]
+        if not checker_available:
+            lines.append("• Dedup gate offline — Supabase unreachable at read time. Duplicate jobs may have been scored.")
+        if supabase_errors > 0:
+            lines.append(f"• {supabase_errors} job(s) failed to save to Supabase.")
         try:
-            await send_error_alert(
-                f"⚠️ <b>JobPulse — Supabase error</b>\n"
-                f"{supabase_errors} job(s) failed to save to Supabase this run."
-            )
+            await send_error_alert("\n".join(lines))
         except Exception as e:
             print(f"[main] Could not send Supabase error alert: {e}")
 
@@ -147,7 +150,8 @@ async def main() -> None:
             fitting_jobs=fitting_jobs,
             supabase_new=supabase_new,
             supabase_errors=supabase_errors,
-            checker_skipped=skipped_count,
+            no_link_skipped=no_link_skipped,
+            duplicate_skipped=duplicate_skipped,
             brain_scored=jobs_found,  # actual ScoredJob outputs from brain
             checker_available=checker_available,
         )
@@ -183,8 +187,9 @@ async def main() -> None:
     # --- Final log ---
     print(
         f"[main] {groups_scanned} groups scanned | "
-        f"{messages_fetched} messages fetched | "
-        f"{jobs_found} jobs found | "
+        f"{messages_fetched} fetched | "
+        f"{no_link_skipped} no-link | {duplicate_skipped} duplicates | "
+        f"{jobs_found} scored | "
         f"supabase_new={supabase_new} csv_new={csv_new} | "
         f"{alerts_sent} alerts sent"
     )

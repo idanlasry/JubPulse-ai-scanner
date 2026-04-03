@@ -95,31 +95,32 @@ async def send_error_alert(text: str) -> None:
 async def send_summary(
     groups_scanned: int,
     jobs_found: int,
-    new_jobs: int,  # new addition — jobs not seen in previous runs
+    new_jobs: int,  # jobs not seen in previous runs
     fitting_jobs: list[ScoredJob],
-    supabase_new: int = 0,        # jobs inserted into Supabase this run
-    supabase_errors: int = 0,     # Supabase write failures this run
-    checker_skipped: int = 0,     # messages dropped by pre-LLM dedup gate
-    brain_scored: int = 0,        # actual ScoredJob outputs from brain
-    checker_available: bool = True,  # False if dedup gate was offline
+    supabase_new: int = 0,           # jobs inserted into Supabase this run
+    supabase_errors: int = 0,        # Supabase write failures this run
+    no_link_skipped: int = 0,        # messages dropped — no extractable http URL
+    duplicate_skipped: int = 0,      # messages dropped — URL already in Supabase
+    brain_scored: int = 0,           # actual ScoredJob outputs from brain
+    checker_available: bool = True,  # False if Supabase dedup gate was offline
 ) -> None:
     fitting_count = len(fitting_jobs)
     run_time = datetime.now(timezone(timedelta(hours=3))).strftime("%Y-%m-%d %H:%M")
-    passed_to_brain = jobs_found - checker_skipped
+    passed_to_brain = jobs_found - no_link_skipped - duplicate_skipped
 
     if supabase_errors == 0:
         db_status = f"✅ Supabase synced: {supabase_new} new"
     else:
         db_status = f"⚠️ Supabase: {supabase_new} saved, {supabase_errors} failed"
 
-    checker_note = "" if checker_available else " ⚠️ dedup gate offline"
+    dedup_note = f"{duplicate_skipped} duplicates" if checker_available else f"{duplicate_skipped} duplicates ⚠️ gate offline"
     lines = [
         "<b>JobPulse Run Summary</b>",
         f"Date: {run_time}",
         f"Groups scanned: {groups_scanned}",
-        f"Messages fetched: {jobs_found} → {checker_skipped} skipped by checker{checker_note} → {passed_to_brain} sent to brain → {brain_scored} scored",
+        f"Fetched: {jobs_found} → {no_link_skipped} no-link | {dedup_note} → {passed_to_brain} to brain → {brain_scored} scored",
         f"New jobs (not seen before): {new_jobs}",
-        f"High-fit alerts sent (score &gt; 7): {fitting_count}",
+        f"High-fit alerts (score &gt; 7): {fitting_count}",
         db_status,
     ]
 
