@@ -161,5 +161,59 @@ def update_query(
         return {"status": "error", "error": str(e)}
 
 
+@mcp.tool()
+def dry_run_delete(table: str, filter_column: str, filter_value: str) -> dict:
+    """
+    Preview which rows WOULD be deleted — without making any changes.
+    Returns the matching rows and count so you can confirm before running delete_query.
+    Example: dry_run_delete("jobs", "job_hash", "abc123")
+    """
+    logger.info(f"dry_run_delete called: {table}, {filter_column}={filter_value}")
+    err = _check_table(table)
+    if err:
+        return {"error": err}
+    try:
+        response = (
+            supabase.table(table).select("*").eq(filter_column, filter_value).execute()
+        )
+        logger.info(f"dry_run_delete: {len(response.data)} rows would be deleted")
+        return {
+            "rows_affected": len(response.data),
+            "preview": response.data[:50],
+        }
+    except Exception as e:
+        logger.error(f"dry_run_delete failed: {e}")
+        return {"error": str(e)}
+
+
+@mcp.tool()
+def delete_query(table: str, filter_column: str, filter_value: str) -> dict:
+    """
+    Delete rows from a table where filter_column = filter_value.
+    Returns status and number of rows deleted.
+    Example: delete_query("jobs", "job_hash", "abc123")
+    """
+    logger.info(f"delete_query called: {table}, {filter_column}={filter_value}")
+    err = _check_table(table)
+    if err:
+        return {"error": err}
+    try:
+        response = (
+            supabase.table(table)
+            .delete()
+            .eq(filter_column, filter_value)
+            .execute()
+        )
+        logger.info(f"delete_query success: {len(response.data)} rows deleted")
+        return {
+            "status": "success",
+            "rows_deleted": len(response.data),
+            "data": response.data,
+        }
+    except Exception as e:
+        logger.error(f"delete_query failed: {e}")
+        return {"status": "error", "error": str(e)}
+
+
 if __name__ == "__main__":
     mcp.run()
