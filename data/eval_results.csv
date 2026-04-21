@@ -1,0 +1,1830 @@
+job_hash,timestamp,title,company,location,is_junior,tech_stack,contact_info,job_link,raw_text,confidence_score,fit_reasoning,source,source_group,repo,alerted,model,original_gpt_score
+01ee3346823c6800070be936fdf228ce5ef12ea8c14c008f0dd7d21d40de306c,2026-04-16T15:14:11+00:00,Data operator (entry level),Monto,Tel Aviv,True,[],,https://secrethunter.io/jobz/d9d53b68c3?utm_source=telegram,"**Data operator (entry level)**
+Monto
+Tel Aviv
+16/4/26
+ㅤ
+__Data management, System operation, Teamwork, English communication, Attention to detail, Analytical thinking, Self-starter__
+ㅤ
+Entry
+ㅤ
+https://secrethunter.io/jobz/d9d53b68c3?utm_source=telegram",5,"The role is entry-level, which aligns with the candidate's target level. However, the tech stack is not specified, and the focus seems to be more on data management and system operation rather than analytics, which may not fully leverage the candidate's skills in Python and SQL.",telegram,-1002423121294,jobpulse,False,gpt-4o-mini,5
+01ee3346823c6800070be936fdf228ce5ef12ea8c14c008f0dd7d21d40de306c,2026-04-16T15:14:11+00:00,Data operator (entry level),Monto,Tel Aviv,True,[],,https://secrethunter.io/jobz/d9d53b68c3?utm_source=telegram,"**Data operator (entry level)**
+Monto
+Tel Aviv
+16/4/26
+ㅤ
+__Data management, System operation, Teamwork, English communication, Attention to detail, Analytical thinking, Self-starter__
+ㅤ
+Entry
+ㅤ
+https://secrethunter.io/jobz/d9d53b68c3?utm_source=telegram",5,"The role is explicitly 'entry level' and located in Tel Aviv, which are excellent matches for the candidate's preferences. However, the job description is very vague regarding specific technical skills (e.g., SQL, Python, BI tools) which are core to the candidate's portfolio. The listed skills are mostly soft skills or general tasks like 'Data management' and 'System operation'. While the candidate could likely perform this role, it might not fully leverage their strong analytical and technical capabilities.",telegram,-1002423121294,jobpulse,False,gemini-2.5-flash,5
+01ee3346823c6800070be936fdf228ce5ef12ea8c14c008f0dd7d21d40de306c,2026-04-16T15:14:11+00:00,Data Operator (Entry Level),Monto,Tel Aviv,True,[],,https://secrethunter.io/jobz/d9d53b68c3?utm_source=telegram,"**Data operator (entry level)**
+Monto
+Tel Aviv
+16/4/26
+ㅤ
+__Data management, System operation, Teamwork, English communication, Attention to detail, Analytical thinking, Self-starter__
+ㅤ
+Entry
+ㅤ
+https://secrethunter.io/jobz/d9d53b68c3?utm_source=telegram",4,"Entry-level role in Tel Aviv is a good location and seniority match. However, the posting is vague with no specific tech stack mentioned — no Python, SQL, BI tools, or analytics methods listed. The role title 'Data Operator' leans more toward data management/operations rather than data analysis or BI, which is the candidate's target. Skills listed (teamwork, attention to detail, English communication) are soft skills with no technical overlap. Analytical thinking is a minor positive signal. The company Monto is a FinTech/B2B payments company, which is a neutral domain. Overall, the role may be too operational and lacks the analytical/insights component the candidate is targeting, but the entry-level + Tel Aviv combination keeps it from scoring very low.",telegram,-1002423121294,jobpulse,False,claude-sonnet,5
+03b4cd57ef5b1258f2de3c7f76f28218cb1011467d7c96b355c8937d8231a3b4,2026-04-07T13:58:01.549038+00:00,Data Analyst,tech company,Ra'anana,True,"[""Python"", ""SQL""]",,https://www.linkedin.com/jobs/view/4398237009,"‎*Data Analyst* / tech company
+‎
+‎_Ra'anana_ | _Data Analytics/BI_
+‎
+- ‎2 years of Data Analysis experience
+- ‎Expert SQL & Python/R skills
+- ‎Strong statistical background
+‎
+‎https://www.linkedin.com/jobs/view/4398237009
+‎
+‎#Referally https://referally.link",8,"The job aligns well with the candidate's skills in Python and SQL, and the focus on Data Analysis fits their target role. The location is acceptable, and the experience requirement is within the candidate's range. The role is also in the tech industry, which is neutral for the candidate.",whatsapp_manual,whatsapp_manual,whatsapp-hook,False,gpt-4o-mini,8
+03b4cd57ef5b1258f2de3c7f76f28218cb1011467d7c96b355c8937d8231a3b4,2026-04-07T13:58:01.549038+00:00,Data Analyst,,"Ra'anana, Israel",False,"[""SQL"", ""Python"", ""R""]",,https://www.linkedin.com/jobs/view/4398237009,"‎*Data Analyst* / tech company
+‎
+‎_Ra'anana_ | _Data Analytics/BI_
+‎
+- ‎2 years of Data Analysis experience
+- ‎Expert SQL & Python/R skills
+- ‎Strong statistical background
+‎
+‎https://www.linkedin.com/jobs/view/4398237009
+‎
+‎#Referally https://referally.link",7,"Strong match on core skills: SQL, Python, and R are all in the candidate's toolkit. The role is Data Analyst in a BI/Analytics domain, which is the primary target. Ra'anana is within the preferred ~30km radius of the center region. Requires 2 years of experience, which aligns well with the junior-to-mid target range. Statistical background requirement matches the candidate's B.A. in Statistics with honors. No mention of remote/hybrid lowers the score slightly. No BI tool (Power BI/Tableau) explicitly mentioned, but the domain tag 'Data Analytics/BI' suggests relevance. Overall a solid fit.",whatsapp_manual,whatsapp_manual,whatsapp-hook,False,claude-sonnet,8
+052b5b256303563e6a93ab4e22341cbd0df8f4d96e5d4b6c43de965b46b6d38f,2026-04-10T15:28:51+00:00,Data team lead,ReasonLabs,Tel Aviv,False,"[""Data Analysis"", ""Dashboards"", ""ETL"", ""A/B Testing""]",,https://secrethunter.io/jobz/b0982b9d90?utm_source=telegram,"**Data team lead**
+ReasonLabs
+Tel Aviv
+10/4/26
+ㅤ
+__Data Analysis, Dashboards, ETL, A/B Testing, Leadership, Problem Solving, Communication__
+ㅤ
+Teamleader
+ㅤ
+https://secrethunter.io/jobz/b0982b9d90?utm_source=telegram",3,"The role is for a team lead position, which is not aligned with the candidate's target level of junior to mid. While there are relevant skills mentioned, the leadership requirement and seniority level significantly lower the fit.",telegram,-1002423121294,jobpulse,False,gpt-4o-mini,3
+052b5b256303563e6a93ab4e22341cbd0df8f4d96e5d4b6c43de965b46b6d38f,2026-04-10T15:28:51+00:00,Data Team Lead,ReasonLabs,Tel Aviv,False,"[""Data Analysis"", ""Dashboards"", ""ETL"", ""A/B Testing""]",,https://secrethunter.io/jobz/b0982b9d90?utm_source=telegram,"**Data team lead**
+ReasonLabs
+Tel Aviv
+10/4/26
+ㅤ
+__Data Analysis, Dashboards, ETL, A/B Testing, Leadership, Problem Solving, Communication__
+ㅤ
+Teamleader
+ㅤ
+https://secrethunter.io/jobz/b0982b9d90?utm_source=telegram",2,"The role is a Team Lead / Leadership position, which is explicitly excluded per the candidate's seniority target (Junior to Mid only). Despite strong overlap in technical skills — Data Analysis, Dashboards, ETL, and A/B Testing all match the candidate's profile well — the leadership requirement is a hard disqualifier. The location (Tel Aviv) is ideal, but the seniority mismatch makes this role not suitable for the candidate at this stage.",telegram,-1002423121294,jobpulse,False,claude-sonnet,3
+08593d2bd3ecb59f9afa4e52832cfe2c1a0f7fc5bbab1e6735817dc4c30a89b1,2026-04-06T09:06:41+00:00,Technical data specialist,YWCT,Israel,False,[],,https://secrethunter.io/jobz/d22463eade?utm_source=telegram,"**Technical data specialist**
+YWCT
+Israel
+6/4/26
+ㅤ
+__Translation, Data Analysis, Russian, English, Hebrew, Eng. Drawings, Tech Documents__
+ㅤ
+Mid
+ㅤ
+https://secrethunter.io/jobz/d22463eade?utm_source=telegram",4,"The role is labeled as 'Mid', which does not align with the candidate's target of Junior to Mid. The tech stack is not specified, and while the candidate has skills in data analysis, the lack of specific tools mentioned in the job description lowers the fit score.",telegram,-1002423121294,jobpulse,False,gpt-4o-mini,4
+08593d2bd3ecb59f9afa4e52832cfe2c1a0f7fc5bbab1e6735817dc4c30a89b1,2026-04-06T09:06:41+00:00,Technical data specialist,YWCT,Israel,False,"[""Data Analysis""]",,https://secrethunter.io/jobz/d22463eade?utm_source=telegram,"**Technical data specialist**
+YWCT
+Israel
+6/4/26
+ㅤ
+__Translation, Data Analysis, Russian, English, Hebrew, Eng. Drawings, Tech Documents__
+ㅤ
+Mid
+ㅤ
+https://secrethunter.io/jobz/d22463eade?utm_source=telegram",4,"The role is for a 'Technical data specialist' at a 'Mid' level in 'Israel,' which aligns with the candidate's target seniority and location. The mention of 'Data Analysis' is a general fit for the candidate's profile. However, the job description lacks specific technical tools like SQL, Python, or BI platforms (Power BI/Tableau) which are the candidate's primary strengths. The additional requirements like 'Russian,' 'Eng. Drawings,' and 'Tech Documents' suggest a different focus than the candidate's core data analyst profile, which is heavily focused on quantitative analysis and dashboarding.",telegram,-1002423121294,jobpulse,False,gemini-2.5-flash,4
+08593d2bd3ecb59f9afa4e52832cfe2c1a0f7fc5bbab1e6735817dc4c30a89b1,2026-04-06T09:06:41+00:00,Technical Data Specialist,YWCT,Israel,False,[],,https://secrethunter.io/jobz/d22463eade?utm_source=telegram,"**Technical data specialist**
+YWCT
+Israel
+6/4/26
+ㅤ
+__Translation, Data Analysis, Russian, English, Hebrew, Eng. Drawings, Tech Documents__
+ㅤ
+Mid
+ㅤ
+https://secrethunter.io/jobz/d22463eade?utm_source=telegram",3,"The role is mid-level and located in Israel, which aligns with the candidate's location and seniority range. However, the job emphasizes translation, technical documents, and engineering drawings alongside data analysis — suggesting a technical documentation/translation specialist role rather than a data analyst position. The required languages (Russian, English, Hebrew) and focus on engineering drawings point to a domain far from BI, product analytics, or data insights. No relevant tech stack (Python, SQL, Power BI) is mentioned. The 'Data Analysis' keyword is present but appears secondary to translation and technical documentation work. Low fit overall.",telegram,-1002423121294,jobpulse,False,claude-sonnet,4
+115d84f610bfadcf9efdbe097982ae76842d9523b9a2f1b4f3862967641a87c7,2026-04-17T12:06:38+00:00,2026 Software Dev Engineer Intern,Amazon - Israel,Tel Aviv,True,"[""Python"", ""C/C++"", ""Java"", ""Perl""]",,https://www.amazon.jobs/en/jobs/3122111/2026-software-dev-engineer-intern-tel-aviv-israel,"🆕 **2026 Software Dev Engineer Intern - Tel-Aviv, Israel**
+
+💼 **Company:** Amazon - Israel
+🔍 **Location:** Tel Aviv
+🧑‍💻️ **Experience required:** 0 yrs
+📁 **Position:** Internship
+
+---------------
+
+📄 **Description:** - Collaborate and communicate effectively with experienced cross-disciplinary Amazonians to design, build, and operate innovative products and services that delight our customers, while participating in technical discussions to drive solutions forwar....
+
+---------------
+
+📊 **Requirements:** - Are enrolled in a Bachelor's degree or above in Computer Science, Computer Engineering, or related fields at time of application
+- Knowledge of programming languages such as C/C++, Python, Java or Perl
+- Knowledge of computer science fundamentals s....
+
+[**View full position listing and submit CV**](https://www.amazon.jobs/en/jobs/3122111/2026-software-dev-engineer-intern-tel-aviv-israel)",3,"The role is an internship requiring 0 years of experience, which aligns with the candidate's junior level preference. However, the focus is on software development rather than data analysis, which is the candidate's primary target role.",telegram,-1002543690045,jobpulse,False,gpt-4o-mini,3
+115d84f610bfadcf9efdbe097982ae76842d9523b9a2f1b4f3862967641a87c7,2026-04-17T12:06:38+00:00,2026 Software Dev Engineer Intern,Amazon Israel,Tel Aviv,True,"[""Python"", ""C/C++"", ""Java"", ""Perl""]",,https://www.amazon.jobs/en/jobs/3122111/2026-software-dev-engineer-intern-tel-aviv-israel,"🆕 **2026 Software Dev Engineer Intern - Tel-Aviv, Israel**
+
+💼 **Company:** Amazon - Israel
+🔍 **Location:** Tel Aviv
+🧑‍💻️ **Experience required:** 0 yrs
+📁 **Position:** Internship
+
+---------------
+
+📄 **Description:** - Collaborate and communicate effectively with experienced cross-disciplinary Amazonians to design, build, and operate innovative products and services that delight our customers, while participating in technical discussions to drive solutions forwar....
+
+---------------
+
+📊 **Requirements:** - Are enrolled in a Bachelor's degree or above in Computer Science, Computer Engineering, or related fields at time of application
+- Knowledge of programming languages such as C/C++, Python, Java or Perl
+- Knowledge of computer science fundamentals s....
+
+[**View full position listing and submit CV**](https://www.amazon.jobs/en/jobs/3122111/2026-software-dev-engineer-intern-tel-aviv-israel)",2,"This is a Software Development Engineering internship at Amazon, focused on building products and services — a pure backend/software engineering role. Despite being entry-level and located in Tel Aviv, it falls squarely under the hard exclusion category of Backend Engineering with no data/analytics component. The candidate's profile targets Data/BI/Product Analyst roles, not software development. The CS/CE degree requirement and focus on C/C++, Java also don't align with the candidate's Statistics & Psychology background and data toolset.",telegram,-1002543690045,jobpulse,False,claude-sonnet,3
+119a9b7f135827999c288e96518904a73283fed65a191c3eb3198d657355b8d8,2026-04-16T11:36:38.38133+00:00,Jr. Analytics Engineer,Align Technology,,True,"[""SQL"", ""Python"", ""Power BI""]",,https://jobs.aligntech.com/en/postings/9e85effe-4a82-41c3-953b-acbe913f3d6b,"‎*Jr. Analytics Engineer* / Align Technology
+‎
+‎_Data Engineering_
+‎
+- ‎Bachelor’s degree in computer science, Information Systems, Data Analytics, or a related field.
+- ‎Experience with SQL, Python, and data modeling concepts.
+- ‎Exposure to Power BI and dashboard/report creation.
+‎
+‎https://jobs.aligntech.com/en/postings/9e85effe-4a82-41c3-953b-acbe913f3d6b
+‎
+‎#Referally https://referally.link",8,"The role is for a Junior position requiring SQL and Python, which aligns well with the candidate's skills. Exposure to Power BI is also a match, and the job is likely to be relevant to the candidate's preferred domain of analytics.",whatsapp_manual,whatsapp_manual,whatsapp-hook,False,gpt-4o-mini,8
+119a9b7f135827999c288e96518904a73283fed65a191c3eb3198d657355b8d8,2026-04-16T11:36:38.38133+00:00,Jr. Analytics Engineer,Align Technology,,True,"[""SQL"", ""Python"", ""Power BI"", ""Data Modeling""]",,https://jobs.aligntech.com/en/postings/9e85effe-4a82-41c3-953b-acbe913f3d6b,"‎*Jr. Analytics Engineer* / Align Technology
+‎
+‎_Data Engineering_
+‎
+- ‎Bachelor’s degree in computer science, Information Systems, Data Analytics, or a related field.
+- ‎Experience with SQL, Python, and data modeling concepts.
+- ‎Exposure to Power BI and dashboard/report creation.
+‎
+‎https://jobs.aligntech.com/en/postings/9e85effe-4a82-41c3-953b-acbe913f3d6b
+‎
+‎#Referally https://referally.link",6,"Strong tech stack overlap — SQL, Python, and Power BI are all primary tools for the candidate. Junior level is a good seniority match. However, the role is categorized as 'Data Engineering' rather than Data/BI Analytics, which leans away from the candidate's target role of Data Analyst. No location or remote/hybrid info provided, adding uncertainty. The analytics and dashboard component (Power BI exposure) partially bridges the gap and prevents a low score. Overall a borderline but worth exploring opportunity.",whatsapp_manual,whatsapp_manual,whatsapp-hook,False,claude-sonnet,8
+1589c50405b519a1ad2b74e14427ad5f63e746906d36632167d2cf528723e17a,2026-04-14T18:16:41+00:00,Senior Business Analyst,Check Point,Tel Aviv,False,[],,https://careers.checkpoint.com/index.php?m=cpcareers&a=show&joborderid=22566&source=,"🆕 **Senior Business Analyst**
+
+💼 **Company:** Check Point
+🔍 **Location:** Tel Aviv
+🧑‍💻️ **Experience required:** 3 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** Analyze, optimize and build business models for our products, pricing, promotions, competitor trends, activities, KPIs, and business units as key part of strategic decisions.
+    Define metrics to evaluate performance....
+
+---------------
+
+📊 **Requirements:** Bachelor's degree from a leading university in Economics, Business Administration or related quantitative field.
+    3-5 years of business experience.
+    Fluent in English.
+    Strong analytical, data mining and modelling skills.
+    Drive execution....
+
+[**View full position listing and submit CV**](https://careers.checkpoint.com/index.php?m=cpcareers&a=show&joborderid=22566&source=)
+
+    
+**POC:**  build reporting/dashboards to track performance and maintain it.
+    Create insight beyond numbers and help to influence, support and execute our strategic business decisions.
+    Create budget plans, bookings plans and targets for the related depar
+LI of POC
+**Email:** 
+**Phone:**:",3,"The role is for a Senior Business Analyst requiring 3-5 years of experience, which exceeds the candidate's target level of Junior to Mid. The job does not align with the candidate's primary target roles and requires a higher level of experience than the candidate possesses.",telegram,-1002684951413,jobpulse,False,gpt-4o-mini,3
+1589c50405b519a1ad2b74e14427ad5f63e746906d36632167d2cf528723e17a,2026-04-14T18:16:41+00:00,Senior Business Analyst,Check Point,Tel Aviv,False,[],,https://careers.checkpoint.com/index.php?m=cpcareers&a=show&joborderid=22566&source=,"🆕 **Senior Business Analyst**
+
+💼 **Company:** Check Point
+🔍 **Location:** Tel Aviv
+🧑‍💻️ **Experience required:** 3 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** Analyze, optimize and build business models for our products, pricing, promotions, competitor trends, activities, KPIs, and business units as key part of strategic decisions.
+    Define metrics to evaluate performance....
+
+---------------
+
+📊 **Requirements:** Bachelor's degree from a leading university in Economics, Business Administration or related quantitative field.
+    3-5 years of business experience.
+    Fluent in English.
+    Strong analytical, data mining and modelling skills.
+    Drive execution....
+
+[**View full position listing and submit CV**](https://careers.checkpoint.com/index.php?m=cpcareers&a=show&joborderid=22566&source=)
+
+    
+**POC:**  build reporting/dashboards to track performance and maintain it.
+    Create insight beyond numbers and help to influence, support and execute our strategic business decisions.
+    Create budget plans, bookings plans and targets for the related depar
+LI of POC
+**Email:** 
+**Phone:**:",5,"The role is at Check Point in Tel Aviv, which is a preferred location. The job involves business analysis, KPI tracking, dashboards, and strategic insights — all well-aligned with the candidate's skills and target role. However, the title is 'Senior' and requires 3-5 years of business experience, which is slightly above the candidate's junior-to-mid target range. No specific BI tools (Power BI, Tableau, SQL) are mentioned, reducing tech stack match confidence. The domain (cybersecurity/enterprise software) is neutral. Overall a moderate fit — relevant work but seniority level and lack of explicit tool match temper the score.",telegram,-1002684951413,jobpulse,False,claude-sonnet,3
+1a66f89cf12eec999e0fdd15d9a191a30f373df85cbff17a291e12ce587e90af,2026-04-15T10:11:34+00:00,Customer relationship management analyst,IDEODIGITAL,Tel Aviv,False,"[""Dynamics 365"", ""SQL Server""]",,https://secrethunter.io/jobz/2975c02753?utm_source=telegram,"**Customer relationship management analyst**
+IDEODIGITAL
+Tel Aviv
+15/4/26
+ㅤ
+__Dynamics 365, SQL Server, CRM System Design, Project Management, System Integration, Stakeholder Mgmt__
+ㅤ
+Senior
+ㅤ
+https://secrethunter.io/jobz/2975c02753?utm_source=telegram",3,"The role is senior and requires skills in Dynamics 365 and SQL Server, which are not primary tools for the candidate. The candidate is targeting junior to mid-level roles, making this position a poor fit.",telegram,-1002423121294,jobpulse,False,gpt-4o-mini,3
+1a66f89cf12eec999e0fdd15d9a191a30f373df85cbff17a291e12ce587e90af,2026-04-15T10:11:34+00:00,Customer Relationship Management Analyst,IDEODIGITAL,Tel Aviv,False,"[""Dynamics 365"", ""SQL Server"", ""CRM System Design"", ""Project Management"", ""System Integration"", ""Stakeholder Management""]",,https://secrethunter.io/jobz/2975c02753?utm_source=telegram,"**Customer relationship management analyst**
+IDEODIGITAL
+Tel Aviv
+15/4/26
+ㅤ
+__Dynamics 365, SQL Server, CRM System Design, Project Management, System Integration, Stakeholder Mgmt__
+ㅤ
+Senior
+ㅤ
+https://secrethunter.io/jobz/2975c02753?utm_source=telegram",3,"The role is based in Tel Aviv which is a preferred location, and SQL is a matching skill. However, this is explicitly a Senior-level position, which is a hard disqualifier per the candidate's seniority target. The tech stack is heavily CRM/Dynamics 365 focused, which does not align with the candidate's primary tools (Python, Power BI, Tableau). The role leans toward CRM system management and stakeholder/project management rather than data analysis or BI insights work. Overall poor fit due to seniority mismatch and misaligned tech stack.",telegram,-1002423121294,jobpulse,False,claude-sonnet,3
+1e9a67b42de3f9f17dd93a640d3207ea546cd68fdddf1d9e5220cd6cd151ab26,2026-04-14T18:17:57+00:00,SAC consultant,Deloitte,Tel Aviv,True,"[""SAP Analytics Cloud"", ""Excel""]",,https://careers.deloitte.co.il/position/79-95d-en/,"🆕 **SAC consultant**
+
+💼 **Company:** Deloitte
+🔍 **Location:** Tel Aviv
+🧑‍💻️ **Experience required:** 2 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** Develop, maintain, and implement reports and dashboards in SAP Analytics Cloud (SAC).
+Work closely with end users to understand business needs and translate them into BI solutions.
+Integrate SAC with additional SAP systems (such as S/4HANA, BW) and e....
+
+---------------
+
+📊 **Requirements:** 1-3 years of experience working with SAP Analytics Cloud, including report, dashboard, and model development , Must.
+Familiarity with BI and business analytics concepts , Must.
+Experience working with various data sources (SAP/HANA, Excel, CSV) , Mus....
+
+[**View full position listing and submit CV**](https://careers.deloitte.co.il/position/79-95d-en/)",4,"The role requires experience with SAP Analytics Cloud, which is not in the candidate's primary skill set. However, the candidate has relevant BI experience and is open to junior roles, which provides a moderate fit.",telegram,-1002684951413,jobpulse,False,gpt-4o-mini,4
+1e9a67b42de3f9f17dd93a640d3207ea546cd68fdddf1d9e5220cd6cd151ab26,2026-04-14T18:17:57+00:00,SAC Consultant,Deloitte,Tel Aviv,True,"[""SAP Analytics Cloud"", ""SAP S/4HANA"", ""SAP BW"", ""SAP HANA"", ""Excel""]",,https://careers.deloitte.co.il/position/79-95d-en/,"🆕 **SAC consultant**
+
+💼 **Company:** Deloitte
+🔍 **Location:** Tel Aviv
+🧑‍💻️ **Experience required:** 2 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** Develop, maintain, and implement reports and dashboards in SAP Analytics Cloud (SAC).
+Work closely with end users to understand business needs and translate them into BI solutions.
+Integrate SAC with additional SAP systems (such as S/4HANA, BW) and e....
+
+---------------
+
+📊 **Requirements:** 1-3 years of experience working with SAP Analytics Cloud, including report, dashboard, and model development , Must.
+Familiarity with BI and business analytics concepts , Must.
+Experience working with various data sources (SAP/HANA, Excel, CSV) , Mus....
+
+[**View full position listing and submit CV**](https://careers.deloitte.co.il/position/79-95d-en/)",4,"The role is BI-focused (dashboards, reports, business analytics) which aligns with the candidate's BI background, and is located in Tel Aviv within the preferred region. The seniority level (1-3 years) is a good match. However, the core requirement is SAP Analytics Cloud (SAC), which is not in the candidate's toolkit — their BI experience centers on Power BI and Tableau. No Python or SQL emphasis is mentioned. The SAP ecosystem is quite specialized and different from the candidate's stack, making this a weak technical fit despite the BI domain overlap.",telegram,-1002684951413,jobpulse,False,claude-sonnet,4
+1ed7b6d3d70b5df21f79173172232e4834ba6640c2f8e3d667c96529d8770e2a,2026-03-26T10:03:19.983661+00:00,Junior data analyst,DRS RADA Technologies,,True,[],,https://secrethunter.io/jobz/60420f516a?utm__source=weekly__digest,"Jobs posted this week:
+
+1. **2026 data engineer internship** - Amazon Web Services (AWS)
+https://secrethunter.io/jobz/bbc7378dfc?utm__source=weekly__digest
+
+2. **Junior data analyst** - DRS RADA Technologies
+https://secrethunter.io/jobz/60420f516a?utm__source=weekly__digest
+
+3. **Supply chain analyst** - DRS RADA Technologies
+https://secrethunter.io/jobz/cf8b055b74?utm__source=weekly__digest
+
+4. **Occ monitoring analyst** - Nuvei
+https://secrethunter.io/jobz/d731a8b512?utm__source=weekly__digest
+
+5. **Data collector** - Firstsource
+https://secrethunter.io/jobz/6aecb73510?utm__source=weekly__digest
+
+6. **Data engineer (detection) intern** - Proofpoint
+https://secrethunter.io/jobz/5ebcbf46ac?utm__source=weekly__digest",8,"The role is for a Junior Data Analyst, which aligns with the candidate's target role. The candidate has relevant skills in Python and SQL, and the job is likely to involve data analysis, which matches their experience. The absence of a specified location and the potential for remote work further enhance the fit.",telegram,csv_backfill,jobpulse,True,gpt-4o-mini,8
+1ed7b6d3d70b5df21f79173172232e4834ba6640c2f8e3d667c96529d8770e2a,2026-03-26T10:03:19.983661+00:00,Junior Data Analyst,DRS RADA Technologies,,True,[],,https://secrethunter.io/jobz/60420f516a?utm__source=weekly__digest,"Jobs posted this week:
+
+1. **2026 data engineer internship** - Amazon Web Services (AWS)
+https://secrethunter.io/jobz/bbc7378dfc?utm__source=weekly__digest
+
+2. **Junior data analyst** - DRS RADA Technologies
+https://secrethunter.io/jobz/60420f516a?utm__source=weekly__digest
+
+3. **Supply chain analyst** - DRS RADA Technologies
+https://secrethunter.io/jobz/cf8b055b74?utm__source=weekly__digest
+
+4. **Occ monitoring analyst** - Nuvei
+https://secrethunter.io/jobz/d731a8b512?utm__source=weekly__digest
+
+5. **Data collector** - Firstsource
+https://secrethunter.io/jobz/6aecb73510?utm__source=weekly__digest
+
+6. **Data engineer (detection) intern** - Proofpoint
+https://secrethunter.io/jobz/5ebcbf46ac?utm__source=weekly__digest",7,"The 'Junior Data Analyst' role at DRS RADA Technologies is the strongest match from this digest. The junior seniority level aligns well with the candidate's target level, and the title is a direct match to the primary role target. No tech stack is specified in the posting, but the title alone is a strong signal. DRS RADA Technologies is a defense/tech company which falls into a neutral-to-lower domain preference. Other listings (Data Engineer internships, Supply Chain Analyst, Data Collector) are either misaligned in role type or seniority, and are not flagged as primary matches. Score reflects good title/seniority fit with uncertainty due to missing tech stack and domain details.",telegram,csv_backfill,jobpulse,True,claude-sonnet,8
+2569acd1f494242883e4518e7b06bdf009067afe1cd2e916103360521401f5eb,2026-04-14T14:09:46+00:00,Data analyst,Loops,Tel Aviv,True,"[""SQL"", ""Python"", ""Data Modeling"", ""Data Validation"", ""Pandas"", ""Numpy""]",,https://secrethunter.io/jobz/46bf496d4c?utm_source=telegram,"**Data analyst**
+Loops
+Tel Aviv
+14/4/26
+ㅤ
+__SQL, Python, Data Modeling, Data Validation, Pandas, Numpy, Teamwork__
+ㅤ
+Junior
+ㅤ
+https://secrethunter.io/jobz/46bf496d4c?utm_source=telegram",8,"The job aligns well with the candidate's skills in SQL and Python, and the focus on data modeling and validation matches their experience. The role is junior, which fits the candidate's target level, and it is located in Tel Aviv, which is within their preferred location. The tech stack is a strong match, particularly with the inclusion of Pandas and Numpy.",telegram,-1002423121294,jobpulse,False,gpt-4o-mini,8
+2569acd1f494242883e4518e7b06bdf009067afe1cd2e916103360521401f5eb,2026-04-14T14:09:46+00:00,Data Analyst,Loops,Tel Aviv,True,"[""SQL"", ""Python"", ""Data Modeling"", ""Data Validation"", ""Pandas"", ""Numpy""]",,https://secrethunter.io/jobz/46bf496d4c?utm_source=telegram,"**Data analyst**
+Loops
+Tel Aviv
+14/4/26
+ㅤ
+__SQL, Python, Data Modeling, Data Validation, Pandas, Numpy, Teamwork__
+ㅤ
+Junior
+ㅤ
+https://secrethunter.io/jobz/46bf496d4c?utm_source=telegram",10,"Near-perfect match. Junior Data Analyst role in Tel Aviv — exactly the target seniority and title. Tech stack is a direct hit: SQL, Python, Pandas, Numpy are all primary skills in the candidate's portfolio. Data Modeling and Data Validation also align with Pydantic and schema validation experience. Location is ideal (Tel Aviv, center region). Junior designation scores up significantly. No red flags whatsoever.",telegram,-1002423121294,jobpulse,False,claude-sonnet,8
+2a163202ba5ecc27588974aa625e893c8d62af3bbb176704b61fd2f723c752e7,2026-04-16T14:19:30+00:00,Salesforce Business Analyst,AllCloud,Israel,False,[],,https://allcloud.io/careers/co/israel/B4.56A/salesforce-business-analyst/all/,"🆕 **Salesforce Business Analyst **
+
+💼 **Company:** AllCloud
+🔍 **Location:** Israel
+🧑‍💻️ **Experience required:** 2 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** Understand customers needs, current workflows, and design implementation plan to address those needs.
+Configure Salesforce platform in client environment as per Statement of Work and implementation plan.
+Communicate the client's needs for the new imp....
+
+---------------
+
+📊 **Requirements:**     2+ years of experience as Salesforce System Analyst.
+    Design solutions, translate business needs into processes and systems and define business requirements into a technical plan.
+    Experience in creating and reviewing of all project documen....
+
+[**View full position listing and submit CV**](https://allcloud.io/careers/co/israel/B4.56A/salesforce-business-analyst/all/)",3,"The role is for a Salesforce Business Analyst requiring 2+ years of experience, which exceeds the candidate's target level of junior to mid. The tech stack does not align with the candidate's skills in Python and SQL, and the focus on Salesforce is not relevant to their profile.",telegram,-1002684951413,jobpulse,False,gpt-4o-mini,3
+2a163202ba5ecc27588974aa625e893c8d62af3bbb176704b61fd2f723c752e7,2026-04-16T14:19:30+00:00,Salesforce Business Analyst,AllCloud,Israel,False,"[""Salesforce""]",,https://allcloud.io/careers/co/israel/B4.56A/salesforce-business-analyst/all/,"🆕 **Salesforce Business Analyst **
+
+💼 **Company:** AllCloud
+🔍 **Location:** Israel
+🧑‍💻️ **Experience required:** 2 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** Understand customers needs, current workflows, and design implementation plan to address those needs.
+Configure Salesforce platform in client environment as per Statement of Work and implementation plan.
+Communicate the client's needs for the new imp....
+
+---------------
+
+📊 **Requirements:**     2+ years of experience as Salesforce System Analyst.
+    Design solutions, translate business needs into processes and systems and define business requirements into a technical plan.
+    Experience in creating and reviewing of all project documen....
+
+[**View full position listing and submit CV**](https://allcloud.io/careers/co/israel/B4.56A/salesforce-business-analyst/all/)",2,"While this is a Business Analyst role which partially aligns with the candidate's target titles, it is specifically a Salesforce BA role requiring 2+ years of Salesforce System Analyst experience. The candidate has no Salesforce skills in their portfolio. The role is heavily focused on Salesforce platform configuration and CRM implementation consulting, not data analytics, BI, or insights work. There is no overlap with the candidate's core stack (Python, SQL, Power BI, Tableau). The domain (cloud/CRM consulting) is also not among preferred industries. Not a relevant opportunity.",telegram,-1002684951413,jobpulse,False,claude-sonnet,3
+37c30fe112649c0b883caa2de8f18aa7083e3d291ed384f610341a4565116795,2026-04-16T20:08:55+00:00,Head of data science,Nervio,Manof,False,"[""Data Science"", ""Machine Learning"", ""AI"", ""Deep Learning"", ""Statistical Modeling""]",,https://secrethunter.io/jobz/4fb62f44cf?utm_source=telegram,"**Head of data science**
+Nervio
+Manof
+16/4/26
+ㅤ
+__Data Science, Machine Learning, AI, Deep Learning, Statistical Modeling, Team Leadership, Communication__
+ㅤ
+Director
+ㅤ
+https://secrethunter.io/jobz/4fb62f44cf?utm_source=telegram",2,"The role is for a Head of Data Science, which is not aligned with the candidate's target of junior to mid-level positions. The required skills focus on advanced data science and leadership, which exceed the candidate's experience and preferences.",telegram,-1002423121294,jobpulse,False,gpt-4o-mini,2
+37c30fe112649c0b883caa2de8f18aa7083e3d291ed384f610341a4565116795,2026-04-16T20:08:55+00:00,Head of data science,Nervio,,False,"[""Data Science"", ""Machine Learning"", ""AI"", ""Deep Learning"", ""Statistical Modeling"", ""Team Leadership"", ""Communication""]",,https://secrethunter.io/jobz/4fb62f44cf?utm_source=telegram,"**Head of data science**
+Nervio
+Manof
+16/4/26
+ㅤ
+__Data Science, Machine Learning, AI, Deep Learning, Statistical Modeling, Team Leadership, Communication__
+ㅤ
+Director
+ㅤ
+https://secrethunter.io/jobz/4fb62f44cf?utm_source=telegram",1,"The role is 'Head of Data Science' and 'Director' with 'Team Leadership', which is a senior management position. The candidate is targeting Junior to Mid-level Data Analyst roles and explicitly excludes senior/lead/manager roles and pure Data Scientist/ML/research roles. While 'Statistical Modeling' and 'AI' are mentioned, the depth and leadership required are far beyond the candidate's profile. No specific primary technical tools (Python, SQL, Power BI) are mentioned.",telegram,-1002423121294,jobpulse,False,gemini-2.5-flash,2
+42591a23002acb687f4c6de707a59d2be194fa750d268bce72108f91cfa56b6e,2026-04-16T08:07:40+00:00,Supply chain analyst,Aditi Consulting,San Antonio,True,"[""Excel"", ""Data Mining"", ""Data Analytics"", ""SAP""]",,https://secrethunter.io/jobz/e4f229bc74?utm_source=telegram,"**Supply chain analyst**
+Aditi Consulting
+San Antonio
+15/4/26
+ㅤ
+__Excel, Data Mining, Data Analytics, Problem Solving, SAP, Communication, Analytical Skills__
+ㅤ
+Junior
+ㅤ
+https://secrethunter.io/jobz/e4f229bc74?utm_source=telegram",4,"The role is for a junior position, but the tech stack primarily focuses on Excel and SAP, which are not the candidate's primary tools. The candidate has strong skills in Python and SQL, which are not mentioned in this job. The location is also outside the candidate's preferred area in Israel.",telegram,-1002875221568,jobpulse,False,gpt-4o-mini,4
+42591a23002acb687f4c6de707a59d2be194fa750d268bce72108f91cfa56b6e,2026-04-16T08:07:40+00:00,Supply Chain Analyst,Aditi Consulting,"San Antonio, USA",True,"[""Excel"", ""SAP"", ""Data Mining"", ""Data Analytics""]",,https://secrethunter.io/jobz/e4f229bc74?utm_source=telegram,"**Supply chain analyst**
+Aditi Consulting
+San Antonio
+15/4/26
+ㅤ
+__Excel, Data Mining, Data Analytics, Problem Solving, SAP, Communication, Analytical Skills__
+ㅤ
+Junior
+ㅤ
+https://secrethunter.io/jobz/e4f229bc74?utm_source=telegram",2,"Junior role is a positive signal, and Excel/Data Analytics overlap with candidate skills. However, the position is in San Antonio, USA — full relocation required outside Israel, which is a hard exclusion. Additionally, Supply Chain Analyst is not among the candidate's preferred or acceptable role variants, and SAP is not part of the candidate's tech stack. Domain is also not a preferred industry. Overall very low fit due to location and role mismatch.",telegram,-1002875221568,jobpulse,False,claude-sonnet,4
+4817f7a416aa36307e6bf47e8c101306cbd44b5e0c2e220752520df1336092ad,2026-04-15T10:11:51+00:00,Dynamics 365 CRM Analyst & Implementer,Accel Solutions,Petahtikva,False,"[""Dynamics 365 CRM"", ""Systems Analysis"", ""Workflow Design"", ""QA Testing""]",,https://secrethunter.io/jobz/b66b00601d?utm_source=telegram,"**Experienced dynamics 365 crm analyst & implementer**
+Accel Solutions
+Petahtikva
+15/4/26
+ㅤ
+__Dynamics 365 CRM, Systems Analysis, Workflow Design, BRD/SDD, QA Testing, Analytical Skills, Teamwork__
+ㅤ
+Senior
+ㅤ
+https://secrethunter.io/jobz/b66b00601d?utm_source=telegram",2,"The role is for a senior position, which does not align with the candidate's target level of junior to mid. Additionally, the tech stack primarily focuses on Dynamics 365 CRM and systems analysis, which are not part of the candidate's preferred tools or experience.",telegram,-1002423121294,jobpulse,False,gpt-4o-mini,2
+4817f7a416aa36307e6bf47e8c101306cbd44b5e0c2e220752520df1336092ad,2026-04-15T10:11:51+00:00,Experienced Dynamics 365 CRM Analyst & Implementer,Accel Solutions,Petah Tikva,False,"[""Dynamics 365 CRM"", ""Systems Analysis"", ""Workflow Design"", ""BRD/SDD"", ""QA Testing""]",,https://secrethunter.io/jobz/b66b00601d?utm_source=telegram,"**Experienced dynamics 365 crm analyst & implementer**
+Accel Solutions
+Petahtikva
+15/4/26
+ㅤ
+__Dynamics 365 CRM, Systems Analysis, Workflow Design, BRD/SDD, QA Testing, Analytical Skills, Teamwork__
+ㅤ
+Senior
+ㅤ
+https://secrethunter.io/jobz/b66b00601d?utm_source=telegram",2,"This is a Senior-level role, which is an automatic score-down per scoring rules. The role focuses on Dynamics 365 CRM implementation and systems analysis, which does not align with the candidate's core stack of Python, SQL, Power BI, and data analytics. There is no mention of data analysis, BI dashboards, or insights work. The location (Petah Tikva) is within acceptable range, but the role mismatch and seniority requirement make this a very poor fit.",telegram,-1002423121294,jobpulse,False,claude-sonnet,2
+4861c897548d307695545ff77e7418562c673ffdcebf492da46c25ff0b86df65,2026-04-17T10:06:08+00:00,"Product owner - AI & data, satellite team",Algolight ltd,Tel Aviv,False,[],,https://secrethunter.io/jobz/86f7f7c3ce?utm_source=telegram,"**Product owner - AI & data, satellite team**
+Algolight ltd
+Tel Aviv
+16/4/26
+ㅤ
+__Product Management, Product Ownership, Agile, Backlog Management, AI/ML concepts, Communication, Prioritization__
+ㅤ
+Mid
+ㅤ
+https://secrethunter.io/jobz/86f7f7c3ce?utm_source=telegram",3,"The role is for a Product Owner, which is not aligned with the candidate's target role of Data Analyst. The job requires mid-level experience, while the candidate is targeting junior to mid-level positions. There is no mention of relevant technical skills like Python or SQL, and the focus is on product management rather than data analysis.",telegram,-1002423121294,jobpulse,False,gpt-4o-mini,3
+4861c897548d307695545ff77e7418562c673ffdcebf492da46c25ff0b86df65,2026-04-17T10:06:08+00:00,"Product owner - AI & data, satellite team",Algolight ltd,Tel Aviv,False,"[""Product Management"", ""Product Ownership"", ""Agile"", ""Backlog Management"", ""AI/ML concepts"", ""Communication"", ""Prioritization""]",,https://secrethunter.io/jobz/86f7f7c3ce?utm_source=telegram,"**Product owner - AI & data, satellite team**
+Algolight ltd
+Tel Aviv
+16/4/26
+ㅤ
+__Product Management, Product Ownership, Agile, Backlog Management, AI/ML concepts, Communication, Prioritization__
+ㅤ
+Mid
+ㅤ
+https://secrethunter.io/jobz/86f7f7c3ce?utm_source=telegram",6,"The role is 'Product owner - AI & data', which is a partial match for the candidate's target of 'Product Analyst'. While 'Product Owner' is a distinct role, the 'AI & data' component strongly aligns with the candidate's recent 'AI for Data Analysts' training and 'JobPulse' project involving LLMs and data. The seniority ('Mid') and location ('Tel Aviv') are good matches. However, the job's listed tech stack focuses on product management methodologies and soft skills, with no explicit mention of the candidate's primary technical tools like Python, SQL, or Power BI, which lowers the score. The candidate's strong AI/LLM experience is a significant positive for the 'AI & data' aspect of the role.",telegram,-1002423121294,jobpulse,False,gemini-2.5-flash,3
+4861c897548d307695545ff77e7418562c673ffdcebf492da46c25ff0b86df65,2026-04-17T10:06:08+00:00,"Product Owner - AI & Data, Satellite Team",Algolight Ltd,Tel Aviv,False,"[""AI/ML""]",,https://secrethunter.io/jobz/86f7f7c3ce?utm_source=telegram,"**Product owner - AI & data, satellite team**
+Algolight ltd
+Tel Aviv
+16/4/26
+ㅤ
+__Product Management, Product Ownership, Agile, Backlog Management, AI/ML concepts, Communication, Prioritization__
+ㅤ
+Mid
+ㅤ
+https://secrethunter.io/jobz/86f7f7c3ce?utm_source=telegram",2,"This is a Product Owner role, not a Data Analyst or BI-related position. The candidate targets Data/BI/Product Analyst roles, not Product Management or Product Ownership. While the role touches AI/data concepts and is located in Tel Aviv (preferred), the core responsibilities — backlog management, agile, product ownership — are outside the candidate's target role entirely. Hard mismatch on role type.",telegram,-1002423121294,jobpulse,False,claude-sonnet,3
+49634321b01d4e11b292524d4cb90a9b35a6da22d6d9ca73b034ddada9c48c7a,2026-04-15T11:11:22+00:00,Data Analyst,Osem Nestle אסם נסטלה,Rehovot,False,"[""SQL"", ""Python"", ""Power BI"", ""Databricks"", ""ETL/ELT""]",,https://secrethunter.io/jobz/d2c0238b8e?utm_source=telegram,"**The IT division of osem nestlé group is recruiting data analyst to join the data team.**
+Osem Nestle אסם נסטלה
+Rehovot
+15/4/26
+ㅤ
+__SQL, Python/PySpark, Power BI, Databricks, ETL/ELT, Analytical skills, Communication__
+ㅤ
+Mid
+ㅤ
+https://secrethunter.io/jobz/d2c0238b8e?utm_source=telegram",6,"The job requires SQL and Python, which are in the candidate's skill set. However, it is a mid-level position, which may not align with the candidate's preference for junior roles. The location is acceptable, but the candidate prefers remote work, which is not specified.",telegram,-1002423121294,jobpulse,False,gpt-4o-mini,6
+49634321b01d4e11b292524d4cb90a9b35a6da22d6d9ca73b034ddada9c48c7a,2026-04-15T11:11:22+00:00,Data Analyst,Osem Nestlé,Rehovot,False,"[""SQL"", ""Python"", ""PySpark"", ""Power BI"", ""Databricks"", ""ETL"", ""ELT""]",,https://secrethunter.io/jobz/d2c0238b8e?utm_source=telegram,"**The IT division of osem nestlé group is recruiting data analyst to join the data team.**
+Osem Nestle אסם נסטלה
+Rehovot
+15/4/26
+ㅤ
+__SQL, Python/PySpark, Power BI, Databricks, ETL/ELT, Analytical skills, Communication__
+ㅤ
+Mid
+ㅤ
+https://secrethunter.io/jobz/d2c0238b8e?utm_source=telegram",8,"Strong match: exact role title (Data Analyst), location in Rehovot (within candidate's preferred area), and tech stack aligns well — SQL, Python, and Power BI are all primary tools for the candidate. ETL/ELT also matches candidate's methodology experience. PySpark and Databricks are not in the candidate's current stack but are learnable extensions of Python/data engineering. Mid-level seniority is acceptable given the candidate's realistic 1-3 year profile. Domain (FMCG/corporate IT) is neutral but not a disqualifier. No remote/hybrid mention slightly lowers the score.",telegram,-1002423121294,jobpulse,False,claude-sonnet,6
+4ec6ae00b8c76a8bfd3cee479f408164d38ddd4ace0e1fc40166e4469805ecc2,2026-04-14T18:15:19+00:00,"Country Manager, Korea",Nebius,Israel - Remote,False,[],,https://careers.nebius.com/?gh_jid=4825864101,"🆕 **Country Manager, Korea**
+
+💼 **Company:** Nebius
+🔍 **Location:** Israel - Remote
+🧑‍💻️ **Experience required:** 7 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** Why work at Nebius Nebius is leading a new era in cloud computing to serve the global AI economy. We create the tools and resources our customers need to solve real-world challenges and transform.......
+
+---------------
+
+📊 **Requirements:** Why work at Nebius Nebius is leading a new era in cloud computing to serve the global AI economy. We create the tools and resources our customers need to solve real-world challenges and transform industries, without massive infrastructure costs or th....
+
+[**View full position listing and submit CV**](https://careers.nebius.com/?gh_jid=4825864101)",2,"The role is for a Country Manager requiring 7 years of experience, which is not aligned with the candidate's target level of Junior to Mid and their experience level.",telegram,-1002684951413,jobpulse,False,gpt-4o-mini,2
+4ec6ae00b8c76a8bfd3cee479f408164d38ddd4ace0e1fc40166e4469805ecc2,2026-04-14T18:15:19+00:00,"Country Manager, Korea",Nebius,Israel - Remote,False,[],,https://careers.nebius.com/?gh_jid=4825864101,"🆕 **Country Manager, Korea**
+
+💼 **Company:** Nebius
+🔍 **Location:** Israel - Remote
+🧑‍💻️ **Experience required:** 7 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** Why work at Nebius Nebius is leading a new era in cloud computing to serve the global AI economy. We create the tools and resources our customers need to solve real-world challenges and transform.......
+
+---------------
+
+📊 **Requirements:** Why work at Nebius Nebius is leading a new era in cloud computing to serve the global AI economy. We create the tools and resources our customers need to solve real-world challenges and transform industries, without massive infrastructure costs or th....
+
+[**View full position listing and submit CV**](https://careers.nebius.com/?gh_jid=4825864101)",1,"The candidate is targeting Data Analyst roles (Junior to Mid-level) with a strong technical background in Python, SQL, and BI tools. This job is for a 'Country Manager' role, requiring 7 years of experience, which is a significant mismatch in both role type and seniority. While the location (Israel - Remote) is a good fit, the core responsibilities and required experience do not align with the candidate's profile or career goals. This role falls under the 'Hard Exclusions' for 'Manager roles'.",telegram,-1002684951413,jobpulse,False,gemini-2.5-flash,2
+4ec6ae00b8c76a8bfd3cee479f408164d38ddd4ace0e1fc40166e4469805ecc2,2026-04-14T18:15:19+00:00,"Country Manager, Korea",Nebius,Israel - Remote,False,[],,https://careers.nebius.com/?gh_jid=4825864101,"🆕 **Country Manager, Korea**
+
+💼 **Company:** Nebius
+🔍 **Location:** Israel - Remote
+🧑‍💻️ **Experience required:** 7 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** Why work at Nebius Nebius is leading a new era in cloud computing to serve the global AI economy. We create the tools and resources our customers need to solve real-world challenges and transform.......
+
+---------------
+
+📊 **Requirements:** Why work at Nebius Nebius is leading a new era in cloud computing to serve the global AI economy. We create the tools and resources our customers need to solve real-world challenges and transform industries, without massive infrastructure costs or th....
+
+[**View full position listing and submit CV**](https://careers.nebius.com/?gh_jid=4825864101)",1,"This is a Country Manager role requiring 7 years of experience, focused on business development/sales in Korea. It is a senior management position with no data analytics component, no relevant tech stack overlap, and far outside the candidate's target role of Junior-Mid Data Analyst. Hard exclusion applies for senior/manager roles and experience requirement well above candidate's level.",telegram,-1002684951413,jobpulse,False,claude-sonnet,2
+52177449145634e40c7cc9e45d5dba90b06930ba910407d4968a22f140ca6197,2026-04-14T18:19:34+00:00,Data Analyst,Buildots,Tel Aviv,False,"[""SQL"", ""Power BI"", ""Tableau""]",,https://buildots.com/careers/co/data/2D.465/data-analyst/,"🆕 **Data Analyst**
+
+💼 **Company:** Buildots
+🔍 **Location:** Tel Aviv
+🧑‍💻️ **Experience required:** 3 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** Analyze large and complex datasets, in the fascinating domain of construction AI, and have a central impact on our business decisions.
+Work closely with stakeholders across the company, be proactive and provide relevant and actionable recommendations....
+
+---------------
+
+📊 **Requirements:** 3+ years of experience as a Data Analyst / Data Researcher.
+Strong Proficiency with SQL.
+Experience with BI tools such as Powerbi ,Tableau or similar.
+Pro-active and independent achiever, self-learner, able to understand complex ideas and simplify it....
+
+[**View full position listing and submit CV**](https://buildots.com/careers/co/data/2D.465/data-analyst/)",4,"The role requires 3+ years of experience, which exceeds the candidate's target level of junior to mid. The tech stack includes SQL and BI tools, which align with the candidate's skills, but the experience requirement is a significant mismatch.",telegram,-1002684951413,jobpulse,False,gpt-4o-mini,4
+52177449145634e40c7cc9e45d5dba90b06930ba910407d4968a22f140ca6197,2026-04-14T18:19:34+00:00,Data Analyst,Buildots,Tel Aviv,False,"[""SQL"", ""Power BI"", ""Tableau""]",,https://buildots.com/careers/co/data/2D.465/data-analyst/,"🆕 **Data Analyst**
+
+💼 **Company:** Buildots
+🔍 **Location:** Tel Aviv
+🧑‍💻️ **Experience required:** 3 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** Analyze large and complex datasets, in the fascinating domain of construction AI, and have a central impact on our business decisions.
+Work closely with stakeholders across the company, be proactive and provide relevant and actionable recommendations....
+
+---------------
+
+📊 **Requirements:** 3+ years of experience as a Data Analyst / Data Researcher.
+Strong Proficiency with SQL.
+Experience with BI tools such as Powerbi ,Tableau or similar.
+Pro-active and independent achiever, self-learner, able to understand complex ideas and simplify it....
+
+[**View full position listing and submit CV**](https://buildots.com/careers/co/data/2D.465/data-analyst/)",7,"Strong alignment on core tools — SQL and Power BI/Tableau are explicitly required and are the candidate's primary strengths. Tel Aviv location is ideal. The role is Data Analyst, matching the target title exactly. The 3+ years requirement is slightly above the candidate's current level (junior-mid), which pulls the score down moderately. The construction AI domain is neutral but the 'AI' and 'business decisions' framing suggests product/BI analytics work, which is a good fit. No Python mentioned, but partial stack match is still valid. Overall a solid opportunity worth applying to.",telegram,-1002684951413,jobpulse,False,claude-sonnet,4
+538f2d04034c8881170f38d21c3ce1eeafd94082d6493f4a66c8eeb5b418ae9c,2026-04-09T08:06:22+00:00,Data scientist,ppltx,Tel Aviv,False,"[""Machine Learning"", ""LLM"", ""Prompt Engineering"", ""A/B Testing"", ""Python""]",,https://secrethunter.io/jobz/f51c558a2d?utm_source=telegram,"**Data scientist**
+ppltx
+Tel Aviv
+9/4/26
+ㅤ
+__Machine Learning, LLM, Prompt Engineering, A/B Testing, Python, Communication, Collaboration__
+ㅤ
+Mid
+ㅤ
+https://secrethunter.io/jobz/f51c558a2d?utm_source=telegram",3,"The role is for a Data Scientist, which is not aligned with the candidate's target role of Data Analyst. Additionally, it is a mid-level position, which does not match the candidate's preference for junior roles. While Python is mentioned, the focus on Machine Learning and LLM is outside the candidate's primary skills.",telegram,-1002423121294,jobpulse,False,gpt-4o-mini,3
+538f2d04034c8881170f38d21c3ce1eeafd94082d6493f4a66c8eeb5b418ae9c,2026-04-09T08:06:22+00:00,Data Scientist,ppltx,Tel Aviv,False,"[""Python"", ""Machine Learning"", ""LLM"", ""Prompt Engineering"", ""A/B Testing""]",,https://secrethunter.io/jobz/f51c558a2d?utm_source=telegram,"**Data scientist**
+ppltx
+Tel Aviv
+9/4/26
+ㅤ
+__Machine Learning, LLM, Prompt Engineering, A/B Testing, Python, Communication, Collaboration__
+ㅤ
+Mid
+ㅤ
+https://secrethunter.io/jobz/f51c558a2d?utm_source=telegram",5,"The role is in Tel Aviv which is a preferred location. The candidate has strong overlap in Python, A/B Testing, and Prompt Engineering/LLM experience from the JobPulse project. However, the title is Data Scientist with a focus on Machine Learning, which leans toward pure ML/research — outside the candidate's primary target of Data/BI Analyst. The seniority is Mid, which is acceptable. The LLM and prompt engineering components are a genuine match, but the ML-heavy framing reduces fit. Overall a moderate match worth reviewing.",telegram,-1002423121294,jobpulse,False,claude-sonnet,3
+55f2c57f92b4eed274f611396e7d54a3c7442ee8a981a3c3fdac2837a2447de3,2026-04-15T11:12:17+00:00,Business valuation analyst / appraiser,,Israel,False,[],,https://secrethunter.io/jobz/f3b27af33a?utm_source=telegram,"**Business valuation analyst / appraiser (remote)**
+409a-valuation
+Israel
+15/4/26
+ㅤ
+__Valuation, 409A, SSVS, USPAP, Analytical skills, Communication, Self-motivated__
+ㅤ
+Senior
+ㅤ
+https://secrethunter.io/jobz/f3b27af33a?utm_source=telegram",2,"The role is for a senior position, which does not align with the candidate's target level of junior to mid. Additionally, the required skills do not match the candidate's expertise in data analysis and BI tools.",telegram,-1002423121294,jobpulse,False,gpt-4o-mini,2
+55f2c57f92b4eed274f611396e7d54a3c7442ee8a981a3c3fdac2837a2447de3,2026-04-15T11:12:17+00:00,Business Valuation Analyst / Appraiser,,Israel (Remote),False,[],,https://secrethunter.io/jobz/f3b27af33a?utm_source=telegram,"**Business valuation analyst / appraiser (remote)**
+409a-valuation
+Israel
+15/4/26
+ㅤ
+__Valuation, 409A, SSVS, USPAP, Analytical skills, Communication, Self-motivated__
+ㅤ
+Senior
+ㅤ
+https://secrethunter.io/jobz/f3b27af33a?utm_source=telegram",2,"This is a Senior-level role focused on business valuation (409A, SSVS, USPAP), which is a specialized finance/legal domain far removed from the candidate's data analytics profile. No relevant tech stack overlap (Python, SQL, BI tools). The seniority level is explicitly Senior, which is a hard exclusion. While the role is remote and based in Israel (positive signals), the domain mismatch and seniority level make this a very poor fit.",telegram,-1002423121294,jobpulse,False,claude-sonnet,2
+5f86ba85895a0ac027ce1713dafe61e86b93ba30b5c435ec043c5853d628054f,2026-04-10T14:06:49+00:00,BI Developer (Temporary Position),WalkMe,Tel Aviv,True,"[""SQL""]",,https://www.walkme.com/jobs/bi-developer-temporary-position/,"🆕 **BI Developer (Temporary Position) **
+
+💼 **Company:** WalkMe
+🔍 **Location:** Tel Aviv
+🧑‍💻️ **Experience required:** 2 yrs
+📁 **Position:** Part Time
+
+---------------
+
+📄 **Description:** 
+
+Own the transformation process from turning raw data into analytical insights.
+
+Design, implement and maintain ETLs  & data Automations to enhance business analysis capabilities.
+
+Proactively identify gaps in data consumption and define processes t....
+
+---------------
+
+📊 **Requirements:** 
+
+B.SC.  in Computer Science, Industrial Engineering, Information Systems or equivalent.
+
+1+ years of experience in BI development – Must
+
+Very strong SQL skills – DML, DDL – Must
+
+Very good understanding of DWH architecture and methodology
+
+Experien....
+
+[**View full position listing and submit CV**](https://www.walkme.com/jobs/bi-developer-temporary-position/)",6,"The role requires strong SQL skills and involves BI development, which aligns with the candidate's experience in data analysis and SQL. However, the requirement for 2 years of experience is slightly above the candidate's target level, which may affect the fit.",telegram,-1002684951413,jobpulse,False,gpt-4o-mini,6
+5f86ba85895a0ac027ce1713dafe61e86b93ba30b5c435ec043c5853d628054f,2026-04-10T14:06:49+00:00,BI Developer (Temporary Position),WalkMe,Tel Aviv,True,"[""SQL"", ""ETL"", ""DWH"", ""BI""]",,https://www.walkme.com/jobs/bi-developer-temporary-position/,"🆕 **BI Developer (Temporary Position) **
+
+💼 **Company:** WalkMe
+🔍 **Location:** Tel Aviv
+🧑‍💻️ **Experience required:** 2 yrs
+📁 **Position:** Part Time
+
+---------------
+
+📄 **Description:** 
+
+Own the transformation process from turning raw data into analytical insights.
+
+Design, implement and maintain ETLs  & data Automations to enhance business analysis capabilities.
+
+Proactively identify gaps in data consumption and define processes t....
+
+---------------
+
+📊 **Requirements:** 
+
+B.SC.  in Computer Science, Industrial Engineering, Information Systems or equivalent.
+
+1+ years of experience in BI development – Must
+
+Very strong SQL skills – DML, DDL – Must
+
+Very good understanding of DWH architecture and methodology
+
+Experien....
+
+[**View full position listing and submit CV**](https://www.walkme.com/jobs/bi-developer-temporary-position/)",6,"Good location match (Tel Aviv, center region). The role requires strong SQL skills and ETL experience — both solid matches for the candidate. BI development focus aligns with the candidate's Power BI and dashboard experience. 1-2 years experience requirement fits the junior-to-mid target level. However, the role leans more toward BI engineering/ETL development than pure analytics/insights, and emphasizes DWH architecture which is more technical infrastructure than the candidate's primary strength. The degree requirement (CS/IE/IS) may be a slight mismatch vs. Statistics & Psychology background. Part-time and temporary nature is a neutral factor. Overall a reasonable but not ideal fit.",telegram,-1002684951413,jobpulse,False,claude-sonnet,6
+600fd3bea6f068908b7960003893e8fb6dc537c8fd72326bb0b62b81a9d61043,2026-03-26T10:03:20.125945+00:00,Data analyst- student position,Fiverr,Tel Aviv,True,"[""SQL"", ""LLMs"", ""Data Analysis""]",,https://secrethunter.io/jobz/f2274f1f4f?utm_source=telegram,"**Data analyst- student position**
+Fiverr
+Tel Aviv
+23/2/26
+ㅤ
+__SQL, LLMs, Data Analysis, Statistical Research, Communication, Proactive, Teamwork__
+ㅤ
+Student
+ㅤ
+https://secrethunter.io/jobz/f2274f1f4f?utm_source=telegram",8,"The position is a student role, which aligns with the candidate's target for junior positions. It mentions SQL, which is a primary skill for the candidate, and the focus on data analysis fits well with their experience. The location in Tel Aviv is also within the candidate's preferred area.",telegram,csv_backfill,jobpulse,True,gpt-4o-mini,8
+600fd3bea6f068908b7960003893e8fb6dc537c8fd72326bb0b62b81a9d61043,2026-03-26T10:03:20.125945+00:00,Data Analyst - Student Position,Fiverr,Tel Aviv,True,"[""SQL"", ""LLMs"", ""Data Analysis"", ""Statistical Research""]",,https://secrethunter.io/jobz/f2274f1f4f?utm_source=telegram,"**Data analyst- student position**
+Fiverr
+Tel Aviv
+23/2/26
+ㅤ
+__SQL, LLMs, Data Analysis, Statistical Research, Communication, Proactive, Teamwork__
+ㅤ
+Student
+ㅤ
+https://secrethunter.io/jobz/f2274f1f4f?utm_source=telegram",8,"Strong match: Tel Aviv location aligns with candidate's preferred area. SQL and Data Analysis are core candidate skills. LLMs align with candidate's AI-integrated workflow experience and JobPulse project. Statistical Research matches candidate's Statistics degree and methodology background. Student/entry-level position fits junior target seniority. Fiverr is a well-known SaaS/product company which falls under preferred Product Analytics domain. Minor gap: no explicit mention of Python or BI tools, but partial stack match is still strong.",telegram,csv_backfill,jobpulse,True,claude-sonnet,8
+63cd9a072db0579c8f83c906fdbd36fff101ba49babf9e042e4851a628460072,2026-04-19T15:10:46+00:00,Firmware Bluetooth MS.c student,Apple Israel,Herzliya,True,"[""C""]",,https://jobs.apple.com/en-il/details/200524419-0865/firmware-bluetooth-ms-c-student?team=SFTWR,"🆕 **Firmware Bluetooth MS.c student**
+
+💼 **Company:** Apple Israel
+🔍 **Location:** Herzliya
+🧑‍💻️ **Experience required:** 0 yrs
+📁 **Position:** Internship
+
+---------------
+
+📄 **Description:** Take part in sophisticated FW design sessions (detailed designs involving System understanding) Lead coding of sophisticated FW modules Debug complicated (system-wide) bugs. Lead HW-SW integrations. Apple is an equal opportunity employer that is comm....
+
+---------------
+
+📊 **Requirements:** Enrollment in a Master’s related to Electrical Engineering, Computer Engineering, Communication Systems.
+Coding skills in C.
+Self-motivated and pro-active with shown creative thinking capabilities.
+Excellent verbal and written communication skills.
+A....
+
+[**View full position listing and submit CV**](https://jobs.apple.com/en-il/details/200524419-0865/firmware-bluetooth-ms-c-student?team=SFTWR)",2,"The role is an internship requiring skills in C, which does not align with the candidate's primary focus on data analysis and tools like Python and SQL. Additionally, the candidate is not pursuing a Master's in Electrical Engineering or related fields.",telegram,-1002543690045,jobpulse,False,gpt-4o-mini,2
+63cd9a072db0579c8f83c906fdbd36fff101ba49babf9e042e4851a628460072,2026-04-19T15:10:46+00:00,Firmware Bluetooth MS.c Student Internship,Apple Israel,Herzliya,True,"[""C""]",,https://jobs.apple.com/en-il/details/200524419-0865/firmware-bluetooth-ms-c-student?team=SFTWR,"🆕 **Firmware Bluetooth MS.c student**
+
+💼 **Company:** Apple Israel
+🔍 **Location:** Herzliya
+🧑‍💻️ **Experience required:** 0 yrs
+📁 **Position:** Internship
+
+---------------
+
+📄 **Description:** Take part in sophisticated FW design sessions (detailed designs involving System understanding) Lead coding of sophisticated FW modules Debug complicated (system-wide) bugs. Lead HW-SW integrations. Apple is an equal opportunity employer that is comm....
+
+---------------
+
+📊 **Requirements:** Enrollment in a Master’s related to Electrical Engineering, Computer Engineering, Communication Systems.
+Coding skills in C.
+Self-motivated and pro-active with shown creative thinking capabilities.
+Excellent verbal and written communication skills.
+A....
+
+[**View full position listing and submit CV**](https://jobs.apple.com/en-il/details/200524419-0865/firmware-bluetooth-ms-c-student?team=SFTWR)",1,"This is a Firmware/Embedded Software internship requiring C programming and enrollment in an EE/CE/Communications Master's degree. It has no overlap with the candidate's Data Analyst profile — no SQL, Python analytics, BI, or data-related components. The role is pure firmware/hardware-software integration engineering, which falls squarely under the hard exclusion category of Backend/Infrastructure engineering with no analytics component.",telegram,-1002543690045,jobpulse,False,claude-sonnet,2
+6423b1e0e55d1b9802c2da470999169dd23bc0220033e2696d99afc99698b78b,2026-04-07T08:21:42+00:00,Signal Integrity Lab Engineer,NVIDIA,Yokne'am,True,[],,https://nvidia.wd5.myworkdayjobs.com/en-GB/NVIDIAExternalCareerSite/job/Israel-Yokneam/Signal-Integrity-Lab-Engineer_JR1999850?locationHierarchy1=2fcb99c455831013ea52bbe14cf9326c,"🆕 **Signal Integrity Lab Engineer**
+
+💼 **Company:** NVIDIA
+🔍 **Location:** Yokne'am
+🧑‍💻️ **Experience required:** 0 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** JR1999850....
+
+---------------
+
+📊 **Requirements:** JR1999850....
+
+[**View full position listing and submit CV**](https://nvidia.wd5.myworkdayjobs.com/en-GB/NVIDIAExternalCareerSite/job/Israel-Yokneam/Signal-Integrity-Lab-Engineer_JR1999850?locationHierarchy1=2fcb99c455831013ea52bbe14cf9326c)",2,"The role is for a Signal Integrity Lab Engineer, which is not aligned with the candidate's target role of Data Analyst. Although it is a junior position, it does not match the candidate's skills in data analysis, Python, or SQL.",telegram,-1002543690045,jobpulse,False,gpt-4o-mini,2
+6423b1e0e55d1b9802c2da470999169dd23bc0220033e2696d99afc99698b78b,2026-04-07T08:21:42+00:00,Signal Integrity Lab Engineer,NVIDIA,"Yokne'am, Israel",True,[],,https://nvidia.wd5.myworkdayjobs.com/en-GB/NVIDIAExternalCareerSite/job/Israel-Yokneam/Signal-Integrity-Lab-Engineer_JR1999850?locationHierarchy1=2fcb99c455831013ea52bbe14cf9326c,"🆕 **Signal Integrity Lab Engineer**
+
+💼 **Company:** NVIDIA
+🔍 **Location:** Yokne'am
+🧑‍💻️ **Experience required:** 0 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** JR1999850....
+
+---------------
+
+📊 **Requirements:** JR1999850....
+
+[**View full position listing and submit CV**](https://nvidia.wd5.myworkdayjobs.com/en-GB/NVIDIAExternalCareerSite/job/Israel-Yokneam/Signal-Integrity-Lab-Engineer_JR1999850?locationHierarchy1=2fcb99c455831013ea52bbe14cf9326c)",1,"This is a hardware/electrical engineering role (Signal Integrity Lab Engineer) at NVIDIA, completely unrelated to data analysis, BI, or analytics. The candidate's profile targets Data/Business/Product Analyst roles with Python, SQL, and BI tools. No overlap in domain, skills, or responsibilities. Additionally, the location is Yokne'am, outside the candidate's preferred center region. Hard exclusion applies as this is a pure engineering/infrastructure role with no analytics component.",telegram,-1002543690045,jobpulse,False,claude-sonnet,2
+65bdba53c871e39687e1ac4ded5369db9aaa625d89c6b93f3a6ecde8b12c3d46,2026-04-09T17:28:32+00:00,Senior data engineer,Peak Innovation,Holon,False,"[""Snowflake"", ""Data Engineering"", ""Python"", ""DBT"", ""Kafka""]",,https://secrethunter.io/jobz/f18bc72c80?utm_source=telegram,"**Senior data engineer**
+Peak Innovation
+Holon
+9/4/26
+ㅤ
+__Snowflake, Data Engineering, Python, DBT, Kafka, Architecture, FinOps__
+ㅤ
+Senior
+ㅤ
+https://secrethunter.io/jobz/f18bc72c80?utm_source=telegram",2,"The role is for a Senior Data Engineer, which is not aligned with the candidate's target of Junior to Mid-level roles. Additionally, the tech stack focuses on data engineering rather than analytics, which is not relevant for the candidate's profile.",telegram,-1002423121294,jobpulse,False,gpt-4o-mini,2
+65bdba53c871e39687e1ac4ded5369db9aaa625d89c6b93f3a6ecde8b12c3d46,2026-04-09T17:28:32+00:00,Senior data engineer,Peak Innovation,Holon,False,"[""Snowflake"", ""Data Engineering"", ""Python"", ""DBT"", ""Kafka"", ""Architecture"", ""FinOps""]",,https://secrethunter.io/jobz/f18bc72c80?utm_source=telegram,"**Senior data engineer**
+Peak Innovation
+Holon
+9/4/26
+ㅤ
+__Snowflake, Data Engineering, Python, DBT, Kafka, Architecture, FinOps__
+ㅤ
+Senior
+ㅤ
+https://secrethunter.io/jobz/f18bc72c80?utm_source=telegram",1,"The role is for a 'Senior data engineer', which is a direct exclusion based on the candidate's target role (Data Analyst) and seniority preference (Junior to Mid). The candidate explicitly states 'NOT relevant: Data Engineer' and 'NOT relevant: Senior'. While Python is a shared skill, the overall tech stack (Snowflake, DBT, Kafka) and the core responsibilities of a Senior Data Engineer do not align with the candidate's portfolio focused on data analysis, BI, and product analytics.",telegram,-1002423121294,jobpulse,False,gemini-2.5-flash,2
+65bdba53c871e39687e1ac4ded5369db9aaa625d89c6b93f3a6ecde8b12c3d46,2026-04-09T17:28:32+00:00,Senior Data Engineer,Peak Innovation,Holon,False,"[""Snowflake"", ""Python"", ""DBT"", ""Kafka""]",,https://secrethunter.io/jobz/f18bc72c80?utm_source=telegram,"**Senior data engineer**
+Peak Innovation
+Holon
+9/4/26
+ㅤ
+__Snowflake, Data Engineering, Python, DBT, Kafka, Architecture, FinOps__
+ㅤ
+Senior
+ㅤ
+https://secrethunter.io/jobz/f18bc72c80?utm_source=telegram",2,"This role is a Senior Data Engineer position — both disqualifiers apply: it is Senior level (not junior/mid) and it is a Data Engineering role without an analytics or insights component. The tech stack (Snowflake, DBT, Kafka, FinOps, Architecture) is infrastructure-heavy with no BI, dashboards, or analytics focus. Python is a partial match but in a data engineering context. Hard exclusion criteria met on two counts.",telegram,-1002423121294,jobpulse,False,claude-sonnet,2
+688b16170ca678f2e8ddfde82ccdeea170951c49db8c25fd0b4c781f807832c6,2026-04-15T10:10:32+00:00,AI & data team lead,WIDER,Tel Aviv,False,"[""Python"", ""Data Engineering"", ""Data Science"", ""Architecture Design"", ""AI Agents"", ""LLMs""]",,https://secrethunter.io/jobz/0ac8d96dc4?utm_source=telegram,"**AI & data team lead**
+WIDER
+Tel Aviv
+14/4/26
+ㅤ
+__Python, Data Engineering, Data Science, Architecture Design, Team Leadership, AI Agents, LLMs__
+ㅤ
+Teamleader
+ㅤ
+https://secrethunter.io/jobz/0ac8d96dc4?utm_source=telegram",2,"The role is for a team lead position, which is not aligned with the candidate's target level of junior to mid. Additionally, the focus on data engineering and data science does not match the candidate's primary interest in data analysis.",telegram,-1002423121294,jobpulse,False,gpt-4o-mini,2
+688b16170ca678f2e8ddfde82ccdeea170951c49db8c25fd0b4c781f807832c6,2026-04-15T10:10:32+00:00,AI & Data Team Lead,WIDER,Tel Aviv,False,"[""Python"", ""Data Engineering"", ""Data Science"", ""Architecture Design"", ""AI Agents"", ""LLMs""]",,https://secrethunter.io/jobz/0ac8d96dc4?utm_source=telegram,"**AI & data team lead**
+WIDER
+Tel Aviv
+14/4/26
+ㅤ
+__Python, Data Engineering, Data Science, Architecture Design, Team Leadership, AI Agents, LLMs__
+ㅤ
+Teamleader
+ㅤ
+https://secrethunter.io/jobz/0ac8d96dc4?utm_source=telegram",2,"This is a Team Lead / Leadership role, which is explicitly excluded per the candidate's seniority preferences. The role also leans heavily into Data Engineering and Architecture Design rather than Data Analysis or BI. While Python, AI Agents, and LLMs partially overlap with the candidate's skills, the seniority mismatch and engineering-heavy focus make this a very poor fit.",telegram,-1002423121294,jobpulse,False,claude-sonnet,2
+7534ef4dd3e216a4b2309d700d64b4062227881d698386b5b981ec6e0597c6bd,2026-04-16T11:09:34+00:00,Bi & data engineer,First Media US,Tel Aviv,False,"[""SQL"", ""Python"", ""ETL"", ""BI Tools""]",,https://secrethunter.io/jobz/777c4f231a?utm_source=telegram,"**Bi & data engineer**
+First Media US
+Tel Aviv
+16/4/26
+ㅤ
+__SQL, Python, ETL, BI Tools, Data Warehouses, Analytical thinking, Communication__
+ㅤ
+Mid
+ㅤ
+https://secrethunter.io/jobz/777c4f231a?utm_source=telegram",5,"The role is for a mid-level position, which is above the candidate's target level of junior to mid. The tech stack includes SQL and Python, which are relevant, but the focus on ETL and BI tools may not align perfectly with the candidate's primary skills in Power BI and data analysis.",telegram,-1002423121294,jobpulse,False,gpt-4o-mini,5
+7534ef4dd3e216a4b2309d700d64b4062227881d698386b5b981ec6e0597c6bd,2026-04-16T11:09:34+00:00,BI & Data Engineer,First Media US,Tel Aviv,False,"[""SQL"", ""Python"", ""ETL"", ""BI Tools"", ""Data Warehouses""]",,https://secrethunter.io/jobz/777c4f231a?utm_source=telegram,"**Bi & data engineer**
+First Media US
+Tel Aviv
+16/4/26
+ㅤ
+__SQL, Python, ETL, BI Tools, Data Warehouses, Analytical thinking, Communication__
+ㅤ
+Mid
+ㅤ
+https://secrethunter.io/jobz/777c4f231a?utm_source=telegram",5,"Strong tech stack overlap — SQL, Python, ETL, and BI tools all match the candidate's core skills. Location is Tel Aviv, which is ideal. However, the title is 'BI & Data Engineer', which leans toward data engineering rather than data analysis/BI analytics. The 'Mid' seniority level is acceptable given the candidate's profile. The engineering component (Data Warehouses, ETL pipelines) may shift the role away from insights and analytics toward infrastructure, which is a partial mismatch. Scored moderately — worth reviewing the full job description to assess the analytics-to-engineering ratio.",telegram,-1002423121294,jobpulse,False,claude-sonnet,5
+7aa11fb018d23bef91492590ac11c7d97b33b5a69ff7a9274121872da9263db2,2026-04-06T08:37:29+00:00,Sales Analyst,Port,Tel Aviv,False,[],,https://www.comeet.com/jobs/port/59.004/sales-analyst/D6.46E,"🆕 **Sales Analyst**
+
+💼 **Company:** Port
+🔍 **Location:** Tel Aviv
+🧑‍💻️ **Experience required:** 5 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** Description About Port At Port.io, we are building an open and flexible Agentic Engineering Platform for modern engineering organizations. Following our recent $100M Series C funding round, we are in.......
+
+---------------
+
+📊 **Requirements:** About Your Day to Day Proactively analyze sales pipeline, bookings, revenue, and funnel performance across segments, regions, and reps Monitor pipeline health, coverage ratios, conversion rates, and forecast accuracy Identify trends, anomalies, and r....
+
+[**View full position listing and submit CV**](https://www.comeet.com/jobs/port/59.004/sales-analyst/D6.46E)",2,"The role requires 5 years of experience, which exceeds the candidate's target level of junior to mid. Additionally, the position is focused on sales analysis rather than data analysis, which is not aligned with the candidate's primary role target.",telegram,-1002684951413,jobpulse,False,gpt-4o-mini,2
+7aa11fb018d23bef91492590ac11c7d97b33b5a69ff7a9274121872da9263db2,2026-04-06T08:37:29+00:00,Sales Analyst,Port,Tel Aviv,False,[],,https://www.comeet.com/jobs/port/59.004/sales-analyst/D6.46E,"🆕 **Sales Analyst**
+
+💼 **Company:** Port
+🔍 **Location:** Tel Aviv
+🧑‍💻️ **Experience required:** 5 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** Description About Port At Port.io, we are building an open and flexible Agentic Engineering Platform for modern engineering organizations. Following our recent $100M Series C funding round, we are in.......
+
+---------------
+
+📊 **Requirements:** About Your Day to Day Proactively analyze sales pipeline, bookings, revenue, and funnel performance across segments, regions, and reps Monitor pipeline health, coverage ratios, conversion rates, and forecast accuracy Identify trends, anomalies, and r....
+
+[**View full position listing and submit CV**](https://www.comeet.com/jobs/port/59.004/sales-analyst/D6.46E)",4,"The role is in Tel Aviv which fits the candidate's location preference, and involves analytics work (pipeline, funnel, revenue analysis) that aligns with the candidate's analytical skills. However, the 5 years experience requirement is a significant downgrade factor per scoring rules. The tech stack is not specified, so no direct tool match can be confirmed. The domain (SaaS/B2B sales analytics) is neutral. The role title 'Sales Analyst' is an acceptable variant of the target role, but the seniority mismatch is the primary concern.",telegram,-1002684951413,jobpulse,False,claude-sonnet,2
+7edf51323ac867f8275ced15adc4b1644c88a83dfa5c4ff4d46de5928211fdf9,2026-04-08T09:16:56+00:00,Analytics Engineer,TripActions,Tel Aviv,False,"[""SQL""]",,https://navan.com/careers/openings/7724854?gh_jid=7724854,"🆕 **Analytics Engineer**
+
+💼 **Company:** TripActions
+🔍 **Location:** Tel Aviv
+🧑‍💻️ **Experience required:** 6 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** Work cross-functionally with Product, Engineering, Leadership and Design teams to deeply understand business needs and translate them into data requirements, well-defined metrics, and analytical tools to enable KPI tracking
+Design, build, and maintai....
+
+---------------
+
+📊 **Requirements:** +6 years in analytics engineering, data engineering, or data analytics, preferably in travel or consumer tech companies
+Technical orientation and proven hands on experience
+Highly proficient in SQL and data modeling for complex analysis across large ....
+
+[**View full position listing and submit CV**](https://navan.com/careers/openings/7724854?gh_jid=7724854)",2,"The role requires 6 years of experience, which exceeds the candidate's target level of junior to mid. The tech stack mentions SQL, which is a match, but the overall experience requirement is a significant mismatch.",telegram,-1002684951413,jobpulse,False,gpt-4o-mini,2
+7edf51323ac867f8275ced15adc4b1644c88a83dfa5c4ff4d46de5928211fdf9,2026-04-08T09:16:56+00:00,Analytics Engineer,TripActions,Tel Aviv,False,"[""SQL"", ""Data Modeling""]",,https://navan.com/careers/openings/7724854?gh_jid=7724854,"🆕 **Analytics Engineer**
+
+💼 **Company:** TripActions
+🔍 **Location:** Tel Aviv
+🧑‍💻️ **Experience required:** 6 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** Work cross-functionally with Product, Engineering, Leadership and Design teams to deeply understand business needs and translate them into data requirements, well-defined metrics, and analytical tools to enable KPI tracking
+Design, build, and maintai....
+
+---------------
+
+📊 **Requirements:** +6 years in analytics engineering, data engineering, or data analytics, preferably in travel or consumer tech companies
+Technical orientation and proven hands on experience
+Highly proficient in SQL and data modeling for complex analysis across large ....
+
+[**View full position listing and submit CV**](https://navan.com/careers/openings/7724854?gh_jid=7724854)",3,"The role of Analytics Engineer has some overlap with the candidate's target roles (Data/BI/Product Analyst), and the location (Tel Aviv) is a perfect match. The candidate also possesses strong SQL and data modeling skills, which are key requirements. However, the most significant mismatch is the experience requirement of 6+ years, whereas the candidate is targeting junior to mid-level roles (1-3 years experience). This makes the role highly unsuitable for the candidate's current seniority level.",telegram,-1002684951413,jobpulse,False,gemini-2.5-flash,2
+7edf51323ac867f8275ced15adc4b1644c88a83dfa5c4ff4d46de5928211fdf9,2026-04-08T09:16:56+00:00,Analytics Engineer,TripActions,Tel Aviv,False,"[""SQL"", ""data modeling""]",,https://navan.com/careers/openings/7724854?gh_jid=7724854,"🆕 **Analytics Engineer**
+
+💼 **Company:** TripActions
+🔍 **Location:** Tel Aviv
+🧑‍💻️ **Experience required:** 6 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** Work cross-functionally with Product, Engineering, Leadership and Design teams to deeply understand business needs and translate them into data requirements, well-defined metrics, and analytical tools to enable KPI tracking
+Design, build, and maintai....
+
+---------------
+
+📊 **Requirements:** +6 years in analytics engineering, data engineering, or data analytics, preferably in travel or consumer tech companies
+Technical orientation and proven hands on experience
+Highly proficient in SQL and data modeling for complex analysis across large ....
+
+[**View full position listing and submit CV**](https://navan.com/careers/openings/7724854?gh_jid=7724854)",2,"Role requires 6+ years of experience which far exceeds the candidate's junior-to-mid target level. The Analytics Engineer title leans heavily toward data engineering rather than data analytics/BI. While SQL and cross-functional collaboration are relevant, the seniority requirement and engineering focus make this a poor fit.",telegram,-1002684951413,jobpulse,False,claude-sonnet,2
+81d275b8fe94101095e44a5b976b303b9b360fcb51cfaeef71e9df37515c4a15,2026-03-26T10:03:20.017291+00:00,Junior data analyst,DRS RADA Technologies,Netanya,True,"[""Python"", ""SQL""]",,https://secrethunter.io/jobz/60420f516a?utm_source=telegram,"**Junior data analyst**
+DRS RADA Technologies
+Netanya
+17/3/26
+ㅤ
+__Python, SQL, Data analysis, Statistical analysis, Big data, Attention to detail, Learning agility__
+ㅤ
+Junior
+ㅤ
+https://secrethunter.io/jobz/60420f516a?utm_source=telegram",8,"The job requires Python and SQL, which are primary skills for the candidate. It is a junior position, aligning with the candidate's target level. The location is acceptable, and the role is in the data analysis domain, which is a preferred area for the candidate.",telegram,csv_backfill,jobpulse,True,gpt-4o-mini,8
+81d275b8fe94101095e44a5b976b303b9b360fcb51cfaeef71e9df37515c4a15,2026-03-26T10:03:20.017291+00:00,Junior Data Analyst,DRS RADA Technologies,Netanya,True,"[""Python"", ""SQL"", ""Data Analysis"", ""Statistical Analysis"", ""Big Data""]",,https://secrethunter.io/jobz/60420f516a?utm_source=telegram,"**Junior data analyst**
+DRS RADA Technologies
+Netanya
+17/3/26
+ㅤ
+__Python, SQL, Data analysis, Statistical analysis, Big data, Attention to detail, Learning agility__
+ㅤ
+Junior
+ㅤ
+https://secrethunter.io/jobz/60420f516a?utm_source=telegram",8,"Strong match: Junior-level role explicitly stated, aligns perfectly with seniority target. Core tech stack of Python and SQL matches candidate's primary skills. Statistical analysis is directly covered by candidate's Statistics degree and project experience. Netanya is slightly outside the preferred center region but within ~40km of Tel Aviv — minor location penalty. No BI tool (Power BI/Tableau) mentioned, but that's not a disqualifier. Big data exposure is a bonus. Domain (defense/tech) is neutral. Overall a very solid fit for a junior data analyst role.",telegram,csv_backfill,jobpulse,True,claude-sonnet,8
+8567ec7cd24b21c29fb2fb8ee04a173f05fd653b8aad33432e616c731b4aaf81,2026-04-14T18:16:08+00:00,Post Silicon Electrical Validation Student,Broadcom,Tel Aviv,True,"[""Python""]",,https://broadcom.wd1.myworkdayjobs.com/en-US/External_Career/job/DFT-Engineer_R024548-5?locations=2314daa817fc016cb4c254532e010de8,"🆕 **Post Silicon Electrical Validation Student**
+
+💼 **Company:** Broadcom
+🔍 **Location:** Tel Aviv
+🧑‍💻️ **Experience required:** 0 yrs
+📁 **Position:** Internship
+
+---------------
+
+📄 **Description:** Data Collection: Execute test plans to characterize signal integrity parameters such as eye diagrams, jitter, and voltage margins.
+Automation: Write or modify scripts (usually in Python) to automate repetitive testing tasks and data parsing.
+Hardware....
+
+---------------
+
+📊 **Requirements:** Education: Currently pursuing a BS/MS in Electrical Engineering, Computer Engineering, or a related field.
+    Programming: Basic proficiency in Python for automation.
+    Lab Experience: Familiarity with basic lab tools (multimeters, soldering irons....
+
+[**View full position listing and submit CV**](https://broadcom.wd1.myworkdayjobs.com/en-US/External_Career/job/DFT-Engineer_R024548-5?locations=2314daa817fc016cb4c254532e010de8)",3,"The role is an internship requiring basic Python skills, which aligns with the candidate's experience. However, it is focused on electrical engineering rather than data analysis, which is the candidate's primary target role.",telegram,-1002543690045,jobpulse,False,gpt-4o-mini,3
+8567ec7cd24b21c29fb2fb8ee04a173f05fd653b8aad33432e616c731b4aaf81,2026-04-14T18:16:08+00:00,Post Silicon Electrical Validation Student,Broadcom,Tel Aviv,True,"[""Python""]",,https://broadcom.wd1.myworkdayjobs.com/en-US/External_Career/job/DFT-Engineer_R024548-5?locations=2314daa817fc016cb4c254532e010de8,"🆕 **Post Silicon Electrical Validation Student**
+
+💼 **Company:** Broadcom
+🔍 **Location:** Tel Aviv
+🧑‍💻️ **Experience required:** 0 yrs
+📁 **Position:** Internship
+
+---------------
+
+📄 **Description:** Data Collection: Execute test plans to characterize signal integrity parameters such as eye diagrams, jitter, and voltage margins.
+Automation: Write or modify scripts (usually in Python) to automate repetitive testing tasks and data parsing.
+Hardware....
+
+---------------
+
+📊 **Requirements:** Education: Currently pursuing a BS/MS in Electrical Engineering, Computer Engineering, or a related field.
+    Programming: Basic proficiency in Python for automation.
+    Lab Experience: Familiarity with basic lab tools (multimeters, soldering irons....
+
+[**View full position listing and submit CV**](https://broadcom.wd1.myworkdayjobs.com/en-US/External_Career/job/DFT-Engineer_R024548-5?locations=2314daa817fc016cb4c254532e010de8)",2,"This is a hardware/electrical engineering internship focused on signal integrity, lab equipment, and hardware validation. While Python is mentioned, it is used for test automation in an electrical engineering context — not for data analytics, BI, or business insights. The role requires an EE/CE background, which does not match the candidate's Statistics & Psychology degree. No SQL, BI tools, or analytics components are present. This falls squarely into a hard exclusion category (pure technical/engineering role with no analytics component).",telegram,-1002543690045,jobpulse,False,claude-sonnet,3
+863e0c860cae895c06c8472b392ddca48bc3fc0e66c2e6d52cca659e4f874a4e,2026-03-27T14:25:42.257317+00:00,Research analyst,Personetics,Giv'Atayim,True,"[""Python"", ""SQL"", ""Excel""]",,https://secrethunter.io/jobz/f97f173940?utm_source=telegram,"**Research analyst**
+Personetics
+Giv'Atayim
+24/2/26
+ㅤ
+__Analytical Skills, Excel, Data Analysis, Python, SQL, Communication, Teamwork__
+ㅤ
+Junior
+ㅤ
+https://secrethunter.io/jobz/f97f173940?utm_source=telegram",8,"The job requires analytical skills, Python, and SQL, which align well with the candidate's skills. The position is junior, which matches the candidate's target level. The location is acceptable, and the role is relevant to data analysis.",telegram,csv_backfill,jobpulse,False,gpt-4o-mini,8
+863e0c860cae895c06c8472b392ddca48bc3fc0e66c2e6d52cca659e4f874a4e,2026-03-27T14:25:42.257317+00:00,Research Analyst,Personetics,Giv'atayim,True,"[""Excel"", ""Python"", ""SQL""]",,https://secrethunter.io/jobz/f97f173940?utm_source=telegram,"**Research analyst**
+Personetics
+Giv'Atayim
+24/2/26
+ㅤ
+__Analytical Skills, Excel, Data Analysis, Python, SQL, Communication, Teamwork__
+ㅤ
+Junior
+ㅤ
+https://secrethunter.io/jobz/f97f173940?utm_source=telegram",7,"Strong match on core skills: Python, SQL, and Excel align well with the candidate's primary and secondary tools. The role is explicitly junior-level, which fits the target seniority. Giv'atayim is in the center region and within the preferred radius. 'Research Analyst' is close to the target role variants (Business/Data Analyst). Personetics is a FinTech company (neutral domain). No BI tool (Power BI/Tableau) mentioned, and no remote/hybrid info available, which slightly limits the score. Overall a solid opportunity worth pursuing.",telegram,csv_backfill,jobpulse,False,claude-sonnet,8
+8694a38ce838556178788bb102e75b76a88cee48737400509e9c0862352aeaa1,2026-03-31T12:13:21+00:00,Junior data analytics engineer,Varonis,Herzliya,True,"[""Python"", ""SQL""]",,https://secrethunter.io/jobz/a7e121e1bc?utm_source=telegram,"**Junior data analytics engineer**
+Varonis
+Herzliya
+31/3/26
+ㅤ
+Entry, Junior
+ㅤ
+https://secrethunter.io/jobz/a7e121e1bc?utm_source=telegram",8,"The role is for a Junior position in data analytics, which aligns with the candidate's target level. It mentions Python and SQL, which are key skills in the candidate's portfolio. The location is acceptable, and the job is likely to be remote or hybrid, which is preferred by the candidate.",telegram,-1002423121294,jobpulse,False,gpt-4o-mini,8
+8694a38ce838556178788bb102e75b76a88cee48737400509e9c0862352aeaa1,2026-03-31T12:13:21+00:00,Junior Data Analytics Engineer,Varonis,Herzliya,True,[],,https://secrethunter.io/jobz/a7e121e1bc?utm_source=telegram,"**Junior data analytics engineer**
+Varonis
+Herzliya
+31/3/26
+ㅤ
+Entry, Junior
+ㅤ
+https://secrethunter.io/jobz/a7e121e1bc?utm_source=telegram",7,"Junior/Entry-level data analytics role at Varonis in Herzliya — a preferred location within the candidate's target area. The title 'Data Analytics Engineer' has a strong analytics component which aligns well with the candidate's profile. Varonis is a cybersecurity/data security SaaS company, which is a neutral-to-positive domain. The junior/entry level is a strong match for the candidate's seniority target. No tech stack is listed, so no direct tool match can be confirmed, but the analytics focus and seniority level are solid fits. Score slightly tempered due to 'engineer' in the title which may lean more toward data engineering than pure analytics, and no remote/hybrid info provided.",telegram,-1002423121294,jobpulse,False,claude-sonnet,8
+8cc8e524c89f6110712004667f62f325059f82e33c97c0b8a19719a2864d2e63,2026-04-11T22:30:03.952579+00:00,Product Analyst - Maternity Leave Replacement,SciPlay,Tel Aviv,True,"[""SQL"", ""BI Tools"", ""Excel""]",,https://secrethunter.io/jobz/5ce3205fae?utm_source=whatsapp,"*Product analyst - maternity leave replacement*
+SciPlay
+Tel Aviv
+11/4/26
+ㅤ
+_SQL, BI Tools, Big Data, Analytical thinking, Statistics, Problem-solving, Excel_
+ㅤ
+Junior
+ㅤ
+https://secrethunter.io/jobz/5ce3205fae?utm_source=whatsapp",8,"The role is a junior position, which aligns with the candidate's target level. It mentions SQL and BI tools, which are part of the candidate's skill set. The location in Tel Aviv is within the candidate's preferred area, and the role is a maternity leave replacement, suggesting a temporary position that may offer growth opportunities.",whatsapp_manual,whatsapp_manual,whatsapp-hook,False,gpt-4o-mini,8
+8cc8e524c89f6110712004667f62f325059f82e33c97c0b8a19719a2864d2e63,2026-04-11T22:30:03.952579+00:00,Product analyst - maternity leave replacement,SciPlay,Tel Aviv,True,"[""SQL"", ""BI Tools"", ""Big Data"", ""Analytical thinking"", ""Statistics"", ""Problem-solving"", ""Excel""]",,https://secrethunter.io/jobz/5ce3205fae?utm_source=whatsapp,"*Product analyst - maternity leave replacement*
+SciPlay
+Tel Aviv
+11/4/26
+ㅤ
+_SQL, BI Tools, Big Data, Analytical thinking, Statistics, Problem-solving, Excel_
+ㅤ
+Junior
+ㅤ
+https://secrethunter.io/jobz/5ce3205fae?utm_source=whatsapp",9,"The role of 'Product Analyst' and 'Junior' seniority perfectly align with the candidate's target and experience level. The location in Tel Aviv is a preferred city. The required skills (SQL, BI Tools, Big Data, Statistics, Excel, analytical thinking) are all strongly covered by the candidate's portfolio, including their B.A. in Statistics and relevant project experience in user behavior analysis and BI dashboards. The domain of Product Analytics is also a preferred industry for the candidate.",whatsapp_manual,whatsapp_manual,whatsapp-hook,False,gemini-2.5-flash,8
+8cc8e524c89f6110712004667f62f325059f82e33c97c0b8a19719a2864d2e63,2026-04-11T22:30:03.952579+00:00,Product Analyst - Maternity Leave Replacement,SciPlay,Tel Aviv,True,"[""SQL"", ""BI Tools"", ""Big Data"", ""Excel"", ""Statistics""]",,https://secrethunter.io/jobz/5ce3205fae?utm_source=whatsapp,"*Product analyst - maternity leave replacement*
+SciPlay
+Tel Aviv
+11/4/26
+ㅤ
+_SQL, BI Tools, Big Data, Analytical thinking, Statistics, Problem-solving, Excel_
+ㅤ
+Junior
+ㅤ
+https://secrethunter.io/jobz/5ce3205fae?utm_source=whatsapp",8,"Strong match: Product Analyst role aligns directly with candidate's target title. Junior level fits seniority target. Tel Aviv location is ideal. Tech stack overlaps well — SQL and BI Tools are core candidate strengths, Excel and Statistics are also covered. Product Analytics domain is a preferred industry. Minor downsides: maternity leave replacement means temporary position, and 'Big Data' may imply scale beyond current experience. Overall a high-quality opportunity worth pursuing.",whatsapp_manual,whatsapp_manual,whatsapp-hook,False,claude-sonnet,8
+8e7794c07241f792b287a1e44d1d9f7ecce57a3b764dadeb27a9e622c56ca837,2026-04-20T01:03:02+00:00,AI trainer - freelance data annotator,Toloka Annotators,Israel,True,[],,https://secrethunter.io/jobz/7850e321c0?utm_source=telegram,"**AI trainer - freelance data annotator**
+Toloka Annotators
+Israel
+19/4/26
+ㅤ
+__English C1+, Logical thinking, Fact-checking, Attention to detail, Communication, AI interest, Following instructions__
+ㅤ
+Junior
+ㅤ
+https://secrethunter.io/jobz/7850e321c0?utm_source=telegram",5,"The role is junior and located in Israel, which aligns with the candidate's preferences. However, it lacks a strong technical focus on data analysis tools like Python or SQL, which are key for the candidate's profile.",telegram,-1002375956832,jobpulse,False,gpt-4o-mini,5
+8e7794c07241f792b287a1e44d1d9f7ecce57a3b764dadeb27a9e622c56ca837,2026-04-20T01:03:02+00:00,AI trainer - freelance data annotator,Toloka Annotators,Israel,True,[],,https://secrethunter.io/jobz/7850e321c0?utm_source=telegram,"**AI trainer - freelance data annotator**
+Toloka Annotators
+Israel
+19/4/26
+ㅤ
+__English C1+, Logical thinking, Fact-checking, Attention to detail, Communication, AI interest, Following instructions__
+ㅤ
+Junior
+ㅤ
+https://secrethunter.io/jobz/7850e321c0?utm_source=telegram",3,"The role is for a 'Junior' position in 'Israel', which aligns well with the candidate's preferences. The job title includes 'AI trainer' and mentions 'AI interest', which partially aligns with the candidate's continuing education in 'AI for Data Analysts' and their 'JobPulse' project involving LLMs. However, the core function of 'freelance data annotator' is not a Data Analyst role and does not leverage the candidate's primary technical skills in SQL, Python (pandas, numpy), Power BI, or other analytical tools. The listed requirements are mostly soft skills (logical thinking, fact-checking, attention to detail, communication) rather than the candidate's strong technical data analysis capabilities. The candidate's AI experience is focused on using AI for analysis and building tools, not primarily on data annotation for AI training.",telegram,-1002375956832,jobpulse,False,gemini-2.5-flash,5
+8e7794c07241f792b287a1e44d1d9f7ecce57a3b764dadeb27a9e622c56ca837,2026-04-20T01:03:02+00:00,AI Trainer - Freelance Data Annotator,Toloka Annotators,Israel,True,[],,https://secrethunter.io/jobz/7850e321c0?utm_source=telegram,"**AI trainer - freelance data annotator**
+Toloka Annotators
+Israel
+19/4/26
+ㅤ
+__English C1+, Logical thinking, Fact-checking, Attention to detail, Communication, AI interest, Following instructions__
+ㅤ
+Junior
+ㅤ
+https://secrethunter.io/jobz/7850e321c0?utm_source=telegram",3,"Junior role in Israel which matches seniority and location preferences. However, this is a freelance data annotation/AI training role, not a Data Analyst or BI position. No relevant technical tools (Python, SQL, Power BI) are mentioned. The role focuses on annotation tasks like fact-checking and following instructions rather than analytics, dashboards, or insights work. The AI interest component is a minor positive signal given the candidate's AI-integrated workflow experience, but overall the role is far from the target Data Analyst profile.",telegram,-1002375956832,jobpulse,False,claude-sonnet,5
+93f0eb9a54928164486e5b10c672e2200b68836d338be39b8e09aceaf3aff374,2026-03-31T08:08:56+00:00,Business ops data analysis intern,HP,Nessziona,True,"[""Tableau"", ""PowerBI"", ""Python""]",,https://secrethunter.io/jobz/d42e61ca0b?utm_source=telegram,"**Business ops data analysis intern**
+HP
+Nessziona
+31/3/26
+ㅤ
+__Data analysis, Dashboard development, Tableau, PowerBI, Python, AI/Automation, Analytical thinking__
+ㅤ
+Student
+ㅤ
+https://secrethunter.io/jobz/d42e61ca0b?utm_source=telegram",8,"The role is an internship, which aligns with the candidate's target for junior positions. It requires skills in data analysis, dashboard development, and tools like Python and Power BI, which match the candidate's experience. The location is in Israel, and while it is not remote, the candidate is open to on-site roles. Overall, the fit is strong due to the relevant tech stack and junior level.",telegram,-1002423121294,jobpulse,False,gpt-4o-mini,8
+93f0eb9a54928164486e5b10c672e2200b68836d338be39b8e09aceaf3aff374,2026-03-31T08:08:56+00:00,Business Ops Data Analysis Intern,HP,"Ness Ziona, Israel",True,"[""Tableau"", ""Power BI"", ""Python"", ""AI/Automation""]",,https://secrethunter.io/jobz/d42e61ca0b?utm_source=telegram,"**Business ops data analysis intern**
+HP
+Nessziona
+31/3/26
+ㅤ
+__Data analysis, Dashboard development, Tableau, PowerBI, Python, AI/Automation, Analytical thinking__
+ㅤ
+Student
+ㅤ
+https://secrethunter.io/jobz/d42e61ca0b?utm_source=telegram",8,"Strong match: role is Data Analysis focused with exact tool overlap — Power BI, Tableau, and Python are all primary skills. Internship/student level aligns with junior target. HP is a major tech company, domain is Business Ops which is neutral-to-positive. Ness Ziona is within the preferred center region. Only minor gaps: no SQL explicitly mentioned, and on-site likely (no remote indication). Overall a very relevant opportunity.",telegram,-1002423121294,jobpulse,False,claude-sonnet,8
+9aefd7afa21e8fa89bf525094f6135fcfe797403b1e6103d68ae1cf2797fd59a,2026-04-06T07:22:10+00:00,Expert data scientist,,Bnei Brak,False,"[""Python"", ""R"", ""SQL""]",,https://secrethunter.io/jobz/475d0d125b?utm_source=telegram,"**Expert data scientist**
+abra
+Bnei Brak
+6/4/26
+ㅤ
+__Python, R, SQL, Machine learning, Statistical modeling, Deep learning, Problem-solving__
+ㅤ
+Senior
+ㅤ
+https://secrethunter.io/jobz/475d0d125b?utm_source=telegram",3,"The role is for a senior data scientist, which is not aligned with the candidate's target of junior to mid-level positions. While there is a partial match in tech stack (Python, SQL), the focus on machine learning and deep learning is not relevant to the candidate's profile.",telegram,-1002423121294,jobpulse,False,gpt-4o-mini,3
+9aefd7afa21e8fa89bf525094f6135fcfe797403b1e6103d68ae1cf2797fd59a,2026-04-06T07:22:10+00:00,Expert Data Scientist,abra,Bnei Brak,False,"[""Python"", ""R"", ""SQL"", ""Machine Learning"", ""Statistical Modeling"", ""Deep Learning""]",,https://secrethunter.io/jobz/475d0d125b?utm_source=telegram,"**Expert data scientist**
+abra
+Bnei Brak
+6/4/26
+ㅤ
+__Python, R, SQL, Machine learning, Statistical modeling, Deep learning, Problem-solving__
+ㅤ
+Senior
+ㅤ
+https://secrethunter.io/jobz/475d0d125b?utm_source=telegram",3,"Location in Bnei Brak is a strong match. Tech stack overlaps well — Python, R, SQL, and Statistical Modeling are all in the candidate's toolkit. However, this is a Senior-level role, which is a hard exclusion per scoring rules. Additionally, the role is titled Data Scientist with emphasis on Machine Learning and Deep Learning, which leans toward pure ML/research — outside the candidate's target role of Data Analyst/BI Analyst. Score kept low due to seniority mismatch and role type mismatch.",telegram,-1002423121294,jobpulse,False,claude-sonnet,3
+a8e8ef736b7a8d42c28176c1272e3db6b2954eeed0195db645045fc8c04c9c13,2026-04-13T11:17:57+00:00,Senior data scientist,EyeContact Dx,Israel,False,"[""Python"", ""SQL"", ""Data Science"", ""Machine Learning"", ""Data Modeling""]",,https://secrethunter.io/jobz/9c08486b97?utm_source=telegram,"**Senior data scientist**
+EyeContact Dx
+Israel
+13/4/26
+ㅤ
+__Data Science, Machine Learning, Python, SQL, Data Modeling, Project ownership, Problem-solving__
+ㅤ
+Senior
+ㅤ
+https://secrethunter.io/jobz/9c08486b97?utm_source=telegram",2,"The role is for a Senior Data Scientist, which is not aligned with the candidate's target of Junior to Mid-level positions. Additionally, the focus on data science and machine learning is outside the candidate's preferred roles in data analysis.",telegram,-1002423121294,jobpulse,False,gpt-4o-mini,2
+a8e8ef736b7a8d42c28176c1272e3db6b2954eeed0195db645045fc8c04c9c13,2026-04-13T11:17:57+00:00,Senior Data Scientist,EyeContact Dx,Israel,False,"[""Python"", ""SQL"", ""Data Modeling"", ""Machine Learning""]",,https://secrethunter.io/jobz/9c08486b97?utm_source=telegram,"**Senior data scientist**
+EyeContact Dx
+Israel
+13/4/26
+ㅤ
+__Data Science, Machine Learning, Python, SQL, Data Modeling, Project ownership, Problem-solving__
+ㅤ
+Senior
+ㅤ
+https://secrethunter.io/jobz/9c08486b97?utm_source=telegram",2,"Role is explicitly Senior level, which is a hard exclusion per candidate profile. Additionally, it is a Data Scientist position with ML focus rather than a Data/BI Analyst role, which does not match the candidate's target titles. Despite Python and SQL overlap, the seniority and role type mismatches make this a very poor fit.",telegram,-1002423121294,jobpulse,False,claude-sonnet,2
+aa145ceb6ede32b5ba15cc970c103c89bcdc5f4c8751441fc3eec7e25c1e2a25,2026-04-12T09:40:07+00:00,Data scientist - risk automation,PayPal,Tel Aviv,False,"[""Data Analytics"", ""Strategic Thinking"", ""Problem Solving"", ""Fraud Analysis"", ""Automation"", ""Collaboration""]",,https://secrethunter.io/jobz/67e39bac3a?utm_source=telegram,"**Data scientist - risk automation**
+PayPal
+Tel Aviv
+12/4/26
+ㅤ
+__Data Analytics, Strategic Thinking, Problem Solving, Fraud Analysis, Automation, Collaboration__
+ㅤ
+Mid
+ㅤ
+https://secrethunter.io/jobz/67e39bac3a?utm_source=telegram",3,"The role is for a Data Scientist, which is not aligned with the candidate's target role of Data Analyst. Additionally, it is a mid-level position, which does not match the candidate's preference for junior roles. The tech stack includes relevant skills but lacks a strong focus on the candidate's primary tools like Python and SQL.",telegram,-1002423121294,jobpulse,False,gpt-4o-mini,3
+aa145ceb6ede32b5ba15cc970c103c89bcdc5f4c8751441fc3eec7e25c1e2a25,2026-04-12T09:40:07+00:00,Data Scientist - Risk Automation,PayPal,Tel Aviv,False,[],,https://secrethunter.io/jobz/67e39bac3a?utm_source=telegram,"**Data scientist - risk automation**
+PayPal
+Tel Aviv
+12/4/26
+ㅤ
+__Data Analytics, Strategic Thinking, Problem Solving, Fraud Analysis, Automation, Collaboration__
+ㅤ
+Mid
+ㅤ
+https://secrethunter.io/jobz/67e39bac3a?utm_source=telegram",4,"The role is at PayPal in Tel Aviv (good location match) and involves data analytics and problem solving which aligns with the candidate's skills. However, the title is 'Data Scientist' rather than Data Analyst, and the focus is on risk automation and fraud analysis — a domain not in the candidate's preferred or neutral industries. The mid-level seniority is borderline acceptable. No specific tech stack is mentioned (Python, SQL, BI tools not confirmed). The fraud/risk automation angle is fairly specialized and diverges from the candidate's BI/product analytics focus. Overall a weak-to-moderate fit.",telegram,-1002423121294,jobpulse,False,claude-sonnet,3
+ac81fb34fc50ed3c5b12b8ff997f0c75b12807da6dcddb35f10ac44866689cc9,2026-04-19T15:52:44.695316+00:00,Data Analyst,Tech Pro Talent Solutions,Tel Aviv,True,"[""Python"", ""SQL"", ""Pandas""]",,https://www.linkedin.com/jobs/view/4403301222,"‎*Data Analyst* / Tech Pro Talent Solutions
+‎
+‎_Tel Aviv_ | _Data Analytics/BI_
+‎
+- ‎Bachelor's degree in computer science, mathematics, statistics, or a related field.
+- ‎2+ years of experience in data analysis and manipulation using Python and SQL.
+- ‎Proficiency in Pandas.
+‎
+‎https://www.linkedin.com/jobs/view/4403301222
+‎
+‎#Referally https://referally.link",8,"The job aligns well with the candidate's skills in Python and SQL, and the requirement for a bachelor's degree in a related field matches the candidate's education. The role is suitable for junior candidates, which fits the candidate's target level.",whatsapp_manual,whatsapp_manual,whatsapp-hook,False,gpt-4o-mini,8
+ac81fb34fc50ed3c5b12b8ff997f0c75b12807da6dcddb35f10ac44866689cc9,2026-04-19T15:52:44.695316+00:00,Data Analyst,Tech Pro Talent Solutions,Tel Aviv,False,"[""Python"", ""SQL"", ""Pandas""]",,https://www.linkedin.com/jobs/view/4403301222,"‎*Data Analyst* / Tech Pro Talent Solutions
+‎
+‎_Tel Aviv_ | _Data Analytics/BI_
+‎
+- ‎Bachelor's degree in computer science, mathematics, statistics, or a related field.
+- ‎2+ years of experience in data analysis and manipulation using Python and SQL.
+- ‎Proficiency in Pandas.
+‎
+‎https://www.linkedin.com/jobs/view/4403301222
+‎
+‎#Referally https://referally.link",8,"Strong match: exact title (Data Analyst), location in Tel Aviv (preferred), and core tech stack (Python, SQL, Pandas) aligns perfectly with candidate's primary skills. Requires 2+ years experience which is within the junior-to-mid range the candidate is targeting. Degree requirement in statistics or related field matches candidate's B.A. in Statistics & Psychology. Minor downside: no mention of BI tools (Power BI/Tableau) or remote/hybrid option, and the 2+ years requirement is on the edge. Overall a very solid fit.",whatsapp_manual,whatsapp_manual,whatsapp-hook,False,claude-sonnet,8
+b22e1fb9f444a400979f2dc75cdef4ae79b5c452161252f7e491fcc2b569279b,2026-04-11T15:17:45+00:00,Dataops team lead,PwC Israel,Tel Aviv,False,"[""DataOps"", ""Data Engineering"", ""Airflow"", ""Apache Spark"", ""Cloud Platforms""]",,https://secrethunter.io/jobz/63f68fcdc7?utm_source=telegram,"**Dataops team lead**
+PwC Israel
+Tel Aviv
+11/4/26
+ㅤ
+__DataOps, Data Engineering, Airflow, Apache Spark, Cloud Platforms, Leadership, Collaboration__
+ㅤ
+Teamleader
+ㅤ
+https://secrethunter.io/jobz/63f68fcdc7?utm_source=telegram",2,"The role is for a team lead position in DataOps, which is not aligned with the candidate's target of junior to mid-level roles. Additionally, the required skills focus on Data Engineering and leadership, which are not relevant to the candidate's profile.",telegram,-1002423121294,jobpulse,False,gpt-4o-mini,2
+b22e1fb9f444a400979f2dc75cdef4ae79b5c452161252f7e491fcc2b569279b,2026-04-11T15:17:45+00:00,Dataops team lead,PwC Israel,Tel Aviv,False,"[""DataOps"", ""Data Engineering"", ""Airflow"", ""Apache Spark"", ""Cloud Platforms""]",,https://secrethunter.io/jobz/63f68fcdc7?utm_source=telegram,"**Dataops team lead**
+PwC Israel
+Tel Aviv
+11/4/26
+ㅤ
+__DataOps, Data Engineering, Airflow, Apache Spark, Cloud Platforms, Leadership, Collaboration__
+ㅤ
+Teamleader
+ㅤ
+https://secrethunter.io/jobz/63f68fcdc7?utm_source=telegram",1,"The role is for a 'DataOps Team Lead', which is a senior-level Data Engineering and leadership position. The candidate explicitly targets Junior/Mid Data Analyst roles and has 'Team Lead' and 'Data Engineer' listed as hard exclusions. The required tech stack (Airflow, Apache Spark, Cloud Platforms) does not align with the candidate's primary skills (Python for analysis, SQL, Power BI). This is a strong mismatch in both seniority and core job function.",telegram,-1002423121294,jobpulse,False,gemini-2.5-flash,2
+b22e1fb9f444a400979f2dc75cdef4ae79b5c452161252f7e491fcc2b569279b,2026-04-11T15:17:45+00:00,DataOps Team Lead,PwC Israel,Tel Aviv,False,"[""DataOps"", ""Data Engineering"", ""Airflow"", ""Apache Spark"", ""Cloud Platforms""]",,https://secrethunter.io/jobz/63f68fcdc7?utm_source=telegram,"**Dataops team lead**
+PwC Israel
+Tel Aviv
+11/4/26
+ㅤ
+__DataOps, Data Engineering, Airflow, Apache Spark, Cloud Platforms, Leadership, Collaboration__
+ㅤ
+Teamleader
+ㅤ
+https://secrethunter.io/jobz/63f68fcdc7?utm_source=telegram",1,"This role is a Team Lead position in DataOps/Data Engineering — both hard exclusions for this candidate. It requires leadership experience and focuses on infrastructure/pipeline engineering (Airflow, Spark, Cloud) with no analytics or BI component. Seniority level is far above the candidate's junior-to-mid target. Not a relevant opportunity.",telegram,-1002423121294,jobpulse,False,claude-sonnet,2
+b52d23a0999198c259aa63fbbfb0b0a7473a9b65a76fee8eaa913f66ca95bcec,2026-04-17T13:04:11+00:00,GRC Analyst,Amdocs,Ra'anana,False,[],,https://jobs.amdocs.com/careers/job/563431013061949?domain=amdocs.com&hl=en,"🆕 **GRC Analyst**
+
+💼 **Company:** Amdocs
+🔍 **Location:** Ra'anana
+🧑‍💻️ **Experience required:** 2 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** •    You will oversee the company’s risk management processes and build mitigation plans for identified risks.
+•    You will work with business stakeholders, leading communication processes.
+•    You will develop and implement corporate governance fr....
+
+---------------
+
+📊 **Requirements:** •    BSc or advanced degree in industrial engineering or related discipline.
+•    1-2 years of experience in governance, risk management, and compliance in cyber security.
+•    Knowledge of cyber security standards and regulations such as ISO27001, S....
+
+[**View full position listing and submit CV**](https://jobs.amdocs.com/careers/job/563431013061949?domain=amdocs.com&hl=en)",2,"The role is not aligned with the candidate's target position as a Data Analyst, and it requires experience in governance, risk management, and compliance, which is outside the candidate's expertise.",telegram,-1002684951413,jobpulse,False,gpt-4o-mini,2
+b52d23a0999198c259aa63fbbfb0b0a7473a9b65a76fee8eaa913f66ca95bcec,2026-04-17T13:04:11+00:00,GRC Analyst,Amdocs,Ra'anana,True,[],,https://jobs.amdocs.com/careers/job/563431013061949?domain=amdocs.com&hl=en,"🆕 **GRC Analyst**
+
+💼 **Company:** Amdocs
+🔍 **Location:** Ra'anana
+🧑‍💻️ **Experience required:** 2 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** •    You will oversee the company’s risk management processes and build mitigation plans for identified risks.
+•    You will work with business stakeholders, leading communication processes.
+•    You will develop and implement corporate governance fr....
+
+---------------
+
+📊 **Requirements:** •    BSc or advanced degree in industrial engineering or related discipline.
+•    1-2 years of experience in governance, risk management, and compliance in cyber security.
+•    Knowledge of cyber security standards and regulations such as ISO27001, S....
+
+[**View full position listing and submit CV**](https://jobs.amdocs.com/careers/job/563431013061949?domain=amdocs.com&hl=en)",1,"This is a GRC (Governance, Risk & Compliance) Analyst role focused on cybersecurity risk management, ISO27001, and compliance frameworks. It has no overlap with the candidate's data analytics profile — no SQL, Python, BI tools, or data analysis components are mentioned. The domain (cybersecurity compliance) and required background (industrial engineering, cyber standards) are entirely outside the candidate's target roles and skill set. Hard exclusion applies as this is not a Data/BI/Product Analyst position.",telegram,-1002684951413,jobpulse,False,claude-sonnet,2
+b9c823e938b0529d73f5ca632bbd9a348fd84ee1f440ec178b13ef64594d6144,2026-03-26T10:03:20.142722+00:00,Data analyst,StoreNext,Petahtikva,True,"[""SQL"", ""Snowflake"", ""BI Tools"", ""Python""]",,https://secrethunter.io/jobz/a23acb1725?utm_source=telegram,"**Data analyst**
+StoreNext
+Petahtikva
+23/2/26
+ㅤ
+__SQL, Snowflake, BI Tools, Python, Analytical, Communication, Problem-solving__
+ㅤ
+Junior
+ㅤ
+https://secrethunter.io/jobz/a23acb1725?utm_source=telegram",8,"The job requires SQL and Python, which are primary skills for the candidate. It is a junior position, aligning with the candidate's target level. The mention of BI tools is relevant to the candidate's experience with Power BI. The location is acceptable, although remote options are preferred.",telegram,csv_backfill,jobpulse,True,gpt-4o-mini,8
+b9c823e938b0529d73f5ca632bbd9a348fd84ee1f440ec178b13ef64594d6144,2026-03-26T10:03:20.142722+00:00,Data Analyst,StoreNext,Petah Tikva,True,"[""SQL"", ""Snowflake"", ""BI Tools"", ""Python""]",,https://secrethunter.io/jobz/a23acb1725?utm_source=telegram,"**Data analyst**
+StoreNext
+Petahtikva
+23/2/26
+ㅤ
+__SQL, Snowflake, BI Tools, Python, Analytical, Communication, Problem-solving__
+ㅤ
+Junior
+ㅤ
+https://secrethunter.io/jobz/a23acb1725?utm_source=telegram",8,"Strong match: Junior Data Analyst role aligns perfectly with target seniority. Tech stack (SQL, Python, BI Tools) directly matches candidate's primary skills. Petah Tikva is within the preferred center region (~30km radius). Snowflake is not in the candidate's toolkit but is a learnable data warehouse tool that doesn't detract significantly. StoreNext is a retail/logistics tech company — neutral domain. No mention of remote/hybrid which slightly lowers the score. Overall a very solid fit.",telegram,csv_backfill,jobpulse,True,claude-sonnet,8
+c9da34a8f86684b44bbadf5eaad24210e9e7aedfbd9f13ecbcea4803d32302a6,2026-04-05T07:10:22+00:00,GenAI Analyst,Alice,Ramat Gan,False,[],,https://alice.io/positions/position-F5_468?_gl=1*6cqai4*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjw7cLOBhDmARIsAGsuA0kEspIO0nPuKGJ6p2IgXjPCDXucYULaS_vpU-Z-Q69n2T6KFRCjiVwaAtwVEALw_wcB&gbraid=0AAAAAocE-XQZ8VIgN2xWnE18rv98PR661,"🆕 **GenAI Analyst**
+
+💼 **Company:** Alice
+🔍 **Location:** Ramat Gan
+🧑‍💻️ **Experience required:** 2 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** Description Alice is seeking a driven, detail-focused professional to become a vital part of our team as a Generative AI Analyst. In this role, you'll dive into the cutting-edge of technology,.......
+
+---------------
+
+📊 **Requirements:** Must have: Background in AI Safety and/or Responsible AI and/or AI Ethics Familiarity with recent Generative AI models and agents is essential, though direct technical experience is not a prerequisite. Command of English at a near-native level. Atten....
+
+[**View full position listing and submit CV**](https://alice.io/positions/position-F5_468?_gl=1*6cqai4*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjw7cLOBhDmARIsAGsuA0kEspIO0nPuKGJ6p2IgXjPCDXucYULaS_vpU-Z-Q69n2T6KFRCjiVwaAtwVEALw_wcB&gbraid=0AAAAAocE-XQZ8VIgN2xWnE18rv98PR661)",4,"The role requires 2 years of experience, which exceeds the candidate's target level of junior to mid. The focus on AI Safety and Generative AI does not align with the candidate's primary skills in data analysis and BI tools. There is no mention of Python or SQL, which are key skills for the candidate.",telegram,-1002684951413,jobpulse,False,gpt-4o-mini,4
+c9da34a8f86684b44bbadf5eaad24210e9e7aedfbd9f13ecbcea4803d32302a6,2026-04-05T07:10:22+00:00,GenAI Analyst,Alice,Ramat Gan,True,[],,https://alice.io/positions/position-F5_468?_gl=1*6cqai4*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjw7cLOBhDmARIsAGsuA0kEspIO0nPuKGJ6p2IgXjPCDXucYULaS_vpU-Z-Q69n2T6KFRCjiVwaAtwVEALw_wcB&gbraid=0AAAAAocE-XQZ8VIgN2xWnE18rv98PR661,"🆕 **GenAI Analyst**
+
+💼 **Company:** Alice
+🔍 **Location:** Ramat Gan
+🧑‍💻️ **Experience required:** 2 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** Description Alice is seeking a driven, detail-focused professional to become a vital part of our team as a Generative AI Analyst. In this role, you'll dive into the cutting-edge of technology,.......
+
+---------------
+
+📊 **Requirements:** Must have: Background in AI Safety and/or Responsible AI and/or AI Ethics Familiarity with recent Generative AI models and agents is essential, though direct technical experience is not a prerequisite. Command of English at a near-native level. Atten....
+
+[**View full position listing and submit CV**](https://alice.io/positions/position-F5_468?_gl=1*6cqai4*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjw7cLOBhDmARIsAGsuA0kEspIO0nPuKGJ6p2IgXjPCDXucYULaS_vpU-Z-Q69n2T6KFRCjiVwaAtwVEALw_wcB&gbraid=0AAAAAocE-XQZ8VIgN2xWnE18rv98PR661)",4,"The role is in Ramat Gan (preferred location) and requires only 2 years of experience (junior-friendly). However, the position focuses on AI Safety, Responsible AI, and AI Ethics — not on data analysis, BI, SQL, or Python-driven insights. The candidate's strengths are in data analytics, dashboards, and statistical analysis, which are not the core requirements here. The GenAI familiarity is a partial match given the candidate's LLM/prompt engineering background, but the role is not a Data Analyst variant and leans more toward policy/ethics evaluation than analytics. Scored low due to role mismatch, but not disqualified entirely given the AI overlap and good location.",telegram,-1002684951413,jobpulse,False,claude-sonnet,4
+ca430bf257fc71ccd774020884db3cefc095e0a6a009a94af080d9c4bfa9403e,2026-04-19T07:35:08+00:00,Product analyst,Toyota Israel -טויוטה ישראל,,True,[],,https://secrethunter.io/jobz/ed8519f2ed?utm_source=weekly_digest,"Jobs posted this week:
+
+1. **Fabric data engineer** - ONE datAI
+https://secrethunter.io/jobz/3d7db13fed?utm_source=weekly_digest
+
+2. **Senior sql database administrator** - Experda.com
+https://secrethunter.io/jobz/7c63016188?utm_source=weekly_digest
+
+3. **FP&A senior analyst** - vpgsensors
+https://secrethunter.io/jobz/e8ee970e50?utm_source=weekly_digest
+
+4. **Product analyst** - Toyota Israel -טויוטה ישראל
+https://secrethunter.io/jobz/ed8519f2ed?utm_source=weekly_digest
+
+5. **Data operator students** - Hemispheric
+https://secrethunter.io/jobz/af2a525cac?utm_source=weekly_digest
+
+6. **Genai analyst** - arato.ai
+https://secrethunter.io/jobz/eb85ad88ea?utm_source=weekly_digest
+
+7. **Data engineering team lead** - ShipIn Systems
+https://secrethunter.io/jobz/b3b244419a?utm_source=weekly_digest
+
+8. **Customer-facing data analyst** - Pecan AI
+https://secrethunter.io/jobz/317b61c098?utm_source=weekly_digest
+
+9. **Customer-facing data scientist – demand forecasting** - Pecan AI
+https://secrethunter.io/jobz/f62571882d?utm_source=weekly_digest
+
+10. **Data scientist** - Nogamy
+https://secrethunter.io/jobz/e7faefaa2c?utm_source=weekly_digest
+
+11. **Etl developer** - Nogamy
+https://secrethunter.io/jobz/4dbe5aa294?utm_source=weekly_digest
+
+12. **Data operator (entry level)** - Monto
+https://secrethunter.io/jobz/d9d53b68c3?utm_source=weekly_digest
+
+13. **Head of data science** - Nervio
+https://secrethunter.io/jobz/4fb62f44cf?utm_source=weekly_digest
+
+14. **Senior product analyst** - Unframe AI
+https://secrethunter.io/jobz/cb9844f91e?utm_source=weekly_digest
+
+15. **MLops - AI & data, satellite team** - Algolight ltd
+https://secrethunter.io/jobz/45df4b96eb?utm_source=weekly_digest
+
+16. **Data scientist - global marketplace optimization team** - Teads
+https://secrethunter.io/jobz/ae25969296?utm_source=weekly_digest
+
+17. **Staff data scientist, genai and agentic soc** - Google
+https://secrethunter.io/jobz/475b4e1feb?utm_source=weekly_digest
+
+18. **Senior data analyst & analytics engineer** - G-STAT
+https://secrethunter.io/jobz/f7edd9cbaf?utm_source=weekly_digest
+
+19. **Data scientist** - Ready Group
+https://secrethunter.io/jobz/0e1b92c318?utm_source=weekly_digest
+
+20. **Data engineer - remote** - YO IT Consulting
+https://secrethunter.io/jobz/64200cf735?utm_source=weekly_digest
+
+This week, 8 additional jobs were sent to our premium subscribers.
+Upgrade here:
+https://secrethunter.io/upgrade?utm_source=weekly_channel_digest",7,"The role of Product Analyst aligns well with the candidate's target role as a Data Analyst. The candidate has relevant experience in data analysis and insights, which is applicable to product analytics. The job does not specify seniority, suggesting a potential fit for a junior role.",telegram,-1002423121294,jobpulse,False,gpt-4o-mini,7
+cc95da501badf7f2638eae74283ed473690529e8287440a6ad928095d6eede6d,2026-04-20T18:09:54+00:00,Data Scientist,CaliAlfa (Previously Alfabet),Herzliya,False,"[""Python"", ""Statistics""]",,https://secrethunter.io/jobz/789e4a7e31?utm_source=telegram,"**Data scientist**
+CaliAlfa (Previously Alfabet)
+Herzliya
+19/4/26
+ㅤ
+__Data Science, Machine Learning, Predictive Modeling, Python, Statistics, Quantitative Analytics, Collaboration__
+ㅤ
+Senior
+ㅤ
+https://secrethunter.io/jobz/789e4a7e31?utm_source=telegram",3,"The role is for a Data Scientist, which is not aligned with the candidate's target role of Data Analyst. Additionally, it is a senior position, which does not match the candidate's preference for junior to mid-level roles. The tech stack includes Python, which is relevant, but the overall fit is low due to the seniority and role mismatch.",telegram,-1002423121294,jobpulse,False,gpt-4o-mini,3
+cc95da501badf7f2638eae74283ed473690529e8287440a6ad928095d6eede6d,2026-04-20T18:09:54+00:00,Data Scientist,CaliAlfa (Previously Alfabet),Herzliya,False,"[""Python"", ""Machine Learning"", ""Predictive Modeling"", ""Statistics"", ""Quantitative Analytics""]",,https://secrethunter.io/jobz/789e4a7e31?utm_source=telegram,"**Data scientist**
+CaliAlfa (Previously Alfabet)
+Herzliya
+19/4/26
+ㅤ
+__Data Science, Machine Learning, Predictive Modeling, Python, Statistics, Quantitative Analytics, Collaboration__
+ㅤ
+Senior
+ㅤ
+https://secrethunter.io/jobz/789e4a7e31?utm_source=telegram",2,"This is a Senior Data Scientist role, which is a hard exclusion on two counts: (1) Senior seniority level is explicitly out of scope, and (2) the role is focused on ML/Predictive Modeling rather than analytics/BI. While Python and Statistics overlap with the candidate's skills, the core focus on Machine Learning and the Senior level make this a very poor fit. Location in Herzliya is favorable, but that alone cannot offset the mismatches.",telegram,-1002423121294,jobpulse,False,claude-sonnet,3
+ce59075ba64e6b2d6dd0d708c6c30c878d0ad19b79b6daad61c43c90eb8ada02,2026-04-06T08:37:39+00:00,Senior Data Analyst,Port,Tel Aviv,False,[],,https://www.comeet.com/jobs/port/59.004/senior-data-analyst/90.66B?t=1775416962134,"🆕 **Senior Data Analyst**
+
+💼 **Company:** Port
+🔍 **Location:** Tel Aviv
+🧑‍💻️ **Experience required:** 5 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** Description About Port At Port.io, we are building an open and flexible Agentic Engineering Platform for modern engineering organizations. Following our recent $100M Series C funding round, we are in.......
+
+---------------
+
+📊 **Requirements:** skills and experience working with large, complex datasets Strong program/project management skills Experience working with data warehousing, data modeling, and ETL/ELT concepts Strong understanding and experience with business domain processes (GTM,....
+
+[**View full position listing and submit CV**](https://www.comeet.com/jobs/port/59.004/senior-data-analyst/90.66B?t=1775416962134)",2,"The position requires 5 years of experience, which exceeds the candidate's target level of junior to mid. Additionally, the job description does not specify any tools that match the candidate's primary skills in Python, SQL, or BI tools.",telegram,-1002684951413,jobpulse,False,gpt-4o-mini,2
+ce59075ba64e6b2d6dd0d708c6c30c878d0ad19b79b6daad61c43c90eb8ada02,2026-04-06T08:37:39+00:00,Senior Data Analyst,Port,Tel Aviv,False,"[""data warehousing"", ""data modeling"", ""ETL/ELT concepts""]",,https://www.comeet.com/jobs/port/59.004/senior-data-analyst/90.66B?t=1775416962134,"🆕 **Senior Data Analyst**
+
+💼 **Company:** Port
+🔍 **Location:** Tel Aviv
+🧑‍💻️ **Experience required:** 5 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** Description About Port At Port.io, we are building an open and flexible Agentic Engineering Platform for modern engineering organizations. Following our recent $100M Series C funding round, we are in.......
+
+---------------
+
+📊 **Requirements:** skills and experience working with large, complex datasets Strong program/project management skills Experience working with data warehousing, data modeling, and ETL/ELT concepts Strong understanding and experience with business domain processes (GTM,....
+
+[**View full position listing and submit CV**](https://www.comeet.com/jobs/port/59.004/senior-data-analyst/90.66B?t=1775416962134)",2,"The role is for a 'Senior Data Analyst' requiring '5 yrs' of experience, which is a significant mismatch for the candidate's target of Junior to Mid-level (1-3 years) and is listed as a hard exclusion. While the location (Tel Aviv) and conceptual skills like data warehousing, ETL, and data modeling align with the candidate's profile, the seniority requirement makes this opportunity a poor fit.",telegram,-1002684951413,jobpulse,False,gemini-2.5-flash,2
+ce59075ba64e6b2d6dd0d708c6c30c878d0ad19b79b6daad61c43c90eb8ada02,2026-04-06T08:37:39+00:00,Senior Data Analyst,Port,Tel Aviv,False,"[""SQL"", ""ETL"", ""ELT"", ""data modeling"", ""data warehousing""]",,https://www.comeet.com/jobs/port/59.004/senior-data-analyst/90.66B?t=1775416962134,"🆕 **Senior Data Analyst**
+
+💼 **Company:** Port
+🔍 **Location:** Tel Aviv
+🧑‍💻️ **Experience required:** 5 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** Description About Port At Port.io, we are building an open and flexible Agentic Engineering Platform for modern engineering organizations. Following our recent $100M Series C funding round, we are in.......
+
+---------------
+
+📊 **Requirements:** skills and experience working with large, complex datasets Strong program/project management skills Experience working with data warehousing, data modeling, and ETL/ELT concepts Strong understanding and experience with business domain processes (GTM,....
+
+[**View full position listing and submit CV**](https://www.comeet.com/jobs/port/59.004/senior-data-analyst/90.66B?t=1775416962134)",3,"The role is in Tel Aviv which is a preferred location, and involves data analysis with relevant concepts like ETL and data modeling. However, it is explicitly a Senior-level role requiring 5+ years of experience, which is a hard downgrade signal for this junior-to-mid candidate. The seniority mismatch is the primary disqualifier here.",telegram,-1002684951413,jobpulse,False,claude-sonnet,2
+d0871e76e9ba8cc4d88f47d69c6b844e63b7733a9866cb1880e6fd1dc2ec97d7,2026-04-13T14:47:52+00:00,BI Engineer,abra,Center District,False,"[""SQL""]",,"https://www.comeet.com/jobs/abra_rnd/15.007/bi-engineer/45.565?location=ISRAEL,Jerusalem,South,Kiryat%20Shmona,North,Center","🆕 **BI Engineer**
+
+💼 **Company:** abra
+🔍 **Location:** Center District
+🧑‍💻️ **Experience required:** 2 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** You’ll work closely with cross-functional teams to understand their requirements and translate them into scalable data solutions. This includes managing BI projects end-to-end, working with databases, ETL workflows, and visualization tools to deliver....
+
+---------------
+
+📊 **Requirements:** 2+ years of experience as a BI Developer
+Strong proficiency in SQL
+Hands-on experience with data warehouse implementation—preferably in Snowflake, Redshift, BigQuery, or Data Factory
+Proven track record in implementing and supporting BI systems, idea....
+
+[**View full position listing and submit CV**](https://www.comeet.com/jobs/abra_rnd/15.007/bi-engineer/45.565?location=ISRAEL,Jerusalem,South,Kiryat%20Shmona,North,Center)",4,"The role requires 2+ years of experience, which exceeds the candidate's current level as they are targeting junior to mid-level positions. The tech stack includes SQL, which is a match, but the focus on BI development and data warehouse implementation may not align with the candidate's primary interest in data analysis.",telegram,-1002684951413,jobpulse,False,gpt-4o-mini,4
+d0871e76e9ba8cc4d88f47d69c6b844e63b7733a9866cb1880e6fd1dc2ec97d7,2026-04-13T14:47:52+00:00,BI Engineer,Abra,"Center District, Israel",False,"[""SQL"", ""Snowflake"", ""Redshift"", ""BigQuery"", ""Azure Data Factory"", ""ETL""]",,"https://www.comeet.com/jobs/abra_rnd/15.007/bi-engineer/45.565?location=ISRAEL,Jerusalem,South,Kiryat%20Shmona,North,Center","🆕 **BI Engineer**
+
+💼 **Company:** abra
+🔍 **Location:** Center District
+🧑‍💻️ **Experience required:** 2 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** You’ll work closely with cross-functional teams to understand their requirements and translate them into scalable data solutions. This includes managing BI projects end-to-end, working with databases, ETL workflows, and visualization tools to deliver....
+
+---------------
+
+📊 **Requirements:** 2+ years of experience as a BI Developer
+Strong proficiency in SQL
+Hands-on experience with data warehouse implementation—preferably in Snowflake, Redshift, BigQuery, or Data Factory
+Proven track record in implementing and supporting BI systems, idea....
+
+[**View full position listing and submit CV**](https://www.comeet.com/jobs/abra_rnd/15.007/bi-engineer/45.565?location=ISRAEL,Jerusalem,South,Kiryat%20Shmona,North,Center)",4,"The role is titled 'BI Engineer' rather than 'BI Analyst' or 'Data Analyst', which skews more toward engineering/infrastructure than analytics and insights. The requirements emphasize data warehouse implementation (Snowflake, Redshift, BigQuery, Data Factory) and ETL workflows — areas where the candidate has limited hands-on experience. SQL is a strong match, and the BI/visualization component is relevant. However, the engineering-heavy focus, data warehouse tooling, and lack of analytics/product insight emphasis make this a partial fit at best. Location (Center District) and 2+ years experience requirement are acceptable. Score is moderate-low due to role mismatch toward engineering over analytics.",telegram,-1002684951413,jobpulse,False,claude-sonnet,4
+d0c1791929271d78c1cda095ddcfc0008963fd512ac4fe8df14c5075fabdf9af,2026-04-20T11:12:15.213252+00:00,Data Analyst,KMS Lighthouse,Petah Tikva,True,"[""Python"", ""pandas"", ""NumPy""]",,https://www.comeet.com/jobs/kmslh/97.008/data-analyst/53.36F,"‎*Data Analyst* / KMS Lighthouse
+‎
+‎_Petah Tikva_ | _Data Analytics/BI_
+‎
+- ‎Recent graduate in Data Science, Computer Science, Statistics, Cognitive Science, or a related field
+- ‎Familiarity with Python and data handling (pandas, NumPy)
+- ‎Basic knowledge of evaluation metrics (precision, recall, or similarity scores)
+‎
+‎https://www.comeet.com/jobs/kmslh/97.008/data-analyst/53.36F
+‎
+‎#Referally https://referally.link",8,"The job is for a Data Analyst role, which aligns with the candidate's target role. It requires familiarity with Python and data handling, which matches the candidate's skills. The position is suitable for recent graduates, fitting the candidate's experience level. The location is acceptable, and the job does not require relocation.",whatsapp_manual,whatsapp_manual,whatsapp-hook,False,gpt-4o-mini,8
+d0c1791929271d78c1cda095ddcfc0008963fd512ac4fe8df14c5075fabdf9af,2026-04-20T11:12:15.213252+00:00,Data Analyst,KMS Lighthouse,Petah Tikva,True,"[""Python"", ""pandas"", ""NumPy""]",,https://www.comeet.com/jobs/kmslh/97.008/data-analyst/53.36F,"‎*Data Analyst* / KMS Lighthouse
+‎
+‎_Petah Tikva_ | _Data Analytics/BI_
+‎
+- ‎Recent graduate in Data Science, Computer Science, Statistics, Cognitive Science, or a related field
+- ‎Familiarity with Python and data handling (pandas, NumPy)
+- ‎Basic knowledge of evaluation metrics (precision, recall, or similarity scores)
+‎
+‎https://www.comeet.com/jobs/kmslh/97.008/data-analyst/53.36F
+‎
+‎#Referally https://referally.link",7,"Strong match on role title (Data Analyst) and seniority (recent graduate / entry-level). Tech stack aligns well — Python, pandas, NumPy are all primary tools in the candidate's profile. Petah Tikva is within the preferred center region (~30km radius from Tel Aviv). The role targets recent graduates in Statistics or related fields, which fits the candidate's B.A. in Statistics & Psychology from BGU with honors. Minor gaps: no mention of SQL or BI tools (Power BI/Tableau), and the mention of evaluation metrics (precision, recall) hints at a slight ML/NLP lean, which is less central to the candidate's profile. Overall a solid junior opportunity worth applying to.",whatsapp_manual,whatsapp_manual,whatsapp-hook,False,claude-sonnet,8
+d27716b7ecc2e4f6176991f8cdf7be80e85934821a0581bba2cd72ef2d6bf150,2026-04-13T06:09:00+00:00,Finance Business Partner,Sungrow Emea,Petach Tikva,True,[],,https://sungrow-emea.jobs.personio.de/job/2554503,"🆕 **Finance Business Partner- Israel**
+
+💼 **Company:** Sungrow Emea
+🔍 **Location:** Petach Tikva
+🧑‍💻️ **Experience required:** 0 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** Your mission We are looking for a Finance Business Partner to join our dynamic finance team and support key financial operations. Your role will be essential in ensuring accuracy and compliance in.......
+
+---------------
+
+📊 **Requirements:** Your mission We are looking for a Finance Business Partner to join our dynamic finance team and support key financial operations. Your role will be essential in ensuring accuracy and compliance in financial reporting while contributing to the team’s ....
+
+[**View full position listing and submit CV**](https://sungrow-emea.jobs.personio.de/job/2554503)",3,"The role is for a Finance Business Partner, which does not align with the candidate's target role of Data Analyst. While it is entry-level, the focus on finance does not match the candidate's skills in data analysis, Python, and SQL.",telegram,-1002543690045,jobpulse,False,gpt-4o-mini,3
+d27716b7ecc2e4f6176991f8cdf7be80e85934821a0581bba2cd72ef2d6bf150,2026-04-13T06:09:00+00:00,Finance Business Partner,Sungrow Emea,Petach Tikva,True,[],,https://sungrow-emea.jobs.personio.de/job/2554503,"🆕 **Finance Business Partner- Israel**
+
+💼 **Company:** Sungrow Emea
+🔍 **Location:** Petach Tikva
+🧑‍💻️ **Experience required:** 0 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** Your mission We are looking for a Finance Business Partner to join our dynamic finance team and support key financial operations. Your role will be essential in ensuring accuracy and compliance in.......
+
+---------------
+
+📊 **Requirements:** Your mission We are looking for a Finance Business Partner to join our dynamic finance team and support key financial operations. Your role will be essential in ensuring accuracy and compliance in financial reporting while contributing to the team’s ....
+
+[**View full position listing and submit CV**](https://sungrow-emea.jobs.personio.de/job/2554503)",2,"This is a Finance Business Partner role, not a Data Analyst or BI-related position. While it is entry-level (0 years experience) and located in the center region (Petach Tikva), the role is focused on financial operations and compliance reporting rather than data analytics, SQL, Python, or BI tools. No relevant tech stack is mentioned. This does not align with the candidate's target roles and falls outside the acceptable role variants.",telegram,-1002543690045,jobpulse,False,claude-sonnet,3
+d650a4d37111966fcca5c5ce387adb10c6e7c4e8353b7ed021395d091f8db739,2026-03-27T14:25:27.306912+00:00,Junior business analyst,Primis Tech,Tel Aviv,True,"[""Power BI"", ""Excel"", ""SQL""]",,https://secrethunter.io/jobz/3ae62fa64f?utm_source=telegram,"**Junior business analyst**
+Primis Tech
+Tel Aviv
+22/3/26
+ㅤ
+__Power BI, Excel, SQL, Data Analysis, Data Modeling, Communication, Analytical__
+ㅤ
+Junior
+ㅤ
+https://secrethunter.io/jobz/3ae62fa64f?utm_source=telegram",8,"The role is a junior position which aligns with the candidate's target level. It requires skills in Power BI, SQL, and data analysis, which match the candidate's experience. The location is acceptable, and the job is in the business analytics domain, which is preferred by the candidate.",telegram,csv_backfill,jobpulse,False,gpt-4o-mini,8
+d650a4d37111966fcca5c5ce387adb10c6e7c4e8353b7ed021395d091f8db739,2026-03-27T14:25:27.306912+00:00,Junior Business Analyst,Primis Tech,Tel Aviv,True,"[""Power BI"", ""Excel"", ""SQL"", ""Data Analysis"", ""Data Modeling""]",,https://secrethunter.io/jobz/3ae62fa64f?utm_source=telegram,"**Junior business analyst**
+Primis Tech
+Tel Aviv
+22/3/26
+ㅤ
+__Power BI, Excel, SQL, Data Analysis, Data Modeling, Communication, Analytical__
+ㅤ
+Junior
+ㅤ
+https://secrethunter.io/jobz/3ae62fa64f?utm_source=telegram",9,"Excellent match across nearly all dimensions. Junior-level BA role in Tel Aviv (preferred location). Tech stack is a near-perfect overlap: Power BI is the candidate's preferred BI tool, SQL is a primary strength, and Excel is a secondary skill. Data Analysis and Data Modeling align directly with the candidate's methodology and project experience. The role title 'Business Analyst' is an explicitly acceptable variant. Only minor unknowns are remote/hybrid status and domain, which prevent a perfect 10.",telegram,csv_backfill,jobpulse,False,claude-sonnet,8
+d91f038c51e0e61002f46fd3d1687fb5ba20861fff8361910b8de051d6dc1de1,2026-04-14T17:12:14+00:00,Senior data engineer,Milestone,Tel Aviv,False,"[""Python"", ""SQL"", ""Distributed Systems"", ""AWS"", ""GCP"", ""Data Pipelines""]",,https://secrethunter.io/jobz/6f69c3dee1?utm_source=telegram,"**Senior data engineer**
+Milestone
+Tel Aviv
+14/4/26
+ㅤ
+__Python, SQL, Distributed Systems, AWS, GCP, Data Pipelines, Communication__
+ㅤ
+Senior
+ㅤ
+https://secrethunter.io/jobz/6f69c3dee1?utm_source=telegram",2,"The role is for a Senior Data Engineer, which is not aligned with the candidate's target of Junior to Mid-level roles. Additionally, the focus on infrastructure and data engineering without analytics components does not match the candidate's profile.",telegram,-1002423121294,jobpulse,False,gpt-4o-mini,2
+d91f038c51e0e61002f46fd3d1687fb5ba20861fff8361910b8de051d6dc1de1,2026-04-14T17:12:14+00:00,Senior Data Engineer,Milestone,Tel Aviv,False,"[""Python"", ""SQL"", ""Distributed Systems"", ""AWS"", ""GCP"", ""Data Pipelines""]",,https://secrethunter.io/jobz/6f69c3dee1?utm_source=telegram,"**Senior data engineer**
+Milestone
+Tel Aviv
+14/4/26
+ㅤ
+__Python, SQL, Distributed Systems, AWS, GCP, Data Pipelines, Communication__
+ㅤ
+Senior
+ㅤ
+https://secrethunter.io/jobz/6f69c3dee1?utm_source=telegram",2,"This role is a Senior Data Engineer position — both disqualifiers apply: it is Senior level (not junior/mid) and it is a Data Engineering role focused on distributed systems and cloud infrastructure (AWS, GCP, data pipelines) with no analytics or insights component mentioned. While Python and SQL match the candidate's skills, the role is fundamentally misaligned with the target of Data/BI/Product Analyst at junior-to-mid level.",telegram,-1002423121294,jobpulse,False,claude-sonnet,2
+dae27c74f3d4f3a9fb30dc2ce38eb5d95073af2327e82307ee2be85b9ee56e54,2026-04-11T21:11:34+00:00,Bi developer,Sysnet Group,Tel Aviv,False,"[""Power BI"", ""SQL""]",,https://secrethunter.io/jobz/b588dd4989?utm_source=telegram,"**Bi developer**
+Sysnet Group
+Tel Aviv
+11/4/26
+ㅤ
+__Power BI, SQL__
+ㅤ
+Mid
+ㅤ
+https://secrethunter.io/jobz/b588dd4989?utm_source=telegram",5,"The role requires Power BI and SQL, which are part of the candidate's skill set. However, it is a mid-level position, which may not align with the candidate's target of junior to mid-level roles.",telegram,-1002423121294,jobpulse,False,gpt-4o-mini,5
+dae27c74f3d4f3a9fb30dc2ce38eb5d95073af2327e82307ee2be85b9ee56e54,2026-04-11T21:11:34+00:00,BI Developer,Sysnet Group,Tel Aviv,False,"[""Power BI"", ""SQL""]",,https://secrethunter.io/jobz/b588dd4989?utm_source=telegram,"**Bi developer**
+Sysnet Group
+Tel Aviv
+11/4/26
+ㅤ
+__Power BI, SQL__
+ㅤ
+Mid
+ㅤ
+https://secrethunter.io/jobz/b588dd4989?utm_source=telegram",7,"Strong tech stack match — Power BI and SQL are both primary tools for the candidate. Tel Aviv location is ideal. Mid-level seniority is acceptable given the candidate's realistic 1-3 year experience range. Title is BI Developer rather than BI Analyst, which may lean more technical, but the core tools align well. No mention of Python or dashboarding specifics, but Power BI + SQL alone is a solid overlap. Score slightly tempered by 'Developer' framing which could imply more engineering-heavy responsibilities.",telegram,-1002423121294,jobpulse,False,claude-sonnet,5
+daf221d01be909b6c1301d1f339a13a9150c672ce52dde3fdb98e4f01c529148,2026-04-10T14:20:37+00:00,Compliance Analyst,WalkMe,Tel Aviv,False,[],,https://www.walkme.com/jobs/compliance-analyst/,"🆕 **Compliance Analyst **
+
+💼 **Company:** WalkMe
+🔍 **Location:** Tel Aviv
+🧑‍💻️ **Experience required:** 3 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** 
+
+Track enterprise compliance across multiple security frameworks including security, privacy and AI frameworks (ISO, SOC, etc) and maintain up-to-date records of requirements and corresponding mitigating controls.
+
+Continuous monitoring of internal ....
+
+---------------
+
+📊 **Requirements:** 
+
+1-2 years of experience in security compliance frameworks such as ISO 27001 and SOC 2.
+
+High level of professionalism, analytical, detail-oriented, proactive, organized, responsible, deadline-focused, self-driven and highly motivated with a ‘can do....
+
+[**View full position listing and submit CV**](https://www.walkme.com/jobs/compliance-analyst/)",2,"The role is for a Compliance Analyst requiring 3 years of experience, which exceeds the candidate's target level of junior to mid. The job does not align with the candidate's primary target roles in data analysis or business intelligence.",telegram,-1002684951413,jobpulse,False,gpt-4o-mini,2
+daf221d01be909b6c1301d1f339a13a9150c672ce52dde3fdb98e4f01c529148,2026-04-10T14:20:37+00:00,Compliance Analyst,WalkMe,Tel Aviv,True,[],,https://www.walkme.com/jobs/compliance-analyst/,"🆕 **Compliance Analyst **
+
+💼 **Company:** WalkMe
+🔍 **Location:** Tel Aviv
+🧑‍💻️ **Experience required:** 3 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** 
+
+Track enterprise compliance across multiple security frameworks including security, privacy and AI frameworks (ISO, SOC, etc) and maintain up-to-date records of requirements and corresponding mitigating controls.
+
+Continuous monitoring of internal ....
+
+---------------
+
+📊 **Requirements:** 
+
+1-2 years of experience in security compliance frameworks such as ISO 27001 and SOC 2.
+
+High level of professionalism, analytical, detail-oriented, proactive, organized, responsible, deadline-focused, self-driven and highly motivated with a ‘can do....
+
+[**View full position listing and submit CV**](https://www.walkme.com/jobs/compliance-analyst/)",2,"The role of 'Compliance Analyst' is a poor fit for a candidate targeting 'Data Analyst' or related analytical roles. The job focuses on security and AI compliance frameworks (ISO, SOC), which does not align with the candidate's primary technical skills (Python, SQL, Power BI) or methodologies (EDA, A/B Testing, ETL). While the location (Tel Aviv) and potential seniority (1-3 years experience) align, the core function and required expertise are a significant mismatch. No relevant tech stack is mentioned in the job description that matches the candidate's portfolio.",telegram,-1002684951413,jobpulse,False,gemini-2.5-flash,2
+daf221d01be909b6c1301d1f339a13a9150c672ce52dde3fdb98e4f01c529148,2026-04-10T14:20:37+00:00,Compliance Analyst,WalkMe,Tel Aviv,False,[],,https://www.walkme.com/jobs/compliance-analyst/,"🆕 **Compliance Analyst **
+
+💼 **Company:** WalkMe
+🔍 **Location:** Tel Aviv
+🧑‍💻️ **Experience required:** 3 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** 
+
+Track enterprise compliance across multiple security frameworks including security, privacy and AI frameworks (ISO, SOC, etc) and maintain up-to-date records of requirements and corresponding mitigating controls.
+
+Continuous monitoring of internal ....
+
+---------------
+
+📊 **Requirements:** 
+
+1-2 years of experience in security compliance frameworks such as ISO 27001 and SOC 2.
+
+High level of professionalism, analytical, detail-oriented, proactive, organized, responsible, deadline-focused, self-driven and highly motivated with a ‘can do....
+
+[**View full position listing and submit CV**](https://www.walkme.com/jobs/compliance-analyst/)",2,"This is a Compliance Analyst role focused on security frameworks (ISO 27001, SOC 2), which is outside the candidate's target roles of Data/BI/Product Analyst. The position has no data analytics, SQL, Python, or BI components. It falls under a hard exclusion category as it has no analytics or insights component relevant to the candidate's profile.",telegram,-1002684951413,jobpulse,False,claude-sonnet,2
+eacf66390363d14f781f7f0e505fdddde48dea2dfc5ad53dae9a1af6a3180e92,2026-04-17T12:19:14+00:00,2026 Data Engineer Internship,Amazon - Israel,Tel Aviv,True,"[""Python"", ""SQL""]",,https://www.amazon.jobs/en/jobs/3145530/2026-data-engineer-internship,"🆕 **2026 Data Engineer Internship **
+
+💼 **Company:** Amazon - Israel
+🔍 **Location:** Tel Aviv
+🧑‍💻️ **Experience required:** 0 yrs
+📁 **Position:** Internship
+
+---------------
+
+📄 **Description:** - Design, implement, and automate deployment of our distributed system for collecting and processing log events from multiple sources
+- Design data schema and operate internal data warehouses and SQL/NoSQL database systems
+- Own the design, developme....
+
+---------------
+
+📊 **Requirements:** - Are enrolled in or have completed a Bachelor's degree in computer science, computer engineering, or related field
+- Work 40 hours/week minimum and commit to 6 month internship maximum
+- Experience with SQL & Python....
+
+[**View full position listing and submit CV**](https://www.amazon.jobs/en/jobs/3145530/2026-data-engineer-internship)",4,"The role is an internship which is suitable for entry-level candidates, but it is focused on Data Engineering rather than Data Analysis, which is not relevant for the candidate's target role. The tech stack includes Python and SQL, which the candidate is familiar with, but the primary focus on engineering tasks may not align with the candidate's skills and preferences.",telegram,-1002543690045,jobpulse,False,gpt-4o-mini,4
+eacf66390363d14f781f7f0e505fdddde48dea2dfc5ad53dae9a1af6a3180e92,2026-04-17T12:19:14+00:00,2026 Data Engineer Internship,Amazon - Israel,Tel Aviv,True,"[""SQL"", ""Python"", ""NoSQL""]",,https://www.amazon.jobs/en/jobs/3145530/2026-data-engineer-internship,"🆕 **2026 Data Engineer Internship **
+
+💼 **Company:** Amazon - Israel
+🔍 **Location:** Tel Aviv
+🧑‍💻️ **Experience required:** 0 yrs
+📁 **Position:** Internship
+
+---------------
+
+📄 **Description:** - Design, implement, and automate deployment of our distributed system for collecting and processing log events from multiple sources
+- Design data schema and operate internal data warehouses and SQL/NoSQL database systems
+- Own the design, developme....
+
+---------------
+
+📊 **Requirements:** - Are enrolled in or have completed a Bachelor's degree in computer science, computer engineering, or related field
+- Work 40 hours/week minimum and commit to 6 month internship maximum
+- Experience with SQL & Python....
+
+[**View full position listing and submit CV**](https://www.amazon.jobs/en/jobs/3145530/2026-data-engineer-internship)",3,"This is a Data Engineer internship, not a Data Analyst role. The focus is on distributed systems, log processing, and data warehousing infrastructure — not analytics or insights. While SQL and Python are mentioned (partial tech match), the role is purely engineering/infrastructure with no analytics or BI component. Per scoring rules, Data Engineering without analytics = hard exclusion zone. The Amazon brand and Tel Aviv location are positives, but the role mismatch is significant.",telegram,-1002543690045,jobpulse,False,claude-sonnet,4
+eb3f86a9d589e5cbbfaef9fcbcc41d782f35e9268a1623109529a744c6f37275,2026-04-13T14:55:27+00:00,Junior FinOps Analyst,abra,Center District,True,[],,"https://www.comeet.com/jobs/abra_rnd/15.007/junior-finops-analyst/FC.76B?location=ISRAEL,Jerusalem,South,Kiryat%20Shmona,North,Center","🆕 **Junior FinOps Analyst**
+
+💼 **Company:** abra
+🔍 **Location:** Center District
+🧑‍💻️ **Experience required:** 2 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** Analyze cloud usage and cost data
+Identify cost optimization opportunities
+Support cloud budgeting and forecasting
+Work with AWS / Azure cost management tools
+Collaborate with technical and business teams ....
+
+---------------
+
+📊 **Requirements:**     Completion of a cloud course or training program (AWS / Azure or similar) – a must!
+    Basic understanding of core cloud concepts such as services, resources, and pricing models - a must!
+
+Who You Are
+
+    Highly motivated to build a career in t....
+
+[**View full position listing and submit CV**](https://www.comeet.com/jobs/abra_rnd/15.007/junior-finops-analyst/FC.76B?location=ISRAEL,Jerusalem,South,Kiryat%20Shmona,North,Center)",3,"The role is for a Junior FinOps Analyst, which is not aligned with the candidate's target role of Data Analyst. The required experience of 2 years exceeds the candidate's profile as they are targeting junior roles. Additionally, the tech stack does not match the candidate's skills in Python and SQL.",telegram,-1002684951413,jobpulse,False,gpt-4o-mini,3
+eb3f86a9d589e5cbbfaef9fcbcc41d782f35e9268a1623109529a744c6f37275,2026-04-13T14:55:27+00:00,Junior FinOps Analyst,abra,"Center District, Israel",True,"[""AWS"", ""Azure"", ""Cloud Cost Management""]",,"https://www.comeet.com/jobs/abra_rnd/15.007/junior-finops-analyst/FC.76B?location=ISRAEL,Jerusalem,South,Kiryat%20Shmona,North,Center","🆕 **Junior FinOps Analyst**
+
+💼 **Company:** abra
+🔍 **Location:** Center District
+🧑‍💻️ **Experience required:** 2 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** Analyze cloud usage and cost data
+Identify cost optimization opportunities
+Support cloud budgeting and forecasting
+Work with AWS / Azure cost management tools
+Collaborate with technical and business teams ....
+
+---------------
+
+📊 **Requirements:**     Completion of a cloud course or training program (AWS / Azure or similar) – a must!
+    Basic understanding of core cloud concepts such as services, resources, and pricing models - a must!
+
+Who You Are
+
+    Highly motivated to build a career in t....
+
+[**View full position listing and submit CV**](https://www.comeet.com/jobs/abra_rnd/15.007/junior-finops-analyst/FC.76B?location=ISRAEL,Jerusalem,South,Kiryat%20Shmona,North,Center)",3,"Junior role in the Center District is a positive signal, and the analytical component (cloud usage/cost analysis, budgeting, forecasting) has some overlap with data analysis work. However, the core focus is FinOps/cloud financial management, which requires AWS/Azure cloud expertise — tools not in the candidate's stack. The role is closer to cloud infrastructure analysis than BI/product/data analytics. No Python, SQL, Power BI, or BI dashboard requirements mentioned. Domain is neutral (FinTech-adjacent), but the technical mismatch is significant enough to lower the score considerably.",telegram,-1002684951413,jobpulse,False,claude-sonnet,3
+ee305779fccfb169d661fa27e847969d12529f3440ac2765a897c9b1c19deacd,2026-04-14T16:40:08.714415+00:00,Digital Analyst,ThinkUser,Tel Aviv,True,"[""Google Analytics"", ""A/B testing"", ""Tag Management"", ""CRO"", ""SQL""]",,https://secrethunter.io/jobz/4afe6e9f7f?utm_source=whatsapp,"*Digital analyst*
+ThinkUser
+Tel Aviv
+12/4/26
+ㅤ
+_Google Analytics, A/B testing, Tag Management, CRO, SQL, Analytical skills, Communication_
+ㅤ
+Junior
+ㅤ
+https://secrethunter.io/jobz/4afe6e9f7f?utm_source=whatsapp",6,"The role is for a junior digital analyst, which aligns with the candidate's target level. It requires SQL, which is a strong match, but the focus on Google Analytics and CRO is less relevant to the candidate's primary skills in Python and Power BI. Overall, it is a valid opportunity with a moderate fit.",whatsapp_manual,whatsapp_manual,whatsapp-hook,False,gpt-4o-mini,6
+ee305779fccfb169d661fa27e847969d12529f3440ac2765a897c9b1c19deacd,2026-04-14T16:40:08.714415+00:00,Digital analyst,ThinkUser,Tel Aviv,True,"[""Google Analytics"", ""A/B testing"", ""Tag Management"", ""CRO"", ""SQL"", ""Analytical skills"", ""Communication""]",,https://secrethunter.io/jobz/4afe6e9f7f?utm_source=whatsapp,"*Digital analyst*
+ThinkUser
+Tel Aviv
+12/4/26
+ㅤ
+_Google Analytics, A/B testing, Tag Management, CRO, SQL, Analytical skills, Communication_
+ㅤ
+Junior
+ㅤ
+https://secrethunter.io/jobz/4afe6e9f7f?utm_source=whatsapp",7,"This is a strong fit for a junior Data Analyst role. The 'Digital Analyst' title aligns well with the candidate's target roles (Data Analyst, Business Analyst, Product Analyst). The explicit 'Junior' level and 'Tel Aviv' location are perfect matches. Key skills like SQL and A/B testing are directly in the candidate's portfolio. While specific tools like Google Analytics, Tag Management, and CRO are not explicitly listed in the candidate's primary skills, the candidate's strong foundational analytical skills (Python, SQL, BI) and project experience (e.g., user behavior analysis, ETL) suggest a high capacity to learn and adapt to these web analytics tools. The role focuses on analysis and insights, which is the candidate's core strength.",whatsapp_manual,whatsapp_manual,whatsapp-hook,False,gemini-2.5-flash,6
+ee305779fccfb169d661fa27e847969d12529f3440ac2765a897c9b1c19deacd,2026-04-14T16:40:08.714415+00:00,Digital Analyst,ThinkUser,Tel Aviv,True,"[""Google Analytics"", ""SQL"", ""A/B Testing"", ""Tag Management"", ""CRO""]",,https://secrethunter.io/jobz/4afe6e9f7f?utm_source=whatsapp,"*Digital analyst*
+ThinkUser
+Tel Aviv
+12/4/26
+ㅤ
+_Google Analytics, A/B testing, Tag Management, CRO, SQL, Analytical skills, Communication_
+ㅤ
+Junior
+ㅤ
+https://secrethunter.io/jobz/4afe6e9f7f?utm_source=whatsapp",7,"Strong match on multiple fronts: Junior level aligns perfectly with candidate's target seniority, Tel Aviv location is ideal, and the role overlaps well with candidate's skills in SQL and A/B testing. Google Analytics and Tag Management are not in the candidate's primary stack but are learnable adjacent tools. CRO and digital analytics are somewhat adjacent to the candidate's product/BI analytics background. The analytical and communication skills emphasis suits the candidate's profile. Missing Power BI/Tableau/Python which are the candidate's strongest tools, but the core analytical DNA is a solid fit.",whatsapp_manual,whatsapp_manual,whatsapp-hook,False,claude-sonnet,6
+f6945d3788027ebbfb6eddba8884ff0929216bca1f56dda293f69ced0bda6819,2026-04-05T04:05:47+00:00,Freelance,,Israel,True,[],,https://secrethunter.io/jobz/d77c02fd61?utm_source=telegram,"**Freelance**
+חופשון
+Israel
+5/4/26
+ㅤ
+__Entrepreneurship, Sales, Customer Service, Business Acumen, Self-management, Learning Agility, Independence__
+ㅤ
+Entry
+ㅤ
+https://secrethunter.io/jobz/d77c02fd61?utm_source=telegram",3,"The job is freelance and does not align with the candidate's target role of Data Analyst. The skills mentioned (Entrepreneurship, Sales, Customer Service) do not match the candidate's technical skills in data analysis, Python, or SQL.",telegram,-1002375956832,jobpulse,False,gpt-4o-mini,3
+fb6aed5582efee65f439e41acf19f161c93515bd61b1c99b3a21ffa6d9e6c39b,2026-04-13T17:05:19.841604+00:00,Social Listening Analyst (Junior),Scooper,Ramat Gan,True,[],,https://www.linkedin.com/jobs/view/4399531790,"‎*Social Listening Analyst (Junior)* / Scooper
+‎
+‎_Ramat Gan_ | _Data Analytics/BI_
+‎
+- ‎Strong technical orientation and ability to learn quickly
+- ‎Basic understanding of social networks and user behavior
+- ‎Bachelor's degree required
+‎
+‎https://www.linkedin.com/jobs/view/4399531790
+‎
+‎#Referally https://referally.link",6,"The role is a junior position, which aligns with the candidate's target level. It is located in Ramat Gan, which is within the preferred location. However, the tech stack is not specified, and the focus on social networks may not fully align with the candidate's strong analytics background in HealthTech and BI.",whatsapp_manual,whatsapp_manual,whatsapp-hook,False,gpt-4o-mini,6
+fb6aed5582efee65f439e41acf19f161c93515bd61b1c99b3a21ffa6d9e6c39b,2026-04-13T17:05:19.841604+00:00,Social Listening Analyst (Junior),Scooper,Ramat Gan,True,[],,https://www.linkedin.com/jobs/view/4399531790,"‎*Social Listening Analyst (Junior)* / Scooper
+‎
+‎_Ramat Gan_ | _Data Analytics/BI_
+‎
+- ‎Strong technical orientation and ability to learn quickly
+- ‎Basic understanding of social networks and user behavior
+- ‎Bachelor's degree required
+‎
+‎https://www.linkedin.com/jobs/view/4399531790
+‎
+‎#Referally https://referally.link",7,"The 'Social Listening Analyst (Junior)' role aligns well with the candidate's target of Data Analyst and their junior-mid seniority preference. The location, Ramat Gan, is a preferred city. The candidate's experience in user behavior analysis and strong technical orientation are relevant, even though specific tools are not explicitly mentioned in the job description. The required Bachelor's degree matches the candidate's education. The lack of specific tech stack is the main detractor, but the 'Junior' level and 'ability to learn quickly' are positive signals.",whatsapp_manual,whatsapp_manual,whatsapp-hook,False,gemini-2.5-flash,6
+fb6aed5582efee65f439e41acf19f161c93515bd61b1c99b3a21ffa6d9e6c39b,2026-04-13T17:05:19.841604+00:00,Social Listening Analyst (Junior),Scooper,Ramat Gan,True,[],,https://www.linkedin.com/jobs/view/4399531790,"‎*Social Listening Analyst (Junior)* / Scooper
+‎
+‎_Ramat Gan_ | _Data Analytics/BI_
+‎
+- ‎Strong technical orientation and ability to learn quickly
+- ‎Basic understanding of social networks and user behavior
+- ‎Bachelor's degree required
+‎
+‎https://www.linkedin.com/jobs/view/4399531790
+‎
+‎#Referally https://referally.link",6,"Junior analyst role in Ramat Gan — a preferred location for the candidate. The Data Analytics/BI domain aligns well with the candidate's target role. The focus on social listening and user behavior overlaps with the candidate's experience in user behavior and navigation flow analysis. However, no specific tech stack is mentioned (no Python, SQL, or BI tools listed), and 'social listening' is a somewhat niche specialization that may not fully leverage the candidate's core strengths in SQL, Power BI, and Python. Still, the junior level, location, and analytics domain make this a reasonable fit worth exploring.",whatsapp_manual,whatsapp_manual,whatsapp-hook,False,claude-sonnet,6

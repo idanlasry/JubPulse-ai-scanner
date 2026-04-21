@@ -14,4 +14,7 @@ dependencies = [
     "urlextract",
     "pandas",
     "mcp[cli,server]>=1.26.0",
+    "google-genai",
+    "anthropic",
+    "scipy>=1.17.1",
 ]
