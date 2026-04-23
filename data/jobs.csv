@@ -6201,6 +6201,7 @@ Students who have completed at least 3 semesters.
 ** Must add grade sheet **....
 
 [**View full position listing and submit CV**](https://jobs.apple.com/en-il/details/200573350-0865/sw-engineering-student-herzliya?team=HRDWR)",2,"The role is for a student in software engineering, which is not aligned with the candidate's target role of Data Analyst. The candidate's skills in Python and SQL are not applicable to this position, and the focus is on low-level software engineering rather than data analysis."
+<<<<<<< HEAD
 8359dfdb33fa3113b1782850ccdf3e4ebaf3f0cbd57ef5c181cf65b598ead07a,2026-04-22T20:40:37.862474+00:00,Database administrator,Allied Universal® Electronic Monitoring,Tel Aviv,False,"[""SQL"", ""Shell Scripting"", ""Linux""]",,https://secrethunter.io/jobz/fc99d6cf50?utm_source=telegram,"**Database administrator**
 Allied Universal® Electronic Monitoring
 Tel Aviv
@@ -6211,3 +6212,44 @@ __Database Admin, SQL, Shell Scripting, DB Performance Tuning, Linux, Troublesho
 Senior
 ㅤ
 https://secrethunter.io/jobz/fc99d6cf50?utm_source=telegram",2,"The role is for a senior database administrator, which does not align with the candidate's target of junior to mid-level positions. Additionally, the required skills focus on database administration rather than data analysis, which is the candidate's primary interest."
+=======
+c826820f67928eec42e3d7ddb5d41987ab98697d6893cdec8458721e1fff02c4,2026-04-23T07:01:11.581121+00:00,Senior data analyst,Bring It On,Israel,False,"[""SQL"", ""BI Tools"", ""Data Analysis"", ""Python""]",,https://secrethunter.io/jobz/e445bdd789?utm_source=telegram,"**Senior data analyst**
+Bring It On
+Israel
+21/4/26
+ㅤ
+__SQL, BI Tools, Data Analysis, Gaming Industry Exp, Python, Communication, Quantitative Analysis__
+ㅤ
+Senior
+ㅤ
+https://secrethunter.io/jobz/e445bdd789?utm_source=telegram",3,"The role is for a Senior Data Analyst, which is not aligned with the candidate's target of Junior to Mid-level positions. While the tech stack includes SQL and Python, the seniority level is a significant mismatch."
+c1e4b8c14745fd4c91ce5031f25d55bf16737c8e36c0d16f2b7f92f2a4f2d676,2026-04-23T07:01:12.804675+00:00,Business Analyst Student Program 2026,Wix,Tel Aviv,True,"[""Data Analysis"", ""SQL"", ""Tableau"", ""AI"", ""Business Strategy"", ""Presentation Skills"", ""Communication""]",,https://secrethunter.io/jobz/5b751123da?utm_source=telegram,"**Business analyst student program 2026**
+Wix
+Tel Aviv
+22/4/26
+ㅤ
+__Data Analysis, SQL, Tableau, AI, Business Strategy, Presentation Skills, Communication__
+ㅤ
+Student
+ㅤ
+https://secrethunter.io/jobz/5b751123da?utm_source=telegram",8,"The role is a student program which aligns with the candidate's junior level target. It mentions SQL and Tableau, which are relevant to the candidate's skills. The location in Tel Aviv is also preferred, and the focus on data analysis fits well with the candidate's background."
+39975baa987e9162f37999885027dc0719180e7fada825b7e05c66d5a11a6009,2026-04-23T07:01:13.113839+00:00,Strategic Finance Analyst,Lightricks,Jerusalem,False,"[""Excel"", ""Google Sheets""]",,https://careers.lightricks.com/position?gh_jid=8401408002&strategic%20finance%20analyst_&office=jerusalem&team=g&a&gh_src=,"🆕 **Strategic Finance Analyst**
+
+💼 **Company:** Lightricks
+🔍 **Location:** Jerusalem
+🧑‍💻️ **Experience required:** 2 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** Manage financial forecasts and analyses across key business drivers, including revenue, growth metrics, capacity, and company expenses.
+Build and manage the budget transparently, working closely with global teams to enable execution and goal achievem....
+
+---------------
+
+📊 **Requirements:** 2+ years of financial-analytical experience from a high growth SaaS company - a must.
+Mastery of Excel/Google Sheet with proven experience in building financial models and managing complex data.
+Bachelor’s degree in Economics/a quantitative disciplin....
+
+[**View full position listing and submit CV**](https://careers.lightricks.com/position?gh_jid=8401408002&strategic%20finance%20analyst_&office=jerusalem&team=g&a&gh_src=)",2,"The role requires 2+ years of financial-analytical experience, which exceeds the candidate's target level of junior to mid. The focus is on finance rather than data analysis, which is not aligned with the candidate's primary target role."
+>>>>>>> 7a4c3699eec35891ac3517741c7b9c365bdf8159
