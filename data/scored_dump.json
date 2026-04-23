@@ -1,20 +1,24 @@
 [
   {
-    "title": "Database administrator",
-    "company": "Allied Universal® Electronic Monitoring",
+    "title": "Software data platform tech lead",
+    "company": "Arbe",
     "location": "Tel Aviv",
     "is_junior": false,
     "tech_stack": [
-      "SQL",
-      "Shell Scripting",
-      "Linux"
+      "Python",
+      "FastAPI",
+      "React",
+      "Backend",
+      "Cloud",
+      "Docker"
     ],
     "contact_info": null,
-    "job_link": "https://secrethunter.io/jobz/fc99d6cf50?utm_source=telegram",
-    "raw_text": "**Database administrator**\nAllied Universal® Electronic Monitoring\nTel Aviv\n21/4/26\nㅤ\n__Database Admin, SQL, Shell Scripting, DB Performance Tuning, Linux, Troubleshooting, Operational Support__\nㅤ\nSenior\nㅤ\nhttps://secrethunter.io/jobz/fc99d6cf50?utm_source=telegram",
-    "message_date": "2026-04-22T19:10:44+00:00",
+    "job_link": "https://secrethunter.io/jobz/76c1b63d25?utm_source=telegram",
+    "raw_text": "**Software data platform tech lead**\nArbe\nTel Aviv\n23/4/26\nㅤ\n__Python, FastAPI, React, Backend, Cloud, Docker, Leadership__\nㅤ\nTechlead\nㅤ\nhttps://secrethunter.io/jobz/76c1b63d25?utm_source=telegram",
+    "message_date": "2026-04-23T09:07:02+00:00",
     "source_group": "-1002423121294",
-    "confidence_score": 2,
-    "fit_reasoning": "The role is for a senior database administrator, which does not align with the candidate's target of junior to mid-level positions. Additionally, the required skills focus on database administration rather than data analysis, which is the candidate's primary interest."
+    "fit_score": 1,
+    "confidence_score": 9,
+    "fit_reasoning": "POSITIVES: None.\nNEGATIVES: Senior role in title, outside candidate's target level.\nHARD BLOCK: Senior in title\nSCORE: 1 — role is a hard exclusion due to seniority."
   }
 ]
