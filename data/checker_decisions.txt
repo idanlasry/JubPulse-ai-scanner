@@ -1,0 +1,40 @@
++-----+-------------+------------------+------------------------------------------------------------------------+--------------------------------------------------------------+
+| #   | verdict     | group            | url                                                                    | text                                                         |
++-----+-------------+------------------+------------------------------------------------------------------------+--------------------------------------------------------------+
+| 2   | passed      | -1002423121294   | https://secrethunter.io/jobz/ae24969174?utm_source=telegram            | **Data engineer** Amiio Herzliya 20/4/26 ㅤ __Python, Data P… |
+| 4   | passed      | -1002423121294   | https://secrethunter.io/jobz/be988b7554?utm_source=telegram            | **Senior data engineer, data infrastructure** Shift4 Herzli… |
+| 5   | passed      | -1002423121294   | https://secrethunter.io/jobz/c6f8402ec5?utm_source=telegram            | **Data engineer** Volumez Tel Aviv 19/4/26 ㅤ __Apache Spark… |
+| 6   | passed      | -1002423121294   | https://secrethunter.io/jobz/b045fba0f5?utm_source=telegram            | **System analyst** GamblingCareers(.)com Tel Aviv 18/4/26 ㅤ… |
+| 8   | passed      | -1002423121294   | https://secrethunter.io/jobz/64200cf735?utm_source=telegram            | **Data engineer - remote** YO IT Consulting Israel 17/4/26 … |
+| 9   | passed      | -1002423121294   | https://secrethunter.io/jobz/b3b244419a?utm_source=telegram            | **Data engineering team lead** ShipIn Systems Tel Aviv 16/4… |
+| 10  | passed      | -1002423121294   | https://secrethunter.io/jobz/e8ee970e50?utm_source=telegram            | **FP&A senior analyst** vpgsensors Modiin 16/4/26 ㅤ __FP&A,… |
+| 11  | passed      | -1002423121294   | https://secrethunter.io/jobz/475f6cac0b?utm_source=telegram            | **Engineering manager, data platform** Learneo Bengaluru 15… |
+| 15  | passed      | -1002875221568   | https://secrethunter.io/jobz/4939d1865d?utm_source=telegram            | **Security operations center analyst** YouCC Technologies L… |
+| 18  | passed      | -1002875221568   | https://secrethunter.io/jobz/b5a23ab026?utm_source=telegram            | **Associate security operation analyst** 200Apps Jerusalem … |
+| 21  | passed      | -1002375956832   | https://secrethunter.io/jobz/037be9d5a9?utm_source=telegram            | **Podcast audio transcription specialist – [hebrew] (remote… |
+| 22  | passed      | -1002375956832   | https://secrethunter.io/jobz/5e390d8523?utm_source=telegram            | **Senior information security expert part time (freelance)*… |
+| 26  | passed      | -1002543690045   | https://jobs.apple.com/en-il/details/200621091-6109/hardware-engineer… | 🆕 **Hardware Engineering Student**  💼 **Company:** Apple Is… |
+| 27  | passed      | -1002543690045   | https://jobs.apple.com/en-il/details/200621091-0865/hardware-engineer… | 🆕 **Hardware Engineering Student**  💼 **Company:** Apple Is… |
+| 28  | passed      | -1002543690045   | https://jobs.apple.com/en-il/details/200621091-1451/hardware-engineer… | 🆕 **Hardware Engineering Student**  💼 **Company:** Apple Is… |
+| 29  | passed      | -1002543690045   | https://jobs.apple.com/en-il/details/200559546-6109/sw-engineering-st… | 🆕 **SW Engineering Student (Jerusalem)**  💼 **Company:** Ap… |
+| 30  | passed      | -1002543690045   | https://arberobotics.com/career/co/operation/44.46F/electronics-engin… | 🆕 **Electronics Engineer - Student position**  💼 **Company:… |
+| 34  | passed      | -1002684951413   | https://cellebrite.com/en/about/careers/positions/?comeet_cat=israel-… | 🆕 **Senior Backend & Data Engineer**  💼 **Company:** Celleb… |
+| 1   | duplicate   | -1002423121294   | https://secrethunter.io/jobz/fc99d6cf50?utm_source=telegram            | **Database administrator** Allied Universal® Electronic Mon… |
+| 32  | duplicate   | -1002684951413   | https://careers.lightricks.com/position?gh_jid=8401408002&strategic%2… | 🆕 **Strategic Finance Analyst**  💼 **Company:** Lightricks … |
+| 3   | non-job     | -1002423121294   | https://secrethuntercv.lovable.app/                                    | ‏חג עצמאות שמח 🇮🇱 מקווה שאתם נהנים מהחג 🙂  ההרשמה לסדנה של … |
+| 7   | non-job     | -1002423121294   | https://secrethuntercv.lovable.app/                                    | ‏לכל משרה שנפתחת נשלחים 250+ קורות חיים. ספוילר: לכולם יש א… |
+| 12  | non-job     | -1002875221568   | https://secrethuntercv.lovable.app/                                    | ‏חג עצמאות שמח 🇮🇱 מקווה שאתם נהנים מהחג 🙂  ההרשמה לסדנה של … |
+| 13  | non-job     | -1002875221568   | https://secrethuntercv.lovable.app/                                    | ‏לכל משרה שנפתחת נשלחים 250+ קורות חיים. ספוילר: לכולם יש א… |
+| 14  | non-job     | -1002875221568   | https://secrethuntercv.lovable.app/                                    | ‏רז בלישה, מומחה קו״ח וגיוס, מעביר סדנה של 3 שעות בזום, במי… |
+| 16  | non-job     | -1002875221568   | https://www.linkedin.com/feed/update/urn:li:activity:7449341926882992… | (עידכון על המשרות בסיקרט האנטר (בנינו עוד יותר מ850 סורקים … |
+| 17  | non-job     | -1002875221568   | https://secrethuntercv.lovable.app                                     | ‏היי כולם, שבוע טוב 🙌  הרבה זמן שאני רוצה להביא לקהילה גם ת… |
+| 19  | non-job     | -1002375956832   | https://secrethuntercv.lovable.app/                                    | ‏חג עצמאות שמח 🇮🇱 מקווה שאתם נהנים מהחג 🙂  ההרשמה לסדנה של … |
+| 20  | non-job     | -1002375956832   | https://secrethuntercv.lovable.app/                                    | ‏לכל משרה שנפתחת נשלחים 250+ קורות חיים. ספוילר: לכולם יש א… |
+| 23  | non-job     | -1002375956832   | https://secrethuntercv.lovable.app/                                    | ‏רז בלישה, מומחה קו״ח וגיוס, מעביר סדנה של 3 שעות בזום, במי… |
+| 24  | non-job     | -1002375956832   | https://www.linkedin.com/feed/update/urn:li:activity:7449341926882992… | (עידכון על המשרות בסיקרט האנטר (בנינו עוד יותר מ850 סורקים … |
+| 25  | non-job     | -1002375956832   | https://secrethuntercv.lovable.app                                     | ‏היי כולם, שבוע טוב 🙌  הרבה זמן שאני רוצה להביא לקהילה גם ת… |
+| 31  | non-job     | -1002543690045   | https://www.tech-cv.com/?lang=en                                       | * Advertisement: Get feedback + career steps on your Tech C… |
+| 33  | non-job     | -1002684951413   | https://www.tech-cv.com/?lang=en                                       | **Advertisement: Get feedback + career steps on your Tech C… |
++-----+-------------+------------------+------------------------------------------------------------------------+--------------------------------------------------------------+
+
+Total: 34  |  passed=18  intra-batch=0  duplicate=2  non-job=14  no-link=0

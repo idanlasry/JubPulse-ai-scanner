@@ -48,16 +48,18 @@ async def main() -> None:
     all_raw_messages = raw_messages  # preserve full list for last_seen checkpoint
     checker_available = False
     no_link_skipped = 0
+    non_job_skipped = 0
     duplicate_skipped = 0
+    intra_batch_skipped = 0
     try:
-        raw_messages, no_link_skipped, duplicate_skipped, checker_available = (
+        raw_messages, no_link_skipped, non_job_skipped, duplicate_skipped, intra_batch_skipped, checker_available = (
             filter_new_messages(raw_messages)
         )
         gate_status = (
             "active" if checker_available else "offline (Supabase unavailable)"
         )
         print(
-            f"[checker] {no_link_skipped} no-link | {duplicate_skipped} duplicates | {len(raw_messages)} passed to brain | gate: {gate_status}"
+            f"[checker] {no_link_skipped} no-link | {non_job_skipped} non-job | {duplicate_skipped} duplicates | {intra_batch_skipped} intra-batch | {len(raw_messages)} passed to brain | gate: {gate_status}"
         )
         RAW_DUMP.write_text(
             json.dumps(raw_messages, ensure_ascii=False, indent=2),
@@ -141,7 +143,9 @@ async def main() -> None:
             supabase_new=supabase_new,
             supabase_errors=supabase_errors,
             no_link_skipped=no_link_skipped,
+            non_job_skipped=non_job_skipped,
             duplicate_skipped=duplicate_skipped,
+            intra_batch_skipped=intra_batch_skipped,
             brain_scored=jobs_found,  # actual ScoredJob outputs from brain
             checker_available=checker_available,
         )
@@ -176,7 +180,7 @@ async def main() -> None:
     print(
         f"[main] {groups_scanned} groups scanned | "
         f"{messages_fetched} fetched | "
-        f"{no_link_skipped} no-link | {duplicate_skipped} duplicates | "
+        f"{no_link_skipped} no-link | {non_job_skipped} non-job | {duplicate_skipped} duplicates | {intra_batch_skipped} intra-batch | "
         f"{jobs_found} scored | "
         f"supabase_new={supabase_new} csv_new={csv_new} | "
         f"{alerts_sent} alerts sent"

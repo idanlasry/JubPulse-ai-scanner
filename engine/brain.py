@@ -213,10 +213,19 @@ TELEGRAM MESSAGE (from group: {message.get("group", "unknown")}):
             return None
 
         # Code-level guard: DS + analytical LLM stack scored ≤ 3 is the known GPT hallucination pattern
-        _ANALYTICAL_DS_SIGNALS = {"llm", "prompt engineering", "a/b testing", "ab testing"}
+        _ANALYTICAL_DS_SIGNALS = {
+            "llm",
+            "prompt engineering",
+            "a/b testing",
+            "ab testing",
+        }
         _title = (data.get("title") or "").lower()
         _stack = {t.lower() for t in data.get("tech_stack", [])}
-        if "data " in _title and _ANALYTICAL_DS_SIGNALS & _stack and data.get("confidence_score", 10) <= 3:
+        if (
+            "data " in _title
+            and _ANALYTICAL_DS_SIGNALS & _stack
+            and data.get("confidence_score", 10) <= 3
+        ):
             data["confidence_score"] = 5
             data["fit_reasoning"] = (
                 data.get("fit_reasoning", "")
