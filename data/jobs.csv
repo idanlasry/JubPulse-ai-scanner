@@ -6315,3 +6315,131 @@ https://secrethunter.io/jobz/fa79746bed?utm_source=telegram",9,1,"POSITIVES: Loc
 NEGATIVES: Senior role, Data Engineer title, which is not relevant for the candidate.
 HARD BLOCK: Senior in title
 SCORE: 1 — the role is a hard exclusion due to seniority and being a Data Engineer."
+c9bbd0416a6e7f2dfd2185989d1e528da3c132b9d2b94df2fba33be6bb562761,2026-04-24T07:00:31.523879+00:00,Senior investment analyst,SMARTGEN WEALTH MANAGEMENT,Netanya,False,"[""Portfolio Management"", ""Investment Research"", ""Capital Markets"", ""Investment Strategy"", ""Client Communication""]",,https://secrethunter.io/jobz/a0984d5218?utm_source=telegram,"**Senior investment analyst**
+SMARTGEN WEALTH MANAGEMENT
+Netanya
+23/4/26
+ㅤ
+__Portfolio Management, Investment Research, Capital Markets, Investment Strategy, Client Communication, English, Russian__
+ㅤ
+Senior
+ㅤ
+https://secrethunter.io/jobz/a0984d5218?utm_source=telegram",9,1,"POSITIVES: None.
+NEGATIVES: Senior in title, outside Israel.
+HARD BLOCK: Senior in title.
+SCORE: 1 — role is a hard exclusion due to seniority."
+d723f6439e15f4d81b7a69492c9b603c249c6d708bb5af4937d038db9374ce62,2026-04-24T07:00:32.109104+00:00,Data science team lead,Fast Corporation,Raanana,False,"[""Machine Learning"", ""Statistical Modeling"", ""Data Analysis"", ""Recommendation Engines"", ""Reinforcement Learning"", ""Team Leadership"", ""Data Strategy""]",,https://secrethunter.io/jobz/47e0f63719?utm_source=telegram,"**Data science team lead**
+Fast Corporation
+Raanana
+23/4/26
+ㅤ
+__Machine Learning, Statistical Modeling, Data Analysis, Recommendation Engines, Reinforcement Learning, Team Leadership, Data Strategy__
+ㅤ
+Techlead
+ㅤ
+https://secrethunter.io/jobz/47e0f63719?utm_source=telegram",8,1,"POSITIVES: None.
+NEGATIVES: Senior role (team lead) — hard block due to seniority; location is acceptable but not preferred.
+HARD BLOCK: Senior in title
+SCORE: 1 — role is a hard exclusion due to seniority."
+7442e8053affb01ad9d7aca44f823427c1de75f2d6067895246631342f64a85c,2026-04-24T07:00:32.364274+00:00,Head of data & bi/ba,Xpend Global Marketing,Tel Aviv,False,"[""SQL"", ""Python"", ""Data Modeling"", ""ETL/ELT"", ""Snowflake"", ""BI Leadership"", ""Analytics""]",,https://secrethunter.io/jobz/9c7ab4d311?utm_source=telegram,"**Head of data & bi/ba**
+Xpend Global Marketing
+Tel Aviv
+24/4/26
+ㅤ
+__SQL, Python, Data Modeling, ETL/ELT, Snowflake, BI Leadership, Analytics__
+ㅤ
+Director, Teamleader
+ㅤ
+https://secrethunter.io/jobz/9c7ab4d311?utm_source=telegram",9,1,"POSITIVES: Located in Tel Aviv, relevant tech stack includes SQL and Python.
+NEGATIVES: Title indicates a senior role (Head), which is not suitable for the candidate; also requires leadership experience.
+HARD BLOCK: Senior in title
+SCORE: 1 — the role is a senior position, which is a hard exclusion."
+a079378ca538d2937b823bd9b684e2b88d993638b726d29a225de48f5ed70fb9,2026-04-24T07:00:32.620991+00:00,Business Analyst,McKinsey & Company,Tel Aviv,True,"[""Data Analysis"", ""Client Management"", ""Problem Solving"", ""Communication"", ""Strategic Thinking"", ""Organization"", ""Resilience""]",,https://secrethunter.io/jobz/aedddd0af7?utm_source=telegram,"**Business analyst**
+McKinsey & Company
+Tel Aviv
+24/4/26
+ㅤ
+__Data Analysis, Client Management, Problem Solving, Communication, Strategic Thinking, Organization, Resilience__
+ㅤ
+Junior
+ㅤ
+https://secrethunter.io/jobz/aedddd0af7?utm_source=telegram",7,6,"POSITIVES: Junior role, located in preferred city, relevant analytical skills mentioned. NEGATIVES: Business Analyst title is not the primary target role; tech stack is broad and lacks specific tools like Python or SQL. HARD BLOCK: NONE. SCORE: 6 — relevant role with some alignment, but not a perfect match."
+95c5924f83a4de38334793976a12868ebb11b75dfdcdce58fc9e0b87867f11fd,2026-04-24T07:00:32.871448+00:00,Biomedical data science researcher,Weizmann Institute of Science,Rehovot,False,"[""AI/ML"", ""Machine Learning"", ""Comp. Biology"", ""Deep Learning"", ""Comp. Vision"", ""Statistical Gen.""]",,https://secrethunter.io/jobz/c4b365246f?utm_source=telegram,"**Biomedical data science researcher at weizmann institute of science**
+Weizmann Institute of Science
+Rehovot
+24/4/26
+ㅤ
+__AI/ML, Machine Learning, Comp. Biology, Deep Learning, Comp. Vision, Statistical Gen., Collaboration__
+ㅤ
+Senior
+ㅤ
+https://secrethunter.io/jobz/c4b365246f?utm_source=telegram",9,1,"POSITIVES: Company is reputable, role is in a scientific institution.
+NEGATIVES: Senior role, outside candidate's target level, and not aligned with preferred job type.
+HARD BLOCK: Senior in title
+SCORE: 1 — role is senior and not a fit for the candidate's target level."
+520d2c5a9a5e28456d5351f21b1c034717e4f6dfae9fa817063cef54b75181fc,2026-04-24T07:00:33.119631+00:00,Marketing data analyst,Persona.ly,Rehovot,False,"[""Data analysis"", ""Statistics"", ""Performance Marketing"", ""User Acquisition""]",,https://secrethunter.io/jobz/576db90716?utm_source=telegram,"**Marketing data analyst**
+Persona(.)ly
+Rehovot
+23/4/26
+ㅤ
+__Data analysis, Statistics, Performance Mkt, User Acquisition, Proactivity, Curiosity, English proficiency__
+ㅤ
+Mid
+ㅤ
+https://secrethunter.io/jobz/576db90716?utm_source=telegram",7,5,"POSITIVES: Relevant role in data analysis, located in Rehovot, some overlap with candidate's skills in statistics and user acquisition. NEGATIVES: Mid-level position — mild penalty for seniority. HARD BLOCK: NONE. SCORE: 5 — relevant role but penalized for mid-level requirement."
+d12064a8fbda64b8cfefda6b86ea532b294d54882e9bbf3099e104c2bff24463,2026-04-24T07:00:33.366305+00:00,Battery Data Analyst,SolarEdge Technologies,Modiin,False,"[""Python"", ""MATLAB"", ""Excel"", ""Battery Analysis"", ""Data Analysis""]",,https://secrethunter.io/jobz/8ecf6b0f07?utm_source=telegram,"**Battery data analyst**
+SolarEdge Technologies
+Modiin
+20/4/26
+ㅤ
+__Python, MATLAB, Excel, Battery Analysis, Data Analysis, Problem-solving, Communication__
+ㅤ
+Mid
+ㅤ
+https://secrethunter.io/jobz/8ecf6b0f07?utm_source=telegram",7,3,"POSITIVES: Role involves data analysis, Python is a primary tool, and the company is in the tech sector. NEGATIVES: Mid-level position is outside the candidate's target seniority, and location is not preferred. HARD BLOCK: NONE. SCORE: 3 — relevant role but penalized for seniority and location."
+eddbe3d3fd5cace8d2c8415695791918056ecfa74c5d4454f1d15420fb2691f5,2026-04-24T07:00:33.603064+00:00,Industrial Engineer - Student,Applied materials,Rehovot,True,[],,https://careers.appliedmaterials.com/careers/job/790313867543?domain=appliedmaterials.com&hl=en,"🆕 **Industrial Engineer - Student**
+
+💼 **Company:** Applied materials
+🔍 **Location:** Rehovot
+🧑‍💻️ **Experience required:** 0 yrs
+📁 **Position:** Student
+
+---------------
+
+📄 **Description:** you will gain extensive knowledge in planning and supply chain processes, using it to drive and lead projects, set timelines based on business environment understanding, operate independently, guide a team located in India, and perform analyses that ....
+
+---------------
+
+📊 **Requirements:** 3rd year student for B.S.C in industrial engineering
+Commitment to work at least 3 days a week from our campus in Rehovot
+Ability to gain cooperation of others, cooperate and lead complex interfaces with no authority
+Ability to work under pressure, m....
+
+[**View full position listing and submit CV**](https://careers.appliedmaterials.com/careers/job/790313867543?domain=appliedmaterials.com&hl=en)",7,2,"POSITIVES: Entry-level position, located in Rehovot, no experience required. NEGATIVES: Role is for Industrial Engineering, which is not relevant to the candidate's target roles. HARD BLOCK: NONE. SCORE: 2 — while the position is entry-level, it does not align with the candidate's desired field."
+82229952d85d0d225754bd35f1c9cc564a355959cc79a365e7020cddd3c04d12,2026-04-24T07:00:33.846474+00:00,PWP Research Student,Applied Materials,Rehovot,True,"[""Data Analysis"", ""Statistics""]",,https://careers.appliedmaterials.com/careers/job/790314788018?domain=appliedmaterials.com&hl=en,"🆕 **PWP reaserch Student**
+
+💼 **Company:** Applied materials
+🔍 **Location:** Rehovot
+🧑‍💻️ **Experience required:** 0 yrs
+📁 **Position:** Student
+
+---------------
+
+📄 **Description:** Perform experiments on materials for particulate contamination testing
+Wafer coating, preparation, and characterization
+Work in cleanrooms and wet chemistry laboratories
+Coordinate experiments with qualification teams and external labs
+Analyze data a....
+
+---------------
+
+📊 **Requirements:** Student or Bachelor’s degree in Chemistry, Physics, Materials Science, or Chemical Engineering
+At least 1.5 years remaining until graduation.
+Lab work experience – advantage
+Experience in data analysis and statistics – advantage
+Availability to work ....
+
+[**View full position listing and submit CV**](https://careers.appliedmaterials.com/careers/job/790314788018?domain=appliedmaterials.com&hl=en)",7,4,"POSITIVES: Entry-level position, location in Rehovot, data analysis and statistics mentioned as advantages.
+NEGATIVES: Role is focused on lab work and materials science, which is not the candidate's target area.
+HARD BLOCK: NONE
+SCORE: 4 — relevant entry-level position, but not aligned with the candidate's primary focus on data analytics."
