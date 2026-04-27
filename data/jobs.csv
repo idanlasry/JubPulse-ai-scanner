@@ -8370,3 +8370,407 @@ d68ee418371dd94c309332ad5a8d6f6cf05868c1c8aba12b6bf1e496b4e20a00,2026-04-27T07:3
 NEGATIVES: Role is not relevant to candidate's target (Data Analyst); location is outside preferred area.
 HARD BLOCK: NONE
 SCORE: 1 — job is not aligned with candidate's profile."
+31d12fe184692f808a5a257537bf66b0b715b1f55c07b75522f266275e481af3,2026-04-27T11:47:25.303744+00:00,Data engineer,Flexor,Tel Aviv,False,"[""Python"", ""Data Engineering"", ""SQL"", ""Cloud Platforms"", ""Distributed Systems"", ""Kubernetes"", ""LLM/ML Integration""]",,https://secrethunter.io/jobz/7cc82cec24?utm_source=telegram,"**Data engineer**
+Flexor
+Tel Aviv
+27/4/26
+ㅤ
+__Python, Data Engineering, SQL, Cloud Platforms, Distributed Systems, Kubernetes, LLM/ML Integration__
+ㅤ
+Senior
+ㅤ
+https://secrethunter.io/jobz/7cc82cec24?utm_source=telegram",9,1,"POSITIVES: Location in Tel Aviv.
+NEGATIVES: Senior role, Data Engineer title is not relevant, and primarily technical infrastructure with no analytics component.
+HARD BLOCK: Senior in title
+SCORE: 1 — hard exclusion due to seniority and irrelevance of the role."
+ac3eb651af4672be656c78ef5f29c1949a1be8b86603c62018a609e61114fce6,2026-04-27T11:47:26.446595+00:00,Data Integrity Analyst,Statement,Tel Aviv,True,"[""Data Validation"", ""Data Integrity""]",,https://job-boards.greenhouse.io/statement/jobs/4415539008,"🆕 **Data Integrity Analyst**
+
+💼 **Company:** Statement
+🔍 **Location:** Tel Aviv
+🧑‍💻️ **Experience required:** 0 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** Job Title: Data Integrity Analyst Company: Statement Location: Tel Aviv, on-site. About Us: Statement, a cash intelligence platform that offers multi-banking connectivity, centralizes all financial.......
+
+---------------
+
+📊 **Requirements:** About You: As a data integrity analyst at Statement, you will play a crucial role in ensuring the accuracy and reliability of the data, which is at the core of the company's product. Responsibilities: Data Validation - Review and validate data entrie....
+
+[**View full position listing and submit CV**](https://job-boards.greenhouse.io/statement/jobs/4415539008)",9,8,"POSITIVES: Exact title, junior role, preferred city, relevant data integrity focus aligns with candidate's skills. NEGATIVES: On-site only — mild penalty. HARD BLOCK: NONE. SCORE: 8 — strong match with minor penalty for on-site requirement."
+c8b398efd008593cdc017ce2b54eacb5b3cf2b1e13557aef6400568304ed919a,2026-04-27T11:47:26.715005+00:00,פקיד.ת לוגיסטיקה,Delta Galil Industries,Caesarea,True,[],,https://www.comeet.com/jobs/deltagalil/78.000/_-/C6.865,"🆕 **פקיד.ת לוגיסטיקה**
+
+💼 **Company:** Delta Galil Industries
+🔍 **Location:** Caesarea
+🧑‍💻️ **Experience required:** 0 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** Description ההזדמנות שלך להיות חלק ממותג האופנה האהוב בישראל! ""דלתא ישראל מותגים"" היא חברה ישראלית המתמחה בעיצוב, פיתוח, שיווק ומכירה של מגוון פריטי הלבשה תחתונה, פיג'מות, ביגוד בית ופנאי. המוצרים.......
+
+---------------
+
+📊 **Requirements:** Description ההזדמנות שלך להיות חלק ממותג האופנה האהוב בישראל! ""דלתא ישראל מותגים"" היא חברה ישראלית המתמחה בעיצוב, פיתוח, שיווק ומכירה של מגוון פריטי הלבשה תחתונה, פיג'מות, ביגוד בית ופנאי. המוצרים משווקים תחת שלושה מותגים עיקריים: דלתא, fix ו-Panta R....
+
+[**View full position listing and submit CV**](https://www.comeet.com/jobs/deltagalil/78.000/_-/C6.865)",7,1,"POSITIVES: Junior position, located in Israel.
+NEGATIVES: Role is not relevant to candidate's target (Data Analyst); no tech stack match.
+HARD BLOCK: NONE
+SCORE: 1 — role is outside candidate's target area and does not align with their skills."
+83ce18d1c734031d2163f1f2d3f46288a80f1dce6662fec66dc587231b4d77b8,2026-04-27T11:47:27.013660+00:00,Financial Implementer,InManage,Tel Aviv,True,[],,https://www.comeet.com/jobs/inmanage/B7.006/financial-implementer/AF.A50,"🆕 **Financial Implementer**
+
+💼 **Company:** InManage
+🔍 **Location:** Tel Aviv
+🧑‍💻️ **Experience required:** 0 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** Responsibilities This is an entry-level position that will help you grow and develop into a project manager superstar. The position includes both project organizational skills (such as customer.......
+
+---------------
+
+📊 **Requirements:** you have a financial background but are looking for a position that will combine that with client management skills and technical ones, this is the position for you. Responsibilities This is an entry-level position that will help you grow and develop....
+
+[**View full position listing and submit CV**](https://www.comeet.com/jobs/inmanage/B7.006/financial-implementer/AF.A50)",7,3,"POSITIVES: Entry-level position, located in preferred city (Tel Aviv). NEGATIVES: Role requires a financial background, which is not aligned with candidate's primary target of data analytics. HARD BLOCK: NONE. SCORE: 3 — relevant entry-level opportunity, but lacks alignment with candidate's core skills."
+7e19f54eec4a1095e752ff81e53b2756a7cf72e9883e76e12761dd36b5c98843,2026-04-27T11:47:27.287815+00:00,Full Time,Anchor Fintech,Tel Aviv,True,[],,https://www.comeet.com/jobs/anchorfintech/87.00D/we-always-look-for-great-people/4D.82E,"🆕 **We always look for great people!**
+
+💼 **Company:** Anchor Fintech
+🔍 **Location:** Tel Aviv
+🧑‍💻️ **Experience required:** 0 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** Description Responsibility Requirements Extra....
+
+---------------
+
+📊 **Requirements:** Description Responsibility Requirements Extra....
+
+[**View full position listing and submit CV**](https://www.comeet.com/jobs/anchorfintech/87.00D/we-always-look-for-great-people/4D.82E)",7,8,"POSITIVES: Location in Tel Aviv, 0 years experience required aligns with junior preference.
+NEGATIVES: Job title is vague, no specific tech stack mentioned.
+HARD BLOCK: NONE
+SCORE: 8 — strong match due to location and experience requirement, but lack of details on role specifics prevents a higher score."
+24e0f9b28eebdf89646816930349fde3d9d1406224cbe886a110450a57953870,2026-04-27T11:47:27.565406+00:00,Full Time,Hailo,Tel Aviv,True,"[""AI"", ""Data Center Performance""]",,https://hailo.ai/company-overview/careers/hailo-has-amazing-openings/07.432/,"🆕 **Hailo has amazing openings!**
+
+💼 **Company:** Hailo
+🔍 **Location:** Tel Aviv
+🧑‍💻️ **Experience required:** 0 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** Couldn’t find the job you were looking for on our career page?Take a minute to read about us and if you think our current openings match your skills and experience, then you could also be relevant.......
+
+---------------
+
+📊 **Requirements:** skills and experience, then you could also be relevant for our future opportunities, so please send us your CV.Hailo is an AI-focused, Israel-based chipmaker, and has developed a specialized AI processor that enables data center-class performance on ....
+
+[**View full position listing and submit CV**](https://hailo.ai/company-overview/careers/hailo-has-amazing-openings/07.432/)",7,6,"POSITIVES: Location in Tel Aviv, 0 years experience required aligns with junior level, potential for AI-related work.
+NEGATIVES: Job title is vague, no specific tech stack mentioned, and the role is not explicitly a Data Analyst position.
+HARD BLOCK: NONE
+SCORE: 6 — while the role is not a direct match, the junior level and location are positive signals."
+2e052b229f3aa879aeb3583254151d7dca075537fe2060865d80f13eea031c69,2026-04-27T11:47:27.846021+00:00,סטודנט/ית להנדסת אלקטרוניקה,IAI,Ashdod,True,[],,https://www.linkedin.com/jobs/view/4403364960/,"🆕 **סטודנט/ית להנדסת אלקטרוניקה**
+
+💼 **Company:** IAI
+🔍 **Location:** Ashdod
+🧑‍💻️ **Experience required:** 0 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** קצת על התפקיד משימות אינטגרציית מערכת לפני אספקה ללקוח במעבדות באלתא ובשטח בניסויי קרקע וטיסות שותף להנדסת המערכת השוטפת בכל הפרויקטים בצוות אנליזות וחקר ביצועים של כל תהליך הפיתוח מה אנחנו מחפשים.......
+
+---------------
+
+📊 **Requirements:** קצת על התפקיד משימות אינטגרציית מערכת לפני אספקה ללקוח במעבדות באלתא ובשטח בניסויי קרקע וטיסות שותף להנדסת המערכת השוטפת בכל הפרויקטים בצוות אנליזות וחקר ביצועים של כל תהליך הפיתוח מה אנחנו מחפשים סטודנט/ית להנדסת חשמל ואלקטרוניקה- חובה זמינות ל3-4 י....
+
+[**View full position listing and submit CV**](https://www.linkedin.com/jobs/view/4403364960/)",7,1,"POSITIVES: Entry-level position, 0 years experience required.
+NEGATIVES: Role is in Electrical Engineering, not relevant to Data Analyst; location is outside preferred area.
+HARD BLOCK: outside Israel
+SCORE: 1 — significant misalignment with candidate's target role and location."
+a74c71ee353a7dc776f7a767b05d984f8ef9654fa04c19835bec9093d4443fe5,2026-04-27T11:47:28.124602+00:00,Product Introduction Engineer,Rafael,Kiryat Bialik,True,[],,https://www.linkedin.com/jobs/view/4401059964/,"🆕 **New Product Introduction Engineer**
+
+💼 **Company:** Rafael
+🔍 **Location:** Kiryat Bialik
+🧑‍💻️ **Experience required:** 0 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** מהנדס.ת NPI וטכנולוג.ית הרכבות קצת על התפקיד מהנדס.ת NPI ישמש כמוקד ידע מקצועי בנושאי הרכבות כרטיסים וינהל את תהליך העברה מפיתוח ליצור מקצה לקצה ליווי תהליכי פיתוח כרטיסים והמלצות לשיפור תכן ליצוריות.......
+
+---------------
+
+📊 **Requirements:** מהנדס.ת NPI וטכנולוג.ית הרכבות קצת על התפקיד מהנדס.ת NPI ישמש כמוקד ידע מקצועי בנושאי הרכבות כרטיסים וינהל את תהליך העברה מפיתוח ליצור מקצה לקצה ליווי תהליכי פיתוח כרטיסים והמלצות לשיפור תכן ליצוריות ליווי תהליכי DFX, כולל מעקב יישום מסקנות ליווי יצו....
+
+[**View full position listing and submit CV**](https://www.linkedin.com/jobs/view/4401059964/)",6,2,"POSITIVES: Entry-level position, no experience required.
+NEGATIVES: Role is outside preferred location, not aligned with candidate's target roles (Data Analyst).
+HARD BLOCK: outside Israel
+SCORE: 2 — while it's an entry-level role, it does not match the candidate's desired field."
+f3438cbb58667dc304e34968f8fb0b72b34efde85bfbd42f14fafeedab784b6f,2026-04-27T11:47:28.403007+00:00,Runtime Sensor Developer,Miggo,Tel Aviv,True,"[""C"", ""C++"", ""Linux"", ""eBPF""]",lior.gez@miggo.io,https://miggo.bamboohr.com/careers/30,"🆕 **Runtime Sensor Developer | eBPF Expert**
+
+💼 **Company:** Miggo
+🔍 **Location:** Tel Aviv
+🧑‍💻️ **Experience required:** 0 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** Join Miggo as a Runtime Sensor Developer (eBPF Expert) and help build the “eyes and ears” inside running applications. In this role, you’ll write low-level, high-performance code that hooks deep into Linux runtimes and kernel internals to capture run....
+
+---------------
+
+📊 **Requirements:** • Strong experience with C/C++ and low-level systems programming
+ • Hands-on experience with Linux internals and eBPF
+ • Experience with performance tuning, tracing, syscalls, and networking at the OS level
+ • Strong problem-solving skills and owners....
+
+[**View full position listing and submit CV**](https://miggo.bamboohr.com/careers/30)
+
+    
+**POC:** Lior Gez
+[LI of POC](https://www.linkedin.com/in/lior-anati-gez-b16a9312a/)
+**Email:** lior.gez@miggo.io
+**Phone:**: (050) 777-9202",9,1,"POSITIVES: Junior role, located in preferred city, full-time position. NEGATIVES: Role requires strong experience with C/C++ and low-level systems programming, which is outside candidate's target role of Data Analyst. HARD BLOCK: Senior in title. SCORE: 1 — role is not relevant to candidate's profile."
+11c8424d137bb7019638e273e51a255de4764e2cdf8065a824816ea9912c9f69,2026-04-27T11:47:28.681228+00:00,Data Scientist,The Data Team,Tel Aviv,True,[],,https://www.linkedin.com/jobs/view/4404622990/,"🆕 **Data Scientist**
+
+💼 **Company:** The Data Team
+🔍 **Location:** Tel Aviv
+🧑‍💻️ **Experience required:** 0 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** About UsWIDER is revolutionizing how marketing and growth teams create campaigns. Our system analyzes ad performance, competition and market trends, and operates as a meta layer that sits above the.......
+
+---------------
+
+📊 **Requirements:** Who You AreA Field Thinker: You understand that marketing data is messy, biased, and fast moving. You know how to find the signal in the noise. Creative Architect: You don’t just run models; you build flows that connect consumer behavior to creative ....
+
+[**View full position listing and submit CV**](https://www.linkedin.com/jobs/view/4404622990/)",7,2,"POSITIVES: Location in Tel Aviv, entry-level position. NEGATIVES: Data Scientist title is not the primary target role; no relevant tech stack mentioned. HARD BLOCK: Senior in title. SCORE: 2 — role is not aligned with candidate's target position."
+e4da000b18bf5908601f74e526bb41bb3c74243fc584f9913e3cc5bb5ef6a623,2026-04-27T11:47:28.961075+00:00,Assistant Controller,Oversee,Tel Aviv,True,[],,https://apply.workable.com/j/F44C6F144B,"🆕 **Assistant Controller**
+
+💼 **Company:** Oversee
+🔍 **Location:** Tel Aviv
+🧑‍💻️ **Experience required:** 0 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** ....
+
+---------------
+
+📊 **Requirements:** ....
+
+[**View full position listing and submit CV**](https://apply.workable.com/j/F44C6F144B)",7,1,"POSITIVES: Location in Tel Aviv, entry-level position. NEGATIVES: Role is for Assistant Controller, which is not aligned with candidate's target roles; no relevant tech stack mentioned. HARD BLOCK: NONE. SCORE: 1 — role does not match candidate's profile."
+7f65df1cde33a1ce6a308fe9df89033efa4421735028d8dd6ca18caeeafac90c,2026-04-27T11:47:29.236138+00:00,נציג/ת תביעות ושירות,Passportcard,Netanya,True,[],,https://www.comeet.com/jobs/passportcard/92.00A/-----relocation/2D.C53,"🆕 **נציג/ת תביעות ושירות - Relocation**
+
+💼 **Company:** Passportcard
+🔍 **Location:** Netanya
+🧑‍💻️ **Experience required:** 0 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** Description PassportCard Relocation מגייסת: נציג/ת תביעות ושירות התפקיד כולל: טיפול מקצה לקצה בתביעות – הזנה, עיבוד בדיקה ואישור יצירת קשר יזום עם לקוחות לגבי תביעות פתוחות מתן מענה מקצועי ואישי –.......
+
+---------------
+
+📊 **Requirements:** Description PassportCard Relocation מגייסת: נציג/ת תביעות ושירות התפקיד כולל: טיפול מקצה לקצה בתביעות – הזנה, עיבוד בדיקה ואישור יצירת קשר יזום עם לקוחות לגבי תביעות פתוחות מתן מענה מקצועי ואישי – טלפוני ובכתב עבודה מול מגוון ממשקים בתוך ומחוץ לארגון....
+
+[**View full position listing and submit CV**](https://www.comeet.com/jobs/passportcard/92.00A/-----relocation/2D.C53)",7,2,"POSITIVES: Entry-level position, 0 years experience required.
+NEGATIVES: Role is not aligned with candidate's target of Data Analyst; location is outside preferred area; no relevant tech stack.
+HARD BLOCK: NONE
+SCORE: 2 — while it's an entry-level role, it does not match the candidate's desired field."
+655d99e4d8dcb54a0fc9838acb778b45cd98e76bc97931760704bb39ca54ff0a,2026-04-27T11:47:29.514262+00:00,"רכז/ת בטיחות, הגנת הסביבה ולייזר",IAI,Israel,True,[],,https://www.linkedin.com/jobs/view/4401404885/,"🆕 **רכז/ת בטיחות, הגנת הסביבה ולייזר**
+
+💼 **Company:** IAI
+🔍 **Location:** Israel
+🧑‍💻️ **Experience required:** 0 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** קצת על התפקיד תמיכה מקצועית ותפעולית לרת""ח הבטיחות ואחראית הרעלים בתחום EHS בחטיבת מערכות טילים וחלל ריכוז תחום בטיחות לייזר בהתאם לדרישות הרגולציה תמיכה מקצועית בניהול מלאי חומ""ס ועמידה בהיתר רעלים,.......
+
+---------------
+
+📊 **Requirements:** קצת על התפקיד תמיכה מקצועית ותפעולית לרת""ח הבטיחות ואחראית הרעלים בתחום EHS בחטיבת מערכות טילים וחלל ריכוז תחום בטיחות לייזר בהתאם לדרישות הרגולציה תמיכה מקצועית בניהול מלאי חומ""ס ועמידה בהיתר רעלים, ליווי מבדקי פנים וחוץ ותרגילי חירום שיפור רמת הבקר....
+
+[**View full position listing and submit CV**](https://www.linkedin.com/jobs/view/4401404885/)",7,1,"POSITIVES: Entry-level position, located in Israel.
+NEGATIVES: Role is not relevant to candidate's target (Data Analyst); no analytical duties mentioned.
+HARD BLOCK: NONE
+SCORE: 1 — job is outside candidate's relevant field and does not align with their skills."
+abbc3beced365806d733e7abcd8e7a5b7d3770c635679f067f44bf44922ee7f0,2026-04-27T11:47:29.764610+00:00,ASIC Verification Student,Sandisk,Israel - South,True,[],,https://www.linkedin.com/jobs/view/4376397051/?alternateChannel=search&trk=d_flagship3_company&refId=sHsjU0kz4anKRr9j65d13Q%3D%3D&trackingId=VNm3DrV3eI%2FtW2%2FsqFfz4g%3D%3D,"🆕 **ASIC Verification Student**
+
+💼 **Company:** Sandisk
+🔍 **Location:** Israel - South
+🧑‍💻️ **Experience required:** 0 yrs
+📁 **Position:** Internship
+
+---------------
+
+📄 **Description:** The group is responsible for the definition, design, verification, and support for all complex IP that build each SOC done on Western Digital for all segments.....
+
+---------------
+
+📊 **Requirements:** 3rd Year Electrical Engineering student - must
+Remaining 3-4semesters - must
+Free to work at least 2 days a week - must
+Talented and energetic with communication capabilities and the ability to learn fast and work with a variety of interfaces
+**Add a....
+
+[**View full position listing and submit CV**](https://www.linkedin.com/jobs/view/4376397051/?alternateChannel=search&trk=d_flagship3_company&refId=sHsjU0kz4anKRr9j65d13Q%3D%3D&trackingId=VNm3DrV3eI%2FtW2%2FsqFfz4g%3D%3D)",7,1,"POSITIVES: Internship role, 0 years experience required, located in Israel.
+NEGATIVES: Role is for Electrical Engineering students, not relevant to Data Analyst; location is in the South, which is not preferred.
+HARD BLOCK: NONE
+SCORE: 1 — role is not aligned with candidate's target position."
+516e0da2fb04ffdb54f5674db76077533e30f923c2470a91f6ed9eb50a80e904,2026-04-27T11:47:30.040240+00:00,Security Guard,InManage,Tel Aviv,True,[],,https://www.comeet.com/jobs/inmanage/B7.006/security-guard/38.34A,"🆕 **Security Guard**
+
+💼 **Company:** InManage
+🔍 **Location:** Tel Aviv
+🧑‍💻️ **Experience required:** 0 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** Description A software development company, specializing in sophisticated e-commerce solutions, is looking for a motivated, talented security guard to join our growing team. Responsibilities.......
+
+---------------
+
+📊 **Requirements:** Description A software development company, specializing in sophisticated e-commerce solutions, is looking for a motivated, talented security guard to join our growing team. Responsibilities Requirements Qualifications....
+
+[**View full position listing and submit CV**](https://www.comeet.com/jobs/inmanage/B7.006/security-guard/38.34A)",7,1,"POSITIVES: Location in Tel Aviv, entry-level position. NEGATIVES: Role is not relevant to candidate's target (Data Analyst), no analytical duties. HARD BLOCK: NONE. SCORE: 1 — job is a hard exclusion due to being outside the candidate's target role."
+2532831b71beb0db2d4609bf51ef2e10987bc48dc5129e4516accdb2fbf8e143,2026-04-27T11:47:30.265526+00:00,Finance Analyst,Passportcard,Netanya,False,[],,https://www.comeet.com/jobs/passportcard/92.00A/finance-analyst/CF.666,"🆕 **Finance Analyst**
+
+💼 **Company:** Passportcard
+🔍 **Location:** Netanya
+🧑‍💻️ **Experience required:** 2 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** Description Passportcard is seeking a dynamic Finance Analyst to join our team. Responsibilities: Provide value-added insight into the business. Provide monthly reporting packages that include full.......
+
+---------------
+
+📊 **Requirements:** Description Passportcard is seeking a dynamic Finance Analyst to join our team. Responsibilities: Provide value-added insight into the business. Provide monthly reporting packages that include full financial analysis, comprehensive key performance in....
+
+[**View full position listing and submit CV**](https://www.comeet.com/jobs/passportcard/92.00A/finance-analyst/CF.666)",7,2,"POSITIVES: Company is in the finance sector, which is neutral; position is full-time.
+NEGATIVES: Role is outside Israel (Netanya), requires 2 years of experience, which is not aligned with candidate's junior preference.
+HARD BLOCK: outside Israel
+SCORE: 2 — significant penalties for location and experience requirements."
+c822bb940b11454fd05443e931c7e883fbc2e2b9ab999f8e1e22163789be0fb1,2026-04-27T11:47:30.530971+00:00,Senior Backend & Data Engineer,Cellebrite,Petach Tikva,False,[],,https://cellebrite.com/en/about/careers/positions/?comeet_cat=israel-petah-tikva&comeet_pos=14.95D&comeet_all=all,"🆕 **Senior Backend & Data Engineer**
+
+💼 **Company:** Cellebrite
+🔍 **Location:** Petach Tikva
+🧑‍💻️ **Experience required:** 8 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** Description Company Overview: Cellebrite’s (Nasdaq: CLBT) mission is to enable its global customers to protect and save lives by enhancing digital investigations and intelligence gathering to.......
+
+---------------
+
+📊 **Requirements:** Description Company Overview: Cellebrite’s (Nasdaq: CLBT) mission is to enable its global customers to protect and save lives by enhancing digital investigations and intelligence gathering to accelerate justice in communities around the world. Celleb....
+
+[**View full position listing and submit CV**](https://cellebrite.com/en/about/careers/positions/?comeet_cat=israel-petah-tikva&comeet_pos=14.95D&comeet_all=all)",9,1,"POSITIVES: Company is well-known, job is in Israel.
+NEGATIVES: Senior role, 8 years experience required, outside candidate's target level.
+HARD BLOCK: Senior in title
+SCORE: 1 — role is a hard exclusion due to seniority."
+537b2c634c63ce45098d917659f68de4231da02fd6aaab45a7f64a4b83370d60,2026-04-27T11:47:30.785991+00:00,Project & Performance Analyst,Enlight,Rosh HaAyin,False,[],,https://www.comeet.com/jobs/enlightenergy/99.006/project--performance-analyst/9D.667,"🆕 **Project & Performance Analyst**
+
+💼 **Company:** Enlight
+🔍 **Location:** Rosh HaAyin
+🧑‍💻️ **Experience required:** 3 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** Description Enlight, a leading global renewable energy company, is seeking an experienced, talented, and detail-oriented Analyst to join it's European business unit. The role is designed to support.......
+
+---------------
+
+📊 **Requirements:** Description Enlight, a leading global renewable energy company, is seeking an experienced, talented, and detail-oriented Analyst to join it's European business unit. The role is designed to support both the HQ functions and project development team i....
+
+[**View full position listing and submit CV**](https://www.comeet.com/jobs/enlightenergy/99.006/project--performance-analyst/9D.667)",7,2,"POSITIVES: Company is in a relevant industry (renewable energy), position is analytical in nature.
+NEGATIVES: Requires 3 years of experience, location is Rosh HaAyin (not preferred), not a junior role.
+HARD BLOCK: NONE
+SCORE: 2 — significant penalties for experience requirement and seniority."
+c793c4436d3716d2ac172b8e210ec7114a06f606d497de6abb706736875d010f,2026-04-27T11:47:31.036927+00:00,BI and Data Engineer,Silverfort,Tel Aviv,False,"[""Data Engineering"", ""Data Models"", ""Data Extraction""]",,https://www.comeet.com/jobs/silverfort/54.007/bi-and-data-engineer/30.66B,"🆕 **BI and Data Engineer**
+
+💼 **Company:** Silverfort
+🔍 **Location:** Tel Aviv
+🧑‍💻️ **Experience required:** 5 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** Description Silverfort is on a mission to bring identity security everywhere – to every human, machine, and AI agent, both on-prem and in the cloud. Our unique technology secures identities & access.......
+
+---------------
+
+📊 **Requirements:** you have a background in data engineering and enjoy providing end-to-end solutions, we’d like to meet you. Responsibilities Design and develop scalable data models with efficient data extraction from multiple internal and external sources Develop com....
+
+[**View full position listing and submit CV**](https://www.comeet.com/jobs/silverfort/54.007/bi-and-data-engineer/30.66B)",8,1,"POSITIVES: Company is in the tech sector, located in Tel Aviv.
+NEGATIVES: Role requires 5 years of experience, which is beyond the candidate's target level; title includes 'Engineer' which is not relevant for the candidate.
+HARD BLOCK: Senior in title
+SCORE: 1 — the role is a hard exclusion due to seniority and experience requirements."
+19b23af49ca35f9b5cea0696ecca2ef7b482d6c29651f1100e6cf712ab0ddd04,2026-04-27T11:47:31.279535+00:00,Signal Analyst,Exodigo,Tel Aviv,True,"[""AI"", ""3D imaging"", ""multi-sensor fusion""]",,https://www.exodigo.com/open-positions/signal-analyst,"🆕 **Signal Analyst**
+
+💼 **Company:** Exodigo
+🔍 **Location:** Tel Aviv
+🧑‍💻️ **Experience required:** 2 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** Description Exodigo is the leading underground mapping solution for non-intrusive discovery. Our platforms combine multi-sensor fusion, 3D imaging, and AI technologies to create complete, accurate.......
+
+---------------
+
+📊 **Requirements:** Description Exodigo is the leading underground mapping solution for non-intrusive discovery. Our platforms combine multi-sensor fusion, 3D imaging, and AI technologies to create complete, accurate underground maps that enable confident decision-makin....
+
+[**View full position listing and submit CV**](https://www.exodigo.com/open-positions/signal-analyst)",7,4,"POSITIVES: Location in Tel Aviv, relevant industry (AI technologies), junior experience requirement. NEGATIVES: Role is not directly aligned with Data Analyst focus, tech stack is not a strong match. HARD BLOCK: NONE. SCORE: 4 — relevant industry and location, but the role does not align closely with the candidate's target position."
+5ff0a579129e51dd0489de78e5e1d3acac7e6ae99f397fafae78dbcff5a13c40,2026-04-27T11:47:31.529668+00:00,Senior Data Engineer,Ivix,Tel Aviv,False,[],,https://www.comeet.com/jobs/ivix/09.002/senior-data-engineer/83.654,"🆕 **Senior Data Engineer**
+
+💼 **Company:** Ivix
+🔍 **Location:** Tel Aviv
+🧑‍💻️ **Experience required:** 5 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** Description We’re looking for a brilliant, hands-on, and mission-driven Senior Data Engineer to join our R&D team at IVIX. Our technology helps governments uncover hidden business activity and fight.......
+
+---------------
+
+📊 **Requirements:** Description We’re looking for a brilliant, hands-on, and mission-driven Senior Data Engineer to join our R&D team at IVIX. Our technology helps governments uncover hidden business activity and fight financial crimes, by turning massive volumes of pub....
+
+[**View full position listing and submit CV**](https://www.comeet.com/jobs/ivix/09.002/senior-data-engineer/83.654)",9,1,"POSITIVES: Location in Tel Aviv.
+NEGATIVES: Senior title, 5 years experience required — both are hard exclusions.
+HARD BLOCK: Senior in title.
+SCORE: 1 — role is not relevant due to seniority and experience requirements."
+e97e57cba96105e0e124dc527b10920ff2c1754d7f81f26918dc6803901a59a2,2026-04-27T11:47:31.774874+00:00,GTM Strategic Analyst,The Data Team,Tel Aviv,False,[],,https://www.linkedin.com/jobs/view/4404636255/,"🆕 **GTM Strategic Analyst**
+
+💼 **Company:** The Data Team
+🔍 **Location:** Tel Aviv
+🧑‍💻️ **Experience required:** 5 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** About Buildots Buildots is the world’s most advanced construction intelligence platform. By comparing schedules and BIM against site reality, its advanced AI transforms granular data into insights.......
+
+---------------
+
+📊 **Requirements:** About Buildots Buildots is the world’s most advanced construction intelligence platform. By comparing schedules and BIM against site reality, its advanced AI transforms granular data into insights that unlock operational excellence. Fortune 500 contr....
+
+[**View full position listing and submit CV**](https://www.linkedin.com/jobs/view/4404636255/)",8,1,"POSITIVES: Location in Tel Aviv.
+NEGATIVES: Requires 5 years of experience, which is significantly above the candidate's target level; role is not aligned with the candidate's focus on analytics.
+HARD BLOCK: Seniority requirement (5+ years).
+SCORE: 1 — the role is a hard exclusion due to the experience requirement."
