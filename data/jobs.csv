@@ -9103,3 +9103,242 @@ bb69d5fd7be65237be0a44ab0e2a7e673a0a4b127bd33b5f82f03d9bb88ac4d3,2026-04-29T07:1
 NEGATIVES: Role is not relevant to candidate's target (Data Analyst); no analytical or technical skills required.
 HARD BLOCK: NONE
 SCORE: 1 — job is outside candidate's target role and skills."
+da66289e5d654f54bcdcca59531ada5c57c72f587dd7e79a2c71fc636180e6c7,2026-04-29T11:40:45.906602+00:00,System Analyst BI,MalamTeam,Tel Aviv,False,"[""BI analysis"", ""Data projects"", ""System analysis"", ""Data modeling""]",,https://secrethunter.io/jobz/5986e854e5?utm_source=telegram,"**System analyst bi**
+MalamTeam
+Tel Aviv
+29/4/26
+ㅤ
+__BI analysis, Data projects, System analysis, Data modeling__
+ㅤ
+Mid
+ㅤ
+https://secrethunter.io/jobz/5986e854e5?utm_source=telegram",7,3,"POSITIVES: Relevant industry (BI), located in preferred city (Tel Aviv). NEGATIVES: Mid-level position — not aligned with candidate's target level; tech stack is not a strong match. HARD BLOCK: NONE. SCORE: 3 — relevant role but mid-level position is a significant drawback."
+341d54c5dc7262f3d0a4e4db0f6e5e789545523b62f579310e23988c92ebcd85,2026-04-29T11:40:47.256153+00:00,Junior solutions analyst,Materialspace,Tel Aviv,True,"[""Excel"", ""VBA/Macros"", ""Complex Formulas"", ""Workflow Automation""]",,https://secrethunter.io/jobz/20fe0ae98a?utm_source=telegram,"**Junior solutions analyst (excel automation)**
+Materialspace
+Tel Aviv
+29/4/26
+ㅤ
+__Excel, VBA/Macros, Complex Formulas, Workflow Automation, Problem-solving, Customer Support, Communication__
+ㅤ
+Entry
+ㅤ
+https://secrethunter.io/jobz/20fe0ae98a?utm_source=telegram",7,3,"POSITIVES: Junior role, located in Tel Aviv, relevant skills in Excel and automation. NEGATIVES: Role is not directly aligned with data analytics; focus on Excel automation rather than data analysis. HARD BLOCK: NONE. SCORE: 3 — relevant skills but not a strong match for the candidate's primary target role."
+15fdd88940749e4346125e3305e9eedb18e0e242001d7e728f7bed1054bf867a,2026-04-29T11:40:47.999239+00:00,Data Scientist,Software AG Israel,Jerusalem,False,"[""Python"", ""SQL"", ""ML"", ""LLM"", ""Cloud""]",,https://secrethunter.io/jobz/448058d1b4?utm_source=telegram,"**Data scientist**
+Software AG Israel
+Jerusalem
+29/4/26
+ㅤ
+__Data Science, Python, SQL, ML, LLM, Cloud__
+ㅤ
+Mid
+ㅤ
+https://secrethunter.io/jobz/448058d1b4?utm_source=telegram",8,5,"POSITIVES: Python and SQL are relevant skills, job is in Israel.
+NEGATIVES: Data Scientist title is not a target role, mid-level experience required.
+HARD BLOCK: Senior in title
+SCORE: 2 — significant misalignment with candidate's target role and seniority.
+[POST-PROCESSING: Score raised to 5 — LLM/Prompt Engineering/A-B Testing detected; score ≤ 3 is over-penalized for this role type.]"
+079b08e028d3a41c3c7230441e5e7548d11d8a775adc6d101215c49b0358b3a3,2026-04-29T11:40:48.279293+00:00,Data Scientist,Apartment List,Tel Aviv,False,"[""GenAI"", ""LLMs"", ""Python"", ""SQL"", ""Prompt Engineering"", ""Data Analysis""]",,https://secrethunter.io/jobz/7244d39f8f?utm_source=telegram,"**Data scientist, genai - temporary position (maternity leave coverage)**
+Apartment List
+Tel Aviv
+28/4/26
+ㅤ
+__GenAI, LLMs, Python, SQL, Prompt Engineering, Data Analysis, Collaboration__
+ㅤ
+Mid
+ㅤ
+https://secrethunter.io/jobz/7244d39f8f?utm_source=telegram",8,5,"POSITIVES: Location in Tel Aviv, relevant tech stack includes Python and SQL.
+NEGATIVES: Title is Data Scientist, which is not a target role; mid-level experience required.
+HARD BLOCK: Senior in title
+SCORE: 1 — the role is a hard exclusion due to the title being Data Scientist.
+[POST-PROCESSING: Score raised to 5 — LLM/Prompt Engineering/A-B Testing detected; score ≤ 3 is over-penalized for this role type.]"
+e3c30f10a84a2091b61830e5ec06b72314fa7cf14c6f91fa7b4108d7c48ae0ed,2026-04-29T11:40:48.559781+00:00,Formal Verification Engineer,NVIDIA,Tel Aviv,True,"[""Electrical Engineering"", ""Computer Engineering"", ""Mathematics""]",,https://nvidia.wd5.myworkdayjobs.com/en-GB/NVIDIAExternalCareerSite/job/Israel-Tel-Aviv/Formal-Verification-Engineer_JR2016973?locationHierarchy1=2fcb99c455831013ea52bbe14cf9326c,"🆕 **Formal Verification Engineer**
+
+💼 **Company:** NVIDIA
+🔍 **Location:** Tel Aviv
+🧑‍💻️ **Experience required:** 0 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** We are looking for a Formal Verification Engineer for our NVIDIA Networking team! This is an exciting opportunity to join a hardworking Pre-Silicon design and verification team, working on.......
+
+---------------
+
+📊 **Requirements:** What we need to see: BSc in Electrical/Computer Engineering or MSc in Mathematics. 1+ years of experience Excellent analytical, logical reasoning and problem-solving skills. Strong debugging and analytical skills. Strong communication and interperson....
+
+[**View full position listing and submit CV**](https://nvidia.wd5.myworkdayjobs.com/en-GB/NVIDIAExternalCareerSite/job/Israel-Tel-Aviv/Formal-Verification-Engineer_JR2016973?locationHierarchy1=2fcb99c455831013ea52bbe14cf9326c)",7,1,"POSITIVES: Location in Tel Aviv, entry-level position. NEGATIVES: Role is for a Formal Verification Engineer, which is not relevant to the candidate's target role of Data Analyst. HARD BLOCK: Senior in title. SCORE: 1 — the role is outside the candidate's target area."
+f138dd4b5b265f5127c22dba08b9c186198c9f65b8d5222c2384f69a90a959b6,2026-04-29T11:40:48.842894+00:00,Field Driver,Autobrains Technologies,Tel Aviv,True,[],,https://www.comeet.com/jobs/autobrains/57.004/field-driver/D4.76D,"🆕 **Field Driver**
+
+💼 **Company:** Autobrains Technologies
+🔍 **Location:** Tel Aviv
+🧑‍💻️ **Experience required:** 0 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** Description Autobrains, a leading AI Company in the Automotive Industry, is expanding! Following recent major design wins with leading global OEMs, we're scaling up our operations and innovation.......
+
+---------------
+
+📊 **Requirements:** Description Autobrains, a leading AI Company in the Automotive Industry, is expanding! Following recent major design wins with leading global OEMs, we're scaling up our operations and innovation efforts. This is your chance to be part of a groundbrea....
+
+[**View full position listing and submit CV**](https://www.comeet.com/jobs/autobrains/57.004/field-driver/D4.76D)",7,2,"POSITIVES: Junior position, located in preferred city (Tel Aviv). NEGATIVES: Role does not align with candidate's target of Data Analyst; no relevant tech stack mentioned. HARD BLOCK: NONE. SCORE: 2 — while the position is junior and local, it does not match the candidate's desired role or skills."
+ee06803333c7deeaf19b017c3cf085094dc3d9af0277ad7b6b7ebb373d30ef42,2026-04-29T11:40:49.119329+00:00,מנהל/ת איכות בפרויקט,IAI,Israel,True,[],,https://www.linkedin.com/jobs/view/4397912176/,"🆕 **מנהל/ת איכות בפרויקט**
+
+💼 **Company:** IAI
+🔍 **Location:** Israel
+🧑‍💻️ **Experience required:** 0 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** למפעל טילים בחטיבת מערכות טילים וחלל דרוש/ה מנהל/ת איכות בפרויקטים התפקיד כולל: אחריות כוללת על ניהול האיכות בפרויקט/פרויקטים רב תחומיים בתחום הצבאי. שותפות בכירה בצוות ניהול הפרויקט הכולל אחריות על.......
+
+---------------
+
+📊 **Requirements:** למפעל טילים בחטיבת מערכות טילים וחלל דרוש/ה מנהל/ת איכות בפרויקטים התפקיד כולל: אחריות כוללת על ניהול האיכות בפרויקט/פרויקטים רב תחומיים בתחום הצבאי. שותפות בכירה בצוות ניהול הפרויקט הכולל אחריות על כלל היבטי האיכות בשלבי הפיתוח, הניסויים, היצור, האס....
+
+[**View full position listing and submit CV**](https://www.linkedin.com/jobs/view/4397912176/)",7,1,"POSITIVES: Junior position, located in Israel.
+NEGATIVES: Role is for a Quality Manager, which is not relevant to the candidate's target roles; no relevant tech stack mentioned.
+HARD BLOCK: NONE
+SCORE: 1 — the role is outside the candidate's target area."
+91c3b9d2f8d20eef60b10145e958c653ce4d713fca068e52027997a49dd76609,2026-04-29T11:40:49.396187+00:00,Personal Assistant to Leadership,AutoDS,Tel Aviv,True,[],,https://job-boards.greenhouse.io/autods/jobs/5124175008,"🆕 **Personal Assistant to Leadership**
+
+💼 **Company:** AutoDS
+🔍 **Location:** Tel Aviv
+🧑‍💻️ **Experience required:** 0 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** At AutoDS , recently acquired by Fiverr, we're revolutionizing the eCommerce world by providing innovative tools that empower online sellers globally. As a fast-growing company, we’re looking for.......
+
+---------------
+
+📊 **Requirements:** At AutoDS , recently acquired by Fiverr, we're revolutionizing the eCommerce world by providing innovative tools that empower online sellers globally. As a fast-growing company, we’re looking for talented individuals who are passionate about technolo....
+
+[**View full position listing and submit CV**](https://job-boards.greenhouse.io/autods/jobs/5124175008)",7,2,"POSITIVES: Junior position, located in preferred city (Tel Aviv).
+NEGATIVES: Role is not aligned with candidate's target of Data Analyst; lacks relevant tech stack.
+HARD BLOCK: NONE
+SCORE: 2 — while the position is junior and local, it does not match the candidate's desired role or skills."
+4451df52735b1299a64e5072d9c0260f931858c61c4d27305acfd16d4a677546,2026-04-29T11:40:49.673301+00:00,סטודנט.ית לרכש,Rafael,Kiryat Bialik,True,[],,https://www.linkedin.com/jobs/view/4407117574/,"🆕 **סטודנט.ית לרכש**
+
+💼 **Company:** Rafael
+🔍 **Location:** Kiryat Bialik
+🧑‍💻️ **Experience required:** 0 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** קצת על התפקיד שיקוף צרכי אחת החטיבות ברפאל ליחידת הרכש לקידום תכולות ומעקב ניתוח מדדים והכנת מצגות ביצוע תיאום אספקות ובקרה על הזמנות ועבודות רכש שונות מה אנחנו מחפשים? סטודנט.ית לתואר ראשון / שני –.......
+
+---------------
+
+📊 **Requirements:** קצת על התפקיד שיקוף צרכי אחת החטיבות ברפאל ליחידת הרכש לקידום תכולות ומעקב ניתוח מדדים והכנת מצגות ביצוע תיאום אספקות ובקרה על הזמנות ועבודות רכש שונות מה אנחנו מחפשים? סטודנט.ית לתואר ראשון / שני – הנדסת תעשייה וניהול / כלכלה וניהול / לוגיסטיקה / מנ....
+
+[**View full position listing and submit CV**](https://www.linkedin.com/jobs/view/4407117574/)",7,2,"POSITIVES: Entry-level position, 0 years experience required. NEGATIVES: Role is not aligned with candidate's target of Data Analyst; location is not preferred. HARD BLOCK: NONE. SCORE: 2 — while it's an entry-level role, it does not match the candidate's desired field."
+442377c6538d768a12e551e4263f15c25581f41bd800cb0c50e6d97049ebea1f,2026-04-29T11:40:49.958574+00:00,Production Planner,Vishay Precision Group,Modi'in,False,[],,https://www.comeet.com/jobs/vpgsensors/C8.009/production-planner/5A.963,"🆕 **Production Planner**
+
+💼 **Company:** Vishay Precision Group
+🔍 **Location:** Modi'in
+🧑‍💻️ **Experience required:** 2 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** Description Responsible for coordinating and optimizing production. Material planning, also using MRP and standard production control processes to plan production, support master scheduling goals,.......
+
+---------------
+
+📊 **Requirements:** Description Responsible for coordinating and optimizing production. Material planning, also using MRP and standard production control processes to plan production, support master scheduling goals, and work with the team to ensure that shipping schedu....
+
+[**View full position listing and submit CV**](https://www.comeet.com/jobs/vpgsensors/C8.009/production-planner/5A.963)",7,1,"POSITIVES: None relevant to candidate's profile.
+NEGATIVES: Role is not related to data analysis; outside candidate's target roles; requires 2 years experience.
+HARD BLOCK: NONE
+SCORE: 1 — job is not relevant to candidate's skills or target role."
+b19181fd2b994f793e0cc6a50eba295b3a9d657fa800a95a2addc37a2b091214,2026-04-29T11:40:50.237005+00:00,Data Analyst,The Data Team,Modi'in,False,"[""SQL"", ""Python"", ""PySpark""]",,https://www.linkedin.com/jobs/view/4369474121/,"🆕 **Data Analyst Osem Nestle**
+
+💼 **Company:** The Data Team
+🔍 **Location:** Modi'in
+🧑‍💻️ **Experience required:** 4 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** The IT Division of Osem Nestlé Group is recruiting Data Analyst to join the Data Team. Key Responsibilities: End-to-end development of Data Products and data solutions for various business units.......
+
+---------------
+
+📊 **Requirements:** Requirements: 2–4 years of experience in developing data solutions: BI / Data Product / Data Analysis Hands-on experience with SQL at a high level - must Practical experience with Python or PySpark - must Strong understanding of model development and....
+
+[**View full position listing and submit CV**](https://www.linkedin.com/jobs/view/4369474121/)",8,3,"POSITIVES: Relevant role in data analysis, SQL and Python are part of the tech stack. NEGATIVES: Requires 4 years of experience, which is above the candidate's target. HARD BLOCK: NONE. SCORE: 3 — relevant role but penalized for high experience requirement."
+04e9675224356da42ef3c7d4702d30b968b40eca8b3c7f3bba114e9759a80c64,2026-04-29T11:40:50.508929+00:00,System Integration Test (SIT) Engineer,HR Home,Haifa,False,"[""Network Analyzers"", ""Vector Signal Analyzers"", ""Digital Scope Oscillators""]",,https://www.linkedin.com/jobs/view/4406273502/,"🆕 **System Integration Test (SIT) Engineer**
+
+💼 **Company:** HR Home
+🔍 **Location:** Haifa
+🧑‍💻️ **Experience required:** 2 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** The System Integration Test (SIT) Engineer is responsible for end-to-end system validation, integration, and issue resolution across hardware, firmware, and software components. The role focuses on.......
+
+---------------
+
+📊 **Requirements:** Requirements: Bachelors in electrical engineering, computer engineering. Knowledge and experience working with common test equi pment: Network Analyzers, Vector Signal analyzers, vector signal generators, Digital Scope Oscillators. Knowledge in WLAN,....
+
+[**View full position listing and submit CV**](https://www.linkedin.com/jobs/view/4406273502/)",8,1,"POSITIVES: None relevant to candidate's profile.
+NEGATIVES: Role is outside candidate's target (not a Data Analyst), requires 2 years experience, and is not in preferred location.
+HARD BLOCK: NONE
+SCORE: 1 — job is not relevant to candidate's skills or preferences."
+e2a505095fd15e9fcfef9a1dbad8c0fc78ebeb6a49cfb9c92c3b0870fec58200,2026-04-29T11:40:50.787290+00:00,FP&A Analyst,Maytronics,Israel,False,[],,https://www.linkedin.com/jobs/view/4403349199/,"🆕 **Experienced FP&A Analyst**
+
+💼 **Company:** Maytronics
+🔍 **Location:** Israel
+🧑‍💻️ **Experience required:** 5 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** About the Role Maytronics is a publicly traded company that develops and manufactures leading consumer technology products, with international commercial operations. We are seeking an Experienced.......
+
+---------------
+
+📊 **Requirements:** About the Role Maytronics is a publicly traded company that develops and manufactures leading consumer technology products, with international commercial operations. We are seeking an Experienced FP&A Analyst to join our finance team. This role offer....
+
+[**View full position listing and submit CV**](https://www.linkedin.com/jobs/view/4403349199/)",8,1,"POSITIVES: Company is located in Israel.
+NEGATIVES: 5 years experience required — significant penalty; role is not aligned with candidate's target of Data Analyst.
+HARD BLOCK: Senior in title.
+SCORE: 1 — role is not a fit due to seniority and experience requirements."
+2eefd752978bf51822e3bf01638635a65773ab3ad6ee3d4eecaec8b7fd335ae0,2026-04-29T11:40:51.065190+00:00,Priority System Analyst,Maytronics,Israel,False,"[""Priority ERP"", ""Information Systems"", ""Industrial Engineering""]",,https://www.linkedin.com/jobs/view/4399194646/,"🆕 **Priority System Analyst**
+
+💼 **Company:** Maytronics
+🔍 **Location:** Israel
+🧑‍💻️ **Experience required:** 4 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** Role Overview As part of our team, you will join an exceptional group dedicated to providing service and support across all departments, while collaborating on the development of exciting,.......
+
+---------------
+
+📊 **Requirements:** Requirements: Education: B.Sc. in Information Systems Engineering or Industrial Engineering & Management (specializing in Information Systems). Experience: 4+ years of hands-on experience in implementing and analyzing Priority ERP systems. Technical ....
+
+[**View full position listing and submit CV**](https://www.linkedin.com/jobs/view/4399194646/)",7,2,"POSITIVES: Located in Israel, company is relevant. NEGATIVES: Requires 4+ years of experience, which is beyond candidate's target. HARD BLOCK: Seniority requirement (4+ years). SCORE: 2 — significant experience requirement disqualifies candidate."
+9f1ea3fcee23eefb2877acae5e45ad892c929720950a249d723a9cbc20d7e018,2026-04-29T11:40:51.342555+00:00,GenAI Analyst,Alice,Ramat Gan,True,"[""Generative AI"", ""AI Safety"", ""AI Ethics""]",,https://alice.io/positions/position-F5_468?t=1777405160505,"🆕 **GenAI Analyst (Israel/UK/Poland)**
+
+💼 **Company:** Alice
+🔍 **Location:** Ramat Gan
+🧑‍💻️ **Experience required:** 2 yrs
+📁 **Position:** Full Time
+
+---------------
+
+📄 **Description:** Description Alice is seeking a driven, detail-focused professional to become a vital part of our team as a Generative AI Analyst. In this role, you'll dive into the cutting-edge of technology,.......
+
+---------------
+
+📊 **Requirements:** Must have: Background in AI Safety and/or Responsible AI and/or AI Ethics Familiarity with recent Generative AI models and agents is essential, though direct technical experience is not a prerequisite. Command of English at a near-native level. Atten....
+
+[**View full position listing and submit CV**](https://alice.io/positions/position-F5_468?t=1777405160505)",7,4,"POSITIVES: Location in Ramat Gan, junior-level experience required, relevant to AI and analytics. NEGATIVES: Role focuses on Generative AI with less emphasis on traditional data analysis; not a direct match for Data Analyst. HARD BLOCK: NONE. SCORE: 4 — relevant role but not a strong match for the candidate's primary target."
