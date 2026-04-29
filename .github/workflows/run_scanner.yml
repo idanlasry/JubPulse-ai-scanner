@@ -4,7 +4,7 @@ on:
   schedule:
   #  - cron: '0 5 * * 0-5'   # 08:00 Israel time (UTC+3)
    # - cron: '0 10 * * 0-5'  # 14:00 Israel time (UTC+3)
-    - cron: '0 15 * * 0-5'  # 18:00 Israel time (UTC+3)
+ #   - cron: '0 15 * * 0-5'  # 18:00 Israel time (UTC+3)
   workflow_dispatch:          # Manual trigger
 
 jobs:
