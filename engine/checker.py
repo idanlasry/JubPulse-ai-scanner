@@ -1,8 +1,10 @@
 # %%
 import hashlib
+import json
 import logging
 import os
 import sys
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
@@ -18,6 +20,8 @@ _SUPABASE_KEY = os.getenv("SUPABASE_KEY", "")
 _supabase = create_client(_SUPABASE_URL, _SUPABASE_KEY) if _SUPABASE_URL and _SUPABASE_KEY else None
 
 _extractor = URLExtract()
+
+_CHECKER_STATS_FILE = Path(__file__).parent.parent / "data" / "checker_stats.json"
 
 
 # %%
@@ -97,6 +101,7 @@ def filter_new_messages(messages: list[dict]) -> tuple[list[dict], int]:
 
     fresh: list[dict] = []
     skipped = 0
+    filtered_entries: list[dict] = []
 
     for msg in messages:
         raw_text: str = msg.get("text", "")
@@ -105,6 +110,7 @@ def filter_new_messages(messages: list[dict]) -> tuple[list[dict], int]:
         if not http_urls:
             # No extractable link — brain requires job_link, so this message is useless
             skipped += 1
+            filtered_entries.append({"reason": "no_link", "text": raw_text[:200]})
             continue
 
         is_duplicate = any(
@@ -115,7 +121,26 @@ def filter_new_messages(messages: list[dict]) -> tuple[list[dict], int]:
         if is_duplicate:
             skipped += 1
             print(f"[checker] Duplicate — skipping: {http_urls[0][:80]}")
+            filtered_entries.append({
+                "reason": "duplicate_url",
+                "url": http_urls[0][:200],
+                "text": raw_text[:200],
+            })
         else:
             fresh.append(msg)
+
+    try:
+        stats = {
+            "run_timestamp": datetime.now(timezone(timedelta(hours=3))).isoformat(),
+            "total_input": len(messages),
+            "total_passed": len(fresh),
+            "total_skipped": skipped,
+            "filtered": filtered_entries,
+        }
+        _CHECKER_STATS_FILE.write_text(
+            json.dumps(stats, ensure_ascii=False, indent=2), encoding="utf-8"
+        )
+    except Exception as e:
+        logging.warning("[checker] Could not write checker_stats.json: %s", e)
 
     return fresh, skipped

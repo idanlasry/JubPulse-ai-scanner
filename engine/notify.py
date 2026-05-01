@@ -1,13 +1,13 @@
 # %%
 import asyncio
+import json
 import os
 import sys
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 import httpx
 from dotenv import load_dotenv
-from datetime import datetime, timezone, timedelta
 
 # Add project root to Python's module search path so engine.models can be imported
 sys.path.insert(0, str(Path(__file__).parent.parent))
@@ -142,6 +142,72 @@ async def send_summary(
         print(f"[notify] Network error sending summary: {e}")
     except Exception as e:
         print(f"[notify] Unexpected error sending summary: {e}")
+
+
+# %%
+async def send_proposals(proposals_path: Path) -> None:
+    """Send tuning proposals to Telegram with inline approve/reject buttons.
+
+    Each proposal gets its own message with ✅ Apply / ❌ Skip inline keyboard.
+    Fire-and-forget — no bot callback handler required; buttons expire gracefully.
+    """
+    try:
+        data = json.loads(proposals_path.read_text(encoding="utf-8"))
+    except Exception as e:
+        print(f"[notify] Could not read proposals file: {e}")
+        return
+
+    proposals_list = data.get("proposals", [])
+    if not proposals_list:
+        print("[notify] No proposals to send")
+        return
+
+    severity_order = {"high": 0, "medium": 1, "low": 2}
+    sorted_proposals = sorted(
+        proposals_list,
+        key=lambda p: severity_order.get(p.get("severity", "low"), 2),
+    )
+
+    run_date = data.get("run_timestamp", "")[:10]
+    summary = _esc(data.get("summary", f"{len(proposals_list)} proposals"))
+    header = f"<b>JobPulse Audit — {run_date}</b>\n{summary}"
+    await send_error_alert(header)
+
+    severity_emoji = {"high": "🔴", "medium": "🟡", "low": "🟢"}
+    inline_url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
+
+    for proposal in sorted_proposals:
+        pid = proposal.get("id", 0)
+        sev = proposal.get("severity", "low")
+        ptype = proposal.get("type", "unknown")
+        text = (
+            f"{severity_emoji.get(sev, '⚪')} <b>{_esc(proposal.get('title', ''))}</b>\n"
+            f"Type: {ptype} | Severity: {sev}\n\n"
+            f"{_esc(proposal.get('detail', ''))}\n\n"
+            f"<i>Action: {_esc(proposal.get('action', ''))}</i>"
+        )
+        reply_markup = json.dumps({
+            "inline_keyboard": [[
+                {"text": "✅ Apply", "callback_data": f"apply:{pid}"},
+                {"text": "❌ Skip",  "callback_data": f"skip:{pid}"},
+            ]]
+        })
+        try:
+            async with httpx.AsyncClient() as client:
+                response = await client.post(
+                    inline_url,
+                    json={
+                        "chat_id": TELEGRAM_CHAT_ID,
+                        "text": text,
+                        "parse_mode": "HTML",
+                        "reply_markup": reply_markup,
+                    },
+                    timeout=10,
+                )
+                response.raise_for_status()
+                print(f"[notify] Proposal {pid} sent ({sev})")
+        except Exception as e:
+            print(f"[notify] Failed to send proposal {pid}: {e}")
 
 
 # %%
